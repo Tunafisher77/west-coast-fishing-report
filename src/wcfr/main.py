@@ -121,7 +121,7 @@ def build(day: date, output: Path) -> None:
         prediction = predict_location(
             catch["species"], region, f"waters accessible from {catch['location_text']}",
             by_region[region], recent_catch_score=signal,
-            front_detected=bool(ocean_color.get(region, {}).get("sst") and ocean_color.get(region, {}).get("chlorophyll")),
+            front_detected=bool(ocean_color.get(region, {}).get("front_detected")),
         )
         predictions.append(asdict(prediction))
 
