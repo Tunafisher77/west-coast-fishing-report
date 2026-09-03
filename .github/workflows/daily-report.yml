@@ -28,20 +28,16 @@ jobs:
         run: |
           REPORT_DAY="$(TZ=America/Los_Angeles date +%F)"
           python -m wcfr.main --date "$REPORT_DAY" --output "archive/$REPORT_DAY"
-      - name: Send report when email secrets are configured
+      - name: Send through Google Apps Script
         env:
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          REPORT_FROM: ${{ secrets.REPORT_FROM }}
-          REPORT_TO: ${{ secrets.REPORT_TO }}
+          APPS_SCRIPT_WEB_APP_URL: ${{ secrets.APPS_SCRIPT_WEB_APP_URL }}
+          FISHING_WEBHOOK_TOKEN: ${{ secrets.FISHING_WEBHOOK_TOKEN }}
         run: |
           REPORT_DAY="$(TZ=America/Los_Angeles date +%F)"
-          if [ -n "$SMTP_HOST" ] && [ -n "$SMTP_USERNAME" ] && [ -n "$SMTP_PASSWORD" ] && [ -n "$REPORT_TO" ]; then
-            python -c "from pathlib import Path; from wcfr.emailer import send_report; send_report(Path('archive/$REPORT_DAY/report.html'), 'West Coast Fishing Intelligence — $REPORT_DAY')"
+          if [ -n "$APPS_SCRIPT_WEB_APP_URL" ] && [ -n "$FISHING_WEBHOOK_TOKEN" ]; then
+            python scripts/send_to_apps_script.py               --report "archive/$REPORT_DAY/report.html"               --subject "West Coast Fishing Intelligence — $REPORT_DAY"
           else
-            echo "Email secrets not configured; report remains available as an artifact."
+            echo "Apps Script secrets not configured; report remains available as an artifact."
           fi
       - name: Commit daily snapshot
         run: |
