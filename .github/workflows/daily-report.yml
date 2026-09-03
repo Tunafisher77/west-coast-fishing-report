@@ -35,7 +35,7 @@ jobs:
         run: |
           REPORT_DAY="$(TZ=America/Los_Angeles date +%F)"
           if [ -n "$APPS_SCRIPT_WEB_APP_URL" ] && [ -n "$FISHING_WEBHOOK_TOKEN" ]; then
-            python scripts/send_to_apps_script.py               --report "archive/$REPORT_DAY/report.html"               --subject "West Coast Fishing Intelligence — $REPORT_DAY"
+            python scripts/send_to_apps_script.py               --report "archive/$REPORT_DAY/email.html"               --subject "West Coast Fishing Brief — $REPORT_DAY"
           else
             echo "Apps Script secrets not configured; report remains available as an artifact."
           fi
