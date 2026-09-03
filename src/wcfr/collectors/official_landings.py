@@ -7,9 +7,9 @@ from html.parser import HTMLParser
 from wcfr.http import get_bytes
 
 SOURCES = [
-    ("Fisherman's Landing", "https://www.fishermanslanding.com/fishcounts.php", "southern_california"),
-    ("Seaforth Landing", "https://www.seaforthlanding.com/fishcounts.php", "southern_california"),
-    ("Redondo Beach Sportfishing", "https://www.redondosportfishing.com/fish-counts.php", "southern_california"),
+    ("Fisherman's Landing", "San Diego", "CA", "https://www.fishermanslanding.com/fishcounts.php", "southern_california"),
+    ("Seaforth Landing", "San Diego", "CA", "https://www.seaforthlanding.com/fishcounts.php", "southern_california"),
+    ("Redondo Beach Sportfishing", "Redondo Beach", "CA", "https://www.redondosportfishing.com/fish-counts.php", "southern_california"),
 ]
 
 SPECIES = [
@@ -41,7 +41,7 @@ class TextLines(HTMLParser):
             self.current = []
 
 
-def parse_landing_text(text: str, landing: str, url: str, region: str) -> list[dict]:
+def parse_landing_text(text: str, landing: str, url: str, region: str, city: str = "", state: str = "") -> list[dict]:
     retrieved = datetime.now(timezone.utc).isoformat()
     records = []
     seen = set()
@@ -70,25 +70,32 @@ def parse_landing_text(text: str, landing: str, url: str, region: str) -> list[d
                 "species": species, "count": count, "anglers": anglers,
                 "catch_per_angler": round(count / anglers, 3) if anglers else None,
                 "region": region, "location_text": landing, "reporter": landing,
+                "city": city, "state": state,
                 "vessel": vessel, "source_url": url, "retrieved_at": retrieved,
                 "evidence": "reported", "source_excerpt": line[:500],
             })
     return records
 
 
-def fetch_landing(name: str, url: str, region: str) -> list[dict]:
+def fetch_landing(name: str, city: str, state: str, url: str, region: str) -> list[dict]:
     parser = TextLines()
     parser.feed(get_bytes(url).decode("utf-8", errors="replace"))
     if parser.current:
         parser.lines.append(" ".join(parser.current))
-    return parse_landing_text("\n".join(parser.lines), name, url, region)
+    text = "\n".join(parser.lines)
+    # Redondo's page contains a long archive. Keep only the current report block.
+    if name == "Redondo Beach Sportfishing":
+        dated = re.search(r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}", text)
+        if dated:
+            text = text[:dated.start()]
+    return parse_landing_text(text, name, url, region, city, state)
 
 
 def fetch_all() -> tuple[list[dict], list[dict]]:
     records, health = [], []
-    for name, url, region in SOURCES:
+    for name, city, state, url, region in SOURCES:
         try:
-            found = fetch_landing(name, url, region)
+            found = fetch_landing(name, city, state, url, region)
             records.extend(found)
             health.append({"source": name, "ok": True, "detail": f"{len(found)} catch facts"})
         except Exception as exc:
