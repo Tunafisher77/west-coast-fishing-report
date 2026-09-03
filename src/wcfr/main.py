@@ -3,28 +3,58 @@ from __future__ import annotations
 import argparse
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from dataclasses import asdict
 from datetime import date, datetime, timezone
 from pathlib import Path
 
 from wcfr.collectors.ndbc import fetch_latest
 from wcfr.collectors.noaa_tides import fetch_high_low
-from wcfr.config import REGIONS, TIDE_STATIONS
+from wcfr.collectors.nws import fetch_marine_grid
+from wcfr.collectors.odfw import fetch_report_text, parse_port_catch_rates
+from wcfr.config import PORTS, REGIONS, TIDE_STATIONS
+from wcfr.forecast import predict_location
+from wcfr.lunar import lunar_for_day
+from wcfr.models import ConditionRecord, SourceRef
 from wcfr.report import render_html
+
+
+def _observed_condition(region: str, readings: list[dict], checked: str) -> ConditionRecord:
+    def avg(key):
+        values = [r[key] for r in readings if r.get(key) is not None]
+        return sum(values) / len(values) if values else None
+    source = SourceRef("NOAA NDBC", "https://www.ndbc.noaa.gov/", checked)
+    temp_c = avg("water_temp_c")
+    return ConditionRecord(
+        region=region, valid_at=checked, source=source,
+        wind_knots=(avg("wind_speed_m_s") * 1.94384) if avg("wind_speed_m_s") is not None else None,
+        gust_knots=(avg("gust_m_s") * 1.94384) if avg("gust_m_s") is not None else None,
+        wave_height_ft=(avg("wave_height_m") * 3.28084) if avg("wave_height_m") is not None else None,
+        wave_period_sec=avg("dominant_period_s"),
+        water_temp_f=(temp_c * 9 / 5 + 32) if temp_c is not None else None,
+    )
 
 
 def build(day: date, output: Path) -> None:
     checked = datetime.now(timezone.utc).isoformat()
     health: list[dict] = []
-    tides: dict[str, list] = {port: [] for port in TIDE_STATIONS}
-    buoys: dict[str, list] = {region: [] for region in REGIONS}
+    tides = {port: [] for port in TIDE_STATIONS}
+    buoys = {region: [] for region in REGIONS}
+    marine_forecasts = {region: {} for region in REGIONS}
+    lunar = {}
+    catch_records: list[dict] = []
 
     jobs = {}
-    with ThreadPoolExecutor(max_workers=12) as pool:
+    with ThreadPoolExecutor(max_workers=16) as pool:
         for port, station in TIDE_STATIONS.items():
             jobs[pool.submit(fetch_high_low, station, day.isoformat())] = ("tide", port, station)
+            _, lat, lon = PORTS[port]
+            jobs[pool.submit(lunar_for_day, day, lat, lon)] = ("lunar", port, "")
         for region, config in REGIONS.items():
             for station in config["buoys"]:
                 jobs[pool.submit(fetch_latest, station)] = ("buoy", region, station)
+            lat, lon = config["point"]
+            jobs[pool.submit(fetch_marine_grid, lat, lon)] = ("nws", region, "")
+        jobs[pool.submit(fetch_report_text)] = ("odfw", "Oregon", "")
 
         for future in as_completed(jobs):
             kind, label, station = jobs[future]
@@ -32,25 +62,51 @@ def build(day: date, output: Path) -> None:
                 result = future.result()
                 if kind == "tide":
                     tides[label] = result
-                    detail = f"{len(result)} predictions"
-                    source = f"NOAA CO-OPS {label}"
-                else:
+                    detail, source = f"{len(result)} predictions", f"NOAA CO-OPS {label}"
+                elif kind == "lunar":
+                    lunar[label] = result
+                    detail, source = "lunar events calculated", f"PyEphem {label}"
+                elif kind == "buoy":
                     buoys[label].append(result)
-                    detail = "latest observation retrieved"
-                    source = f"NDBC {station}"
+                    detail, source = "latest observation retrieved", f"NDBC {station}"
+                elif kind == "nws":
+                    marine_forecasts[label] = result
+                    detail, source = "marine grid retrieved", f"NWS grid {label}"
+                else:
+                    catch_records.extend(parse_port_catch_rates(result))
+                    detail, source = f"{len(catch_records)} structured catch rates", "ODFW Marine Report"
                 health.append({"source": source, "ok": True, "detail": detail})
             except Exception as exc:
-                source = f"NOAA CO-OPS {label}" if kind == "tide" else f"NDBC {station}"
+                source = {
+                    "tide": f"NOAA CO-OPS {label}", "lunar": f"PyEphem {label}",
+                    "buoy": f"NDBC {station}", "nws": f"NWS grid {label}",
+                    "odfw": "ODFW Marine Report",
+                }[kind]
                 health.append({"source": source, "ok": False, "detail": str(exc)})
+
+    predictions = []
+    by_region = {region: _observed_condition(region, readings, checked) for region, readings in buoys.items()}
+    for catch in catch_records:
+        region = catch["region"]
+        prediction = predict_location(
+            catch["species"], region, f"waters accessible from {catch['location_text']}",
+            by_region[region], recent_catch_score=min(1.0, catch["catch_per_angler"] / 3),
+        )
+        predictions.append(asdict(prediction))
 
     for readings in buoys.values():
         readings.sort(key=lambda item: item["station"])
     health.sort(key=lambda item: item["source"])
+    predictions.sort(key=lambda item: item["probability_score"], reverse=True)
 
+    snapshot = {
+        "date": day.isoformat(), "checked_at": checked, "catch_records": catch_records,
+        "predictions": predictions, "marine_forecasts": marine_forecasts,
+        "tides": tides, "lunar": lunar, "buoys": buoys, "source_health": health,
+    }
     output.mkdir(parents=True, exist_ok=True)
-    snapshot = {"date": day.isoformat(), "checked_at": checked, "tides": tides, "buoys": buoys, "source_health": health}
     (output / "snapshot.json").write_text(json.dumps(snapshot, indent=2), encoding="utf-8")
-    (output / "report.html").write_text(render_html(day, tides, buoys, health), encoding="utf-8")
+    (output / "report.html").write_text(render_html(day, snapshot), encoding="utf-8")
 
 
 def main() -> None:
