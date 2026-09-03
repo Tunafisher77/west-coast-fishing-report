@@ -1,0 +1,47 @@
+name: Daily West Coast Fishing Report
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Run outside the 6 AM Pacific gate
+        required: false
+        default: "true"
+  schedule:
+    # Covers 6 AM Pacific in both daylight and standard time.
+    - cron: "5 13,14 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enforce 6 AM Pacific schedule
+        if: github.event_name == 'schedule'
+        run: |
+          test "$(TZ=America/Los_Angeles date +%H)" = "06"
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Test
+        run: pytest
+      - name: Build report
+        run: python -m wcfr.main --output "archive/$(TZ=America/Los_Angeles date +%F)"
+      - name: Commit daily snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          git diff --cached --quiet || git commit -m "Archive fishing report $(TZ=America/Los_Angeles date +%F)"
+          git push
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: west-coast-fishing-report
+          path: archive/
+          retention-days: 30
