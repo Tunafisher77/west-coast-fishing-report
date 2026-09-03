@@ -75,88 +75,109 @@ def render_html(day: date, data: dict) -> str:
 
 
 def render_email_summary(day: date, data: dict) -> str:
-    """Short decision brief; full diagnostics stay in report.html."""
+    """Decision-first regional brief; full diagnostics stay in report.html."""
     catches = data["catch_records"]
-    by_landing = {}
+    by_landing, by_region = {}, {}
     for catch in catches:
         landing = catch.get("location_text") or catch.get("reporter") or "Unspecified"
         by_landing.setdefault(landing, []).append(catch)
+        by_region.setdefault(catch["region"], []).append(catch)
 
-    landing_items = []
-    for landing, records in sorted(by_landing.items()):
-        species_totals = {}
-        vessels = set()
-        for record in records:
-            species = record["species"].title()
-            count = record.get("count")
-            if count is not None:
-                species_totals[species] = species_totals.get(species, 0) + count
-            else:
-                rate = record.get("catch_per_angler")
-                species_totals[species] = f"{rate:g}/angler" if rate is not None else "reported"
-            if record.get("vessel"):
-                vessels.add(record["vessel"])
-        catch_text = ", ".join(
-            f"{value:g} {species}" if isinstance(value, (int, float)) else f"{species} {value}"
-            for species, value in sorted(species_totals.items())
-        )
-        vessel_text = f" - {', '.join(sorted(vessels)[:5])}" if vessels else ""
-        first = records[0]
-        place = ", ".join(v for v in (first.get("city"), first.get("state")) if v)
-        place_text = f" — {place}" if place else ""
-        landing_items.append(f"<li><strong>{escape(landing + place_text)}</strong>{escape(vessel_text)}: {escape(catch_text)}</li>")
-    if not landing_items:
-        landing_items = ["<li>No current source-attributed landing reports were retrieved.</li>"]
+    def fmt_wind(speed, gust):
+        if speed is None: return "not supplied"
+        return f"{speed} kt" + (f", gusting {gust} kt" if gust is not None else "")
 
-    outlook_items = []
-    seen = set()
-    for prediction in data["predictions"]:
-        key = (prediction["species"], prediction["zone"])
-        if key in seen:
-            continue
-        seen.add(key)
-        safety = "Do not recommend - safety screen failed" if not prediction["safe_to_recommend"] else "Fishable"
-        why = prediction["reasons"][0] if prediction["reasons"] else "limited supporting evidence"
-        outlook_items.append(
-            f"<li><strong>{escape(prediction['species'].title())} - {escape(prediction['zone'])}</strong> "
-            f"({prediction['confidence']} confidence, {prediction['probability_score']}/100): "
-            f"{escape(why)}. <em>{escape(safety)}</em></li>"
-        )
-        if len(outlook_items) == 5:
-            break
-    if not outlook_items:
-        outlook_items = ["<li>No location forecast met the minimum evidence requirement.</li>"]
+    def color_words(chl):
+        if not chl: return "Satellite water-color reading unavailable or cloud obscured"
+        value = chl["value"]
+        if value < .15: meaning = "very clear blue water with little plankton signal"
+        elif value <= .35: meaning = "a clean blue-green band often useful for locating offshore edges"
+        elif value <= 1.0: meaning = "productive green water that may hold forage near its cleaner boundary"
+        else: meaning = "strong green/plankton-rich water; the cleaner outer edge is usually more relevant than its center"
+        return f"Water color: {meaning} ({value:.2f} mg/m³; {chl['observed_at'][:10]})"
 
-    condition_items = []
-    for region, rows in data.get("daily_weather", {}).items():
-        daily = []
-        for row in rows:
-            am = "?" if row["wind_am_kt"] is None else f"{row['wind_am_kt']}g{row['gust_am_kt'] or row['wind_am_kt']}kt"
-            pm = "?" if row["wind_pm_kt"] is None else f"{row['wind_pm_kt']}g{row['gust_pm_kt'] or row['wind_pm_kt']}kt"
-            sea = "seas unavailable" if row["wave_ft"] is None else f"{row['wave_ft']}ft@{row['period_s'] or '?'}s/{row.get('wave_direction_deg') or '?'}°"
-            flag = "SAFETY BLOCK" if row["safety_block"] else f"best {row['best_window']}"
-            daily.append(f"<tr><td>{escape(row['date'][5:])}</td><td>{am}</td><td>{pm}</td><td>{sea}</td><td>{escape(flag)} ({row['confidence']})</td></tr>")
-        condition_items.append(f"<h3>{escape(REGIONS[region]['label'])}</h3><table style='border-collapse:collapse;width:100%' border='1' cellpadding='4'><tr><th>Date</th><th>AM wind</th><th>PM wind</th><th>Seas</th><th>Window</th></tr>{''.join(daily)}</table>")
-
-    why_items = []
-    for landing, records in sorted(by_landing.items()):
-        region = records[0]["region"]
+    cards = []
+    for region, config in REGIONS.items():
+        records = by_region.get(region, [])
         oc = data.get("ocean_color", {}).get(region, {})
-        sst = oc.get("sst")
-        chl = oc.get("chlorophyll")
-        species = sorted({r["species"].title() for r in records})
-        evidence = []
-        if sst: evidence.append(f"regional SST {sst['value']:.1f}°F, range {sst['minimum']:.1f}–{sst['maximum']:.1f}°F ({sst['observed_at']})")
-        if chl: evidence.append(f"chlorophyll {chl['value']:.2f} mg/m³, range {chl['minimum']:.2f}–{chl['maximum']:.2f} ({chl['observed_at']})")
-        if not evidence: evidence.append("satellite SST/chlorophyll unavailable; no ocean-color conclusion")
-        conclusion = f"The mix of {', '.join(species[:4])} is consistent with forage or structure accessible from this port; "
-        if oc.get("front_detected"):
-            conclusion += "the sampled SST/chlorophyll contrast supports a nearby water-mass edge that can concentrate forage."
-        elif sst and chl:
-            conclusion += "the samples do not show a strong regional edge, so bait, structure, or a finer-scale break is the more cautious explanation."
+        sst, chl = oc.get("sst"), oc.get("chlorophyll")
+        readings = data.get("buoys", {}).get(region, [])
+        buoy_temps = [b["water_temp_c"] * 9 / 5 + 32 for b in readings if b.get("water_temp_c") is not None]
+        periods = [b["dominant_period_s"] for b in readings if b.get("dominant_period_s") is not None]
+        waves = [b["wave_height_m"] * 3.28084 for b in readings if b.get("wave_height_m") is not None]
+        if sst:
+            water = f"Satellite SST {sst['value']:.1f}°F; sampled range {sst['minimum']:.1f}-{sst['maximum']:.1f}°F ({sst['observed_at'][:10]})"
+        elif buoy_temps:
+            water = f"Buoy SST {min(buoy_temps):.1f}-{max(buoy_temps):.1f}°F (satellite SST unavailable/cloud obscured)"
         else:
-            conclusion += "the cause remains provisional until a current temperature/color edge is verified."
-        why_items.append(f"<li><strong>{escape(landing)}:</strong> {escape('; '.join(evidence))}. {escape(conclusion)} <em>Regional proxy—not an exact catch position.</em></li>")
+            water = "SST unavailable from both satellite samples and reporting buoys"
+        observed = "Observed swell unavailable"
+        if waves:
+            observed = f"Current buoy seas {sum(waves)/len(waves):.1f} ft"
+            observed += f" with {sum(periods)/len(periods):.0f}-second dominant period" if periods else "; buoy period unavailable"
+
+        landing_lines = []
+        for landing, grouped in sorted(by_landing.items()):
+            if grouped[0]["region"] != region: continue
+            first = grouped[0]
+            place = ", ".join(v for v in (first.get("city"), first.get("state")) if v)
+            totals = []
+            for species in sorted({r["species"] for r in grouped}):
+                matching = [r for r in grouped if r["species"] == species]
+                counts = [r["count"] for r in matching if r.get("count") is not None]
+                rates = [r["catch_per_angler"] for r in matching if r.get("catch_per_angler") is not None]
+                value = f"{sum(counts):g}" if counts else f"{max(rates):g}/angler" if rates else "reported"
+                totals.append(f"{value} {species.title()}")
+            landing_lines.append(f"<li><strong>{escape(landing)} ({escape(place)}):</strong> {escape(', '.join(totals))}</li>")
+        if not landing_lines: landing_lines = ["<li>No current verified catch report retrieved.</li>"]
+
+        species = sorted({r["species"].title() for r in records})
+        if records and oc.get("front_detected"):
+            why = f"The reported {', '.join(species[:4])} coincide with a measurable change in temperature or water color. That boundary can gather bait and is the leading regional explanation."
+        elif records and (sst or buoy_temps):
+            why = f"The reported {', '.join(species[:4])} occurred in the water-temperature band shown above, but no strong regional color/temperature edge was verified. Bait or local structure is the more cautious explanation."
+        elif records:
+            why = "Catches are verified, but environmental coverage is insufficient to explain them confidently."
+        else:
+            why = "No current catch evidence is available for a catch-location conclusion."
+
+        daily = []
+        for row in data.get("daily_weather", {}).get(region, []):
+            sea = "NWS seas not supplied" if row["wave_ft"] is None else f"{row['wave_ft']} ft"
+            sea += f" at {row['period_s']} sec" if row.get("period_s") is not None else "; forecast swell period not supplied"
+            direction = f" from {row['wave_direction_deg']}°" if row.get("wave_direction_deg") is not None else ""
+            flag = "AVOID - safety screen" if row["safety_block"] else f"Prefer {row['best_window']}"
+            daily.append(f"<tr><td>{escape(row['date'][5:])}</td><td>{escape(fmt_wind(row['wind_am_kt'], row['gust_am_kt']))}</td><td>{escape(fmt_wind(row['wind_pm_kt'], row['gust_pm_kt']))}</td><td>{escape(sea + direction)}</td><td>{escape(flag)}<br><small>{row['confidence']} confidence</small></td></tr>")
+
+        region_predictions, prediction_seen = [], set()
+        for prediction in data["predictions"]:
+            key = (prediction["species"], prediction["zone"])
+            if prediction["region"] != region or key in prediction_seen: continue
+            prediction_seen.add(key)
+            region_predictions.append(prediction)
+            if len(region_predictions) == 3: break
+        fish_line = "; ".join(f"{p['species'].title()} - {p['zone']} ({p['probability_score']}/100, {p['confidence']})" for p in region_predictions) or "No evidence-supported species prediction"
+        cards.append(f"""<section style="border:1px solid #ccd6dd;border-radius:7px;margin:18px 0;padding:14px">
+<h2 style="margin:0 0 8px;color:#154360">{escape(config['label'])}</h2>
+<p><strong>Fish outlook:</strong> {escape(fish_line)}</p>
+<p><strong>Ocean now:</strong> {escape(water)}.<br>{escape(color_words(chl))}.<br>{escape(observed)}.</p>
+<p><strong>Why here:</strong> {escape(why)} <em>This is a regional environmental comparison, not an undisclosed catch coordinate.</em></p>
+<p><strong>Recent verified catches:</strong></p><ul>{''.join(landing_lines)}</ul>
+<table style="border-collapse:collapse;width:100%;font-size:13px" border="1" cellpadding="5"><tr style="background:#eef3f5"><th>Date</th><th>Morning wind</th><th>Afternoon wind</th><th>Combined seas / period</th><th>Decision</th></tr>{''.join(daily)}</table>
+</section>""")
+
+    opportunities = []
+    for region, records in by_region.items():
+        fish = sorted({r["species"].title() for r in records})
+        candidates = [r for r in data.get("daily_weather", {}).get(region, []) if not r["safety_block"]]
+        if not candidates: continue
+        def burden(row):
+            wind = max(v for v in (row["wind_am_kt"], row["wind_pm_kt"], row["gust_am_kt"], row["gust_pm_kt"]) if v is not None)
+            return wind + (row["wave_ft"] or 20) * 2
+        best = min(candidates, key=burden)
+        opportunities.append((burden(best), f"<li><strong>{escape(REGIONS[region]['label'])} - {escape(best['date'][5:])} {best['best_window']}:</strong> {escape(', '.join(fish[:4]))}; forecast {best['wave_ft'] or 'unavailable'} ft seas and lighter-window wind. Confirm the current forecast before departure.</li>"))
+    opportunities.sort(key=lambda item: item[0])
+    opportunity_html = "".join(item[1] for item in opportunities[:3]) or "<li>No region has both a verified recent catch and a usable marine forecast.</li>"
 
     moon = data["lunar"].get("San Diego", {})
     moon_text = (
@@ -169,12 +190,10 @@ def render_email_summary(day: date, data: dict) -> str:
 <h1 style="margin-bottom:4px">West Coast Fishing Brief</h1>
 <p style="margin-top:0;color:#566573">{day.isoformat()} - California, Oregon, Washington</p>
 <div style="background:#eef6fc;padding:12px 16px;border-left:5px solid #2471a3">
-<strong>At a glance:</strong> {len(catches)} catch facts from {len(by_landing)} landing/port sources. {failed} source checks failed and were excluded.
+<strong>Decision brief:</strong> {len(catches)} catch facts from {len(by_landing)} landing/port sources. Each regional card connects catches, ocean water, fish potential, and changing daily weather. {failed} failed source checks are excluded.
 </div>
-<h2>What is being caught</h2><ul>{''.join(landing_items)}</ul>
-<h2>Where fish are most likely this week</h2><ul>{''.join(outlook_items)}</ul>
-<h2>Why fish were caught there</h2><ul>{''.join(why_items)}</ul>
-<h2>Seven-day marine outlook</h2>{''.join(condition_items)}
+<h2>Best supported opportunities</h2><ul>{opportunity_html}</ul>
+{''.join(cards)}
 <h2>Private-boat and commercial signal</h2><p>Private-boat creel/ramp samples and commercial landings are shown only when a current public record is retrieved. Commercial fish-ticket data are delayed and are never presented as a same-day bite report.</p>
 <p><strong>Moon:</strong> {escape(moon_text)}</p>
 <p><a href="{full_url}">View detailed source data, all tides, forecasts and diagnostics</a></p>
