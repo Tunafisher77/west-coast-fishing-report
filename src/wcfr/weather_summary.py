@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -10,7 +11,17 @@ def _start(valid: str) -> datetime:
     return datetime.fromisoformat(valid.split("/")[0].replace("Z", "+00:00")).astimezone(PACIFIC)
 
 
+def _duration(valid: str) -> timedelta:
+    duration = valid.split("/", 1)[1] if "/" in valid else "PT1H"
+    match = re.fullmatch(r"P(?:(\d+)D)?T?(?:(\d+)H)?(?:(\d+)M)?", duration)
+    return timedelta(days=int(match.group(1) or 0), hours=int(match.group(2) or 0), minutes=int(match.group(3) or 0)) if match else timedelta(hours=1)
+
+
 def _nearest(entries: list[dict], when: datetime):
+    for entry in entries:
+        start = _start(entry["validTime"])
+        if start <= when < start + _duration(entry["validTime"]) and entry.get("value") is not None:
+            return entry["value"]
     usable = [(abs((_start(e["validTime"]) - when).total_seconds()), e.get("value")) for e in entries if e.get("value") is not None]
     return min(usable, default=(0, None))[1]
 
@@ -27,6 +38,7 @@ def summarize_week(forecast: dict, start_day) -> list[dict]:
         gust_pm = _nearest(forecast.get("wind_gust", []), pm)
         wave = _nearest(forecast.get("wave_height", []), am)
         period = _nearest(forecast.get("wave_period", []), am)
+        direction = _nearest(forecast.get("wave_direction", []), am)
         # NWS grid wind is km/h and wave height is metres.
         kt = lambda value: round(value * 0.539957) if value is not None else None
         ft = round(wave * 3.28084, 1) if wave is not None else None
@@ -36,5 +48,6 @@ def summarize_week(forecast: dict, start_day) -> list[dict]:
         rows.append({"date": day.isoformat(), "wind_am_kt": kt(wind_am), "gust_am_kt": kt(gust_am),
                      "wind_pm_kt": kt(wind_pm), "gust_pm_kt": kt(gust_pm), "wave_ft": ft,
                      "period_s": round(period) if period is not None else None, "best_window": best,
+                     "wave_direction_deg": round(direction) if direction is not None else None,
                      "safety_block": blocked, "confidence": "high" if offset <= 2 else "medium" if offset <= 4 else "low"})
     return rows
