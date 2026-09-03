@@ -10,6 +10,7 @@ SOURCES = [
     ("Fisherman's Landing", "San Diego", "CA", "https://www.fishermanslanding.com/fishcounts.php", "southern_california"),
     ("Seaforth Landing", "San Diego", "CA", "https://www.seaforthlanding.com/fishcounts.php", "southern_california"),
     ("Redondo Beach Sportfishing", "Redondo Beach", "CA", "https://www.redondosportfishing.com/fish-counts.php", "southern_california"),
+    ("Virg's Landing", "Morro Bay", "CA", "https://www.virgslanding.com/fish-counts.php", "central_california"),
 ]
 
 SPECIES = [
@@ -88,6 +89,16 @@ def fetch_landing(name: str, city: str, state: str, url: str, region: str) -> li
         dated = re.search(r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},\s+\d{4}", text)
         if dated:
             text = text[:dated.start()]
+    if name == "Virg's Landing":
+        dates = list(re.finditer(r"\b(\d{1,2})-(\d{1,2})-(\d{4})\b", text))
+        if not dates:
+            return []
+        month, day, year = map(int, dates[0].groups())
+        report_day = datetime(year, month, day, tzinfo=timezone.utc)
+        if (datetime.now(timezone.utc) - report_day).days > 14:
+            return []
+        end = dates[1].start() if len(dates) > 1 else len(text)
+        text = text[dates[0].start():end]
     return parse_landing_text(text, name, url, region, city, state)
 
 
