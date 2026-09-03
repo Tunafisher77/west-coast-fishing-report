@@ -12,11 +12,13 @@ from wcfr.collectors.noaa_tides import fetch_high_low
 from wcfr.collectors.nws import fetch_marine_grid
 from wcfr.collectors.odfw import fetch_report_text, parse_port_catch_rates
 from wcfr.collectors.official_landings import fetch_all as fetch_official_landings
+from wcfr.collectors.ocean_color import fetch_region as fetch_ocean_color
 from wcfr.config import PORTS, REGIONS, TIDE_STATIONS
 from wcfr.forecast import predict_location
 from wcfr.lunar import lunar_for_day
 from wcfr.models import ConditionRecord, SourceRef
 from wcfr.report import render_email_summary, render_html
+from wcfr.weather_summary import summarize_week
 
 
 def _observed_condition(region: str, readings: list[dict], checked: str) -> ConditionRecord:
@@ -41,6 +43,7 @@ def build(day: date, output: Path) -> None:
     tides = {port: [] for port in TIDE_STATIONS}
     buoys = {region: [] for region in REGIONS}
     marine_forecasts = {region: {} for region in REGIONS}
+    ocean_color = {region: {} for region in REGIONS}
     lunar = {}
     catch_records: list[dict] = []
 
@@ -55,6 +58,7 @@ def build(day: date, output: Path) -> None:
                 jobs[pool.submit(fetch_latest, station)] = ("buoy", region, station)
             lat, lon = config["point"]
             jobs[pool.submit(fetch_marine_grid, lat, lon)] = ("nws", region, "")
+            jobs[pool.submit(fetch_ocean_color, lat, lon)] = ("ocean", region, "")
         jobs[pool.submit(fetch_report_text)] = ("odfw", "Oregon", "")
         jobs[pool.submit(fetch_official_landings)] = ("landings", "Official landings", "")
 
@@ -74,6 +78,9 @@ def build(day: date, output: Path) -> None:
                 elif kind == "nws":
                     marine_forecasts[label] = result
                     detail, source = "marine grid retrieved", f"NWS grid {label}"
+                elif kind == "ocean":
+                    ocean_color[label] = result
+                    detail, source = "SST/chlorophyll retrieved", f"NOAA CoastWatch {label}"
                 elif kind == "landings":
                     landing_records, landing_health = result
                     catch_records.extend(landing_records)
@@ -87,6 +94,7 @@ def build(day: date, output: Path) -> None:
                 source = {
                     "tide": f"NOAA CO-OPS {label}", "lunar": f"PyEphem {label}",
                     "buoy": f"NDBC {station}", "nws": f"NWS grid {label}",
+                    "ocean": f"NOAA CoastWatch {label}",
                     "landings": "Official landing pages",
                     "odfw": "ODFW Marine Report",
                 }[kind]
@@ -102,6 +110,10 @@ def build(day: date, output: Path) -> None:
         unique_records[key] = catch
     catch_records = list(unique_records.values())
     by_region = {region: _observed_condition(region, readings, checked) for region, readings in buoys.items()}
+    for region, condition in by_region.items():
+        sst = ocean_color.get(region, {}).get("sst")
+        if sst:
+            condition.water_temp_f = sst["value"]
     for catch in catch_records:
         region = catch["region"]
         catch_rate = catch.get("catch_per_angler")
@@ -109,6 +121,7 @@ def build(day: date, output: Path) -> None:
         prediction = predict_location(
             catch["species"], region, f"waters accessible from {catch['location_text']}",
             by_region[region], recent_catch_score=signal,
+            front_detected=bool(ocean_color.get(region, {}).get("sst") and ocean_color.get(region, {}).get("chlorophyll")),
         )
         predictions.append(asdict(prediction))
 
@@ -116,10 +129,12 @@ def build(day: date, output: Path) -> None:
         readings.sort(key=lambda item: item["station"])
     health.sort(key=lambda item: item["source"])
     predictions.sort(key=lambda item: item["probability_score"], reverse=True)
+    daily_weather = {region: summarize_week(value, day) for region, value in marine_forecasts.items()}
 
     snapshot = {
         "date": day.isoformat(), "checked_at": checked, "catch_records": catch_records,
         "predictions": predictions, "marine_forecasts": marine_forecasts,
+        "daily_weather": daily_weather, "ocean_color": ocean_color,
         "tides": tides, "lunar": lunar, "buoys": buoys, "source_health": health,
     }
     output.mkdir(parents=True, exist_ok=True)
