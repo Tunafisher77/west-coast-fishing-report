@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "checked_at": "2026-09-03T18:35:26.008253+00:00",
+  "checked_at": "2026-09-03T18:45:20.486148+00:00",
   "catch_records": [
     {
       "species": "albacore tuna",
@@ -9,7 +9,7 @@
       "catch_per_angler": 0.95,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
     },
     {
@@ -19,7 +19,7 @@
       "catch_per_angler": 1.04,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
     },
     {
@@ -29,7 +29,7 @@
       "catch_per_angler": 1.5,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
     },
     {
@@ -39,7 +39,7 @@
       "catch_per_angler": 2.88,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
     },
     {
@@ -49,7 +49,7 @@
       "catch_per_angler": 0.43,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
     },
     {
@@ -59,82 +59,2430 @@
       "catch_per_angler": 0.08,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-03T18:35:26.623879+00:00",
+      "retrieved_at": "2026-09-03T18:45:21.143858+00:00",
       "evidence": "reported"
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 107,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pacific Queen",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Queen called in with 107 Bluefin Tuna, 42 Dorado, and 28 Yellowfin Tuna for day 3 of their 3.5 day charter."
+    },
+    {
+      "species": "dorado",
+      "count": 42,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pacific Queen",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Queen called in with 107 Bluefin Tuna, 42 Dorado, and 28 Yellowfin Tuna for day 3 of their 3.5 day charter."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 28,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pacific Queen",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Queen called in with 107 Bluefin Tuna, 42 Dorado, and 28 Yellowfin Tuna for day 3 of their 3.5 day charter."
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 57,
+      "anglers": 10,
+      "catch_per_angler": 5.7,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Islander",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Islander returned this morning with 57 Bluefin Tuna and 3 Dorado for 10 anglers on a 3 day trip."
+    },
+    {
+      "species": "dorado",
+      "count": 3,
+      "anglers": 10,
+      "catch_per_angler": 0.3,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Islander",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Islander returned this morning with 57 Bluefin Tuna and 3 Dorado for 10 anglers on a 3 day trip."
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 32,
+      "anglers": 9,
+      "catch_per_angler": 3.556,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus on a 2 day trip called in with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, 9 Yellowfin Tuna for 9 anglers."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 30,
+      "anglers": 9,
+      "catch_per_angler": 3.333,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus on a 2 day trip called in with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, 9 Yellowfin Tuna for 9 anglers."
+    },
+    {
+      "species": "dorado",
+      "count": 10,
+      "anglers": 9,
+      "catch_per_angler": 1.111,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus on a 2 day trip called in with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, 9 Yellowfin Tuna for 9 anglers."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 9,
+      "anglers": 9,
+      "catch_per_angler": 1.0,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus on a 2 day trip called in with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, 9 Yellowfin Tuna for 9 anglers."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 10,
+      "anglers": 27,
+      "catch_per_angler": 0.37,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Dolphin AM trip",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin AM trip caught 10 Yellowtail, 25 Bonito, 4 Sandbass 2 Calico Bass 1 Halibit and 2 Sculpn for 27 anglers."
+    },
+    {
+      "species": "bonito",
+      "count": 25,
+      "anglers": 27,
+      "catch_per_angler": 0.926,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Dolphin AM trip",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin AM trip caught 10 Yellowtail, 25 Bonito, 4 Sandbass 2 Calico Bass 1 Halibit and 2 Sculpn for 27 anglers."
+    },
+    {
+      "species": "calico bass",
+      "count": 2,
+      "anglers": 27,
+      "catch_per_angler": 0.074,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Dolphin AM trip",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin AM trip caught 10 Yellowtail, 25 Bonito, 4 Sandbass 2 Calico Bass 1 Halibit and 2 Sculpn for 27 anglers."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 23,
+      "anglers": 4,
+      "catch_per_angler": 5.75,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Lucky B",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Lucky B called in with 23 Yellowtail (fishing US waters) and 20 Bonito for their Fullday trip with 4 anglers."
+    },
+    {
+      "species": "bonito",
+      "count": 20,
+      "anglers": 4,
+      "catch_per_angler": 5.0,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Lucky B",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Lucky B called in with 23 Yellowtail (fishing US waters) and 20 Bonito for their Fullday trip with 4 anglers."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 7,
+      "anglers": 26,
+      "catch_per_angler": 0.269,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty called in with 7 Yellowtail, 52 Bonito, 10 Sandbass, 1 Calico Bass, and 1 Halibut for 26 anglers."
+    },
+    {
+      "species": "bonito",
+      "count": 52,
+      "anglers": 26,
+      "catch_per_angler": 2.0,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty called in with 7 Yellowtail, 52 Bonito, 10 Sandbass, 1 Calico Bass, and 1 Halibut for 26 anglers."
+    },
+    {
+      "species": "calico bass",
+      "count": 1,
+      "anglers": 26,
+      "catch_per_angler": 0.038,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty called in with 7 Yellowtail, 52 Bonito, 10 Sandbass, 1 Calico Bass, and 1 Halibut for 26 anglers."
+    },
+    {
+      "species": "halibut",
+      "count": 1,
+      "anglers": 26,
+      "catch_per_angler": 0.038,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:21.495750+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty called in with 7 Yellowtail, 52 Bonito, 10 Sandbass, 1 Calico Bass, and 1 Halibut for 26 anglers."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 28,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Seaforth Landing",
+      "reporter": "Seaforth Landing",
+      "vessel": null,
+      "source_url": "https://www.seaforthlanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:22.012142+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Update for Sep. 3, 2026 11:11 AM Thursday Update Thursday Offshore Updates The Tribute checked in from their 1.5 Day with 28 Yellowfin Tuna, 15 Bonito and 1 Skipjack."
+    },
+    {
+      "species": "bonito",
+      "count": 15,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Seaforth Landing",
+      "reporter": "Seaforth Landing",
+      "vessel": null,
+      "source_url": "https://www.seaforthlanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:22.012142+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Update for Sep. 3, 2026 11:11 AM Thursday Update Thursday Offshore Updates The Tribute checked in from their 1.5 Day with 28 Yellowfin Tuna, 15 Bonito and 1 Skipjack."
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 111,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Seaforth Landing",
+      "reporter": "Seaforth Landing",
+      "vessel": "Pacifica",
+      "source_url": "https://www.seaforthlanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:22.012142+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacifica returned from their 3 Day with 111 Bluefin Tuna and 35 Yellowtail."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 35,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Seaforth Landing",
+      "reporter": "Seaforth Landing",
+      "vessel": "Pacifica",
+      "source_url": "https://www.seaforthlanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-03T18:45:22.012142+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacifica returned from their 3 Day with 111 Bluefin Tuna and 35 Yellowtail."
+    },
+    {
+      "species": "calico bass",
+      "count": 48,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 41,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 159,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 30, 2026 2 2 80 159 Rockfish, 68 Bonito, 28 Calico Bass, 4 Sheephead, 2 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 68,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 30, 2026 2 2 80 159 Rockfish, 68 Bonito, 28 Calico Bass, 4 Sheephead, 2 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 28,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 30, 2026 2 2 80 159 Rockfish, 68 Bonito, 28 Calico Bass, 4 Sheephead, 2 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 4,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 30, 2026 2 2 80 159 Rockfish, 68 Bonito, 28 Calico Bass, 4 Sheephead, 2 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 83,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 68,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "whitefish",
+      "count": 34,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 6,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "blue perch",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "sculpin",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 29, 2026 3 2 100 83 Bonito, 68 Calico Bass, 34 Whitefish, 6 Sheephead, 2 Blue Perch, 1 Sculpin, 1 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 27,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "bonito",
+      "count": 22,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "rockfish",
+      "count": 12,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "sculpin",
+      "count": 3,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "whitefish",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "blue perch",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 28, 2026 1 1 32 27 Calico Bass, 22 Bonito, 12 Rockfish, 3 Sculpin, 2 Whitefish, 2 Yellowtail, 1 Blue Perch"
+    },
+    {
+      "species": "rockfish",
+      "count": 61,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 24, 2026 1 1 16 61 Rockfish, 6 Whitefish, 2 Lingcod"
+    },
+    {
+      "species": "whitefish",
+      "count": 6,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 24, 2026 1 1 16 61 Rockfish, 6 Whitefish, 2 Lingcod"
+    },
+    {
+      "species": "lingcod",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 24, 2026 1 1 16 61 Rockfish, 6 Whitefish, 2 Lingcod"
+    },
+    {
+      "species": "rockfish",
+      "count": 172,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 23, 2026 2 1 70 172 Rockfish, 76 Whitefish, 5 Calico Bass, 2 Sculpin, 1 Sand Bass"
+    },
+    {
+      "species": "whitefish",
+      "count": 76,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 23, 2026 2 1 70 172 Rockfish, 76 Whitefish, 5 Calico Bass, 2 Sculpin, 1 Sand Bass"
+    },
+    {
+      "species": "calico bass",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 23, 2026 2 1 70 172 Rockfish, 76 Whitefish, 5 Calico Bass, 2 Sculpin, 1 Sand Bass"
+    },
+    {
+      "species": "sculpin",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 23, 2026 2 1 70 172 Rockfish, 76 Whitefish, 5 Calico Bass, 2 Sculpin, 1 Sand Bass"
+    },
+    {
+      "species": "sand bass",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 23, 2026 2 1 70 172 Rockfish, 76 Whitefish, 5 Calico Bass, 2 Sculpin, 1 Sand Bass"
+    },
+    {
+      "species": "rockfish",
+      "count": 164,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 22, 2026 2 1 90 164 Rockfish, 128 Whitefish, 7 Blue Perch, 6 Sculpin, 5 Calico Bass, 1 Sand Bass, 1 Sheephead"
+    },
+    {
+      "species": "whitefish",
+      "count": 128,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 22, 2026 2 1 90 164 Rockfish, 128 Whitefish, 7 Blue Perch, 6 Sculpin, 5 Calico Bass, 1 Sand Bass, 1 Sheephead"
+    },
+    {
+      "species": "blue perch",
+      "count": 7,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 22, 2026 2 1 90 164 Rockfish, 128 Whitefish, 7 Blue Perch, 6 Sculpin, 5 Calico Bass, 1 Sand Bass, 1 Sheephead"
+    },
+    {
+      "species": "sculpin",
+      "count": 6,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 22, 2026 2 1 90 164 Rockfish, 128 Whitefish, 7 Blue Perch, 6 Sculpin, 5 Calico Bass, 1 Sand Bass, 1 Sheephead"
+    },
+    {
+      "species": "sheephead",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 22, 2026 2 1 90 164 Rockfish, 128 Whitefish, 7 Blue Perch, 6 Sculpin, 5 Calico Bass, 1 Sand Bass, 1 Sheephead"
+    },
+    {
+      "species": "blue perch",
+      "count": 21,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 1 1 20 21 Blue Perch, 19 Calico Bass, 11 Bonito, 3 Sheephead"
+    },
+    {
+      "species": "calico bass",
+      "count": 19,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 1 1 20 21 Blue Perch, 19 Calico Bass, 11 Bonito, 3 Sheephead"
+    },
+    {
+      "species": "bonito",
+      "count": 11,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 1 1 20 21 Blue Perch, 19 Calico Bass, 11 Bonito, 3 Sheephead"
+    },
+    {
+      "species": "sheephead",
+      "count": 3,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 1 1 20 21 Blue Perch, 19 Calico Bass, 11 Bonito, 3 Sheephead"
+    },
+    {
+      "species": "calico bass",
+      "count": 22,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 17, 2026 1 1 16 22 Calico Bass, 10 Blue Perch, 4 Whitefish, 4 Yellowtail, 3 Sheephead"
+    },
+    {
+      "species": "blue perch",
+      "count": 10,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 17, 2026 1 1 16 22 Calico Bass, 10 Blue Perch, 4 Whitefish, 4 Yellowtail, 3 Sheephead"
+    },
+    {
+      "species": "whitefish",
+      "count": 4,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 17, 2026 1 1 16 22 Calico Bass, 10 Blue Perch, 4 Whitefish, 4 Yellowtail, 3 Sheephead"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 4,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 17, 2026 1 1 16 22 Calico Bass, 10 Blue Perch, 4 Whitefish, 4 Yellowtail, 3 Sheephead"
+    },
+    {
+      "species": "whitefish",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 16, 2026 1 1 20 22 Calico Bass, 5 Whitefish, 5 Yellowtail, 4 Sheephead, 3 Bonito, 2 Blue Perch"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 16, 2026 1 1 20 22 Calico Bass, 5 Whitefish, 5 Yellowtail, 4 Sheephead, 3 Bonito, 2 Blue Perch"
+    },
+    {
+      "species": "bonito",
+      "count": 3,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 16, 2026 1 1 20 22 Calico Bass, 5 Whitefish, 5 Yellowtail, 4 Sheephead, 3 Bonito, 2 Blue Perch"
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 25, 2026 1.5 Day Trip 16 5 Bluefin Tuna, 2 Dorado, 41 Yellowtail"
+    },
+    {
+      "species": "dorado",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 25, 2026 1.5 Day Trip 16 5 Bluefin Tuna, 2 Dorado, 41 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 41,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 25, 2026 1.5 Day Trip 16 5 Bluefin Tuna, 2 Dorado, 41 Yellowtail"
+    },
+    {
+      "species": "whitefish",
+      "count": 21,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 Overnight Trip 16 21 Whitefish, 37 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 37,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 18, 2026 Overnight Trip 16 21 Whitefish, 37 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 41,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 15, 2026 1.5 Day Trip 12 41 Calico Bass, 1 Dorado, 3 Sculpin, 5 Sheephead, 46 Yellowtail"
+    },
+    {
+      "species": "dorado",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 15, 2026 1.5 Day Trip 12 41 Calico Bass, 1 Dorado, 3 Sculpin, 5 Sheephead, 46 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 15, 2026 1.5 Day Trip 12 41 Calico Bass, 1 Dorado, 3 Sculpin, 5 Sheephead, 46 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 46,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 15, 2026 1.5 Day Trip 12 41 Calico Bass, 1 Dorado, 3 Sculpin, 5 Sheephead, 46 Yellowtail"
+    },
+    {
+      "species": "bluefin tuna",
+      "count": 9,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 13, 2026 2.5 Day Trip 0 9 Bluefin Tuna, 65 Calico Bass, 1 Dorado, 250 Rockfish, 50 Sheephead, 38 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 65,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 13, 2026 2.5 Day Trip 0 9 Bluefin Tuna, 65 Calico Bass, 1 Dorado, 250 Rockfish, 50 Sheephead, 38 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 250,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 13, 2026 2.5 Day Trip 0 9 Bluefin Tuna, 65 Calico Bass, 1 Dorado, 250 Rockfish, 50 Sheephead, 38 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 50,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 13, 2026 2.5 Day Trip 0 9 Bluefin Tuna, 65 Calico Bass, 1 Dorado, 250 Rockfish, 50 Sheephead, 38 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 38,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 13, 2026 2.5 Day Trip 0 9 Bluefin Tuna, 65 Calico Bass, 1 Dorado, 250 Rockfish, 50 Sheephead, 38 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 80,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2026 Full Day Trip 8 80 Barracuda, 12 Bonito, 10 Calico Bass, 2 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 12,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2026 Full Day Trip 8 80 Barracuda, 12 Bonito, 10 Calico Bass, 2 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 10,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2026 Full Day Trip 8 80 Barracuda, 12 Bonito, 10 Calico Bass, 2 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 5,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 8, 2026 Full Day Trip 16 5 Barracuda, 15 Calico Bass, 10 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 15,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 8, 2026 Full Day Trip 16 5 Barracuda, 15 Calico Bass, 10 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 10,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 8, 2026 Full Day Trip 16 5 Barracuda, 15 Calico Bass, 10 Yellowtail"
+    },
+    {
+      "species": "lingcod",
+      "count": 17,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 24, 2025 1.5 Day Trip 16 17 Lingcod, 160 Rockfish, 25 White Seabass"
+    },
+    {
+      "species": "rockfish",
+      "count": 160,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 24, 2025 1.5 Day Trip 16 17 Lingcod, 160 Rockfish, 25 White Seabass"
+    },
+    {
+      "species": "white seabass",
+      "count": 25,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 24, 2025 1.5 Day Trip 16 17 Lingcod, 160 Rockfish, 25 White Seabass"
+    },
+    {
+      "species": "halibut",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 22, 2024 1.5 Day Trip 14 2 Halibut, 28 Red Snapper, 20 White Seabass, 5 Yellowtail"
+    },
+    {
+      "species": "white seabass",
+      "count": 20,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 22, 2024 1.5 Day Trip 14 2 Halibut, 28 Red Snapper, 20 White Seabass, 5 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 8,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 17,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "sculpin",
+      "count": 4,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 27,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "whitefish",
+      "count": 121,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 7,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 19, 2024 Full Day Trip 19 8 Calico Bass, 17 Rockfish, 4 Sculpin, 27 Sheephead, 121 Whitefish, 7 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 6,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 18, 2024 Full Day Trip 23 6 Barracuda, 15 Calico Bass, 27 Rockfish, 2 Sculpin, 19 Sheephead, 132 Whitefish, 2 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 27,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 18, 2024 Full Day Trip 23 6 Barracuda, 15 Calico Bass, 27 Rockfish, 2 Sculpin, 19 Sheephead, 132 Whitefish, 2 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 19,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 18, 2024 Full Day Trip 23 6 Barracuda, 15 Calico Bass, 27 Rockfish, 2 Sculpin, 19 Sheephead, 132 Whitefish, 2 Yellowtail"
+    },
+    {
+      "species": "whitefish",
+      "count": 132,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 18, 2024 Full Day Trip 23 6 Barracuda, 15 Calico Bass, 27 Rockfish, 2 Sculpin, 19 Sheephead, 132 Whitefish, 2 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 110,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "May 23, 2025 AM 1/2 Day Trip 11 110 Rockfish, 50 Sanddab, 1 Sculpin, 7 Whitefish"
+    },
+    {
+      "species": "whitefish",
+      "count": 7,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "May 23, 2025 AM 1/2 Day Trip 11 110 Rockfish, 50 Sanddab, 1 Sculpin, 7 Whitefish"
+    },
+    {
+      "species": "rockfish",
+      "count": 101,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jun 26, 2022 3/4 Day Trip 14 101 Rockfish"
+    },
+    {
+      "species": "lingcod",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Mar 19, 2022 PM 1/2 Day Trip 17 1 Lingcod, 19 Rockfish, 30 Sculpin, 3 Sheephead, 80 Whitefish"
+    },
+    {
+      "species": "rockfish",
+      "count": 19,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Mar 19, 2022 PM 1/2 Day Trip 17 1 Lingcod, 19 Rockfish, 30 Sculpin, 3 Sheephead, 80 Whitefish"
+    },
+    {
+      "species": "sculpin",
+      "count": 30,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Mar 19, 2022 PM 1/2 Day Trip 17 1 Lingcod, 19 Rockfish, 30 Sculpin, 3 Sheephead, 80 Whitefish"
+    },
+    {
+      "species": "whitefish",
+      "count": 80,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Mar 19, 2022 PM 1/2 Day Trip 17 1 Lingcod, 19 Rockfish, 30 Sculpin, 3 Sheephead, 80 Whitefish"
+    },
+    {
+      "species": "calico bass",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Sep 4, 2021 PM 1/2 Day Trip 23 1 Calico Bass, 2 Sand Bass, 42 Whitefish, 25 Calico Bass Released"
+    },
+    {
+      "species": "sand bass",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Sep 4, 2021 PM 1/2 Day Trip 23 1 Calico Bass, 2 Sand Bass, 42 Whitefish, 25 Calico Bass Released"
+    },
+    {
+      "species": "whitefish",
+      "count": 42,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Sep 4, 2021 PM 1/2 Day Trip 23 1 Calico Bass, 2 Sand Bass, 42 Whitefish, 25 Calico Bass Released"
+    },
+    {
+      "species": "calico bass",
+      "count": 25,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Sep 4, 2021 PM 1/2 Day Trip 23 1 Calico Bass, 2 Sand Bass, 42 Whitefish, 25 Calico Bass Released"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 57,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 11, 2017 Full Day Trip 10 57 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 24,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 5, 2017 Full Day Trip 10 24 Barracuda, 1 Bonito, 13 Lingcod, 66 Rockfish, 5 Sheephead, 18 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 5, 2017 Full Day Trip 10 24 Barracuda, 1 Bonito, 13 Lingcod, 66 Rockfish, 5 Sheephead, 18 Yellowtail"
+    },
+    {
+      "species": "lingcod",
+      "count": 13,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 5, 2017 Full Day Trip 10 24 Barracuda, 1 Bonito, 13 Lingcod, 66 Rockfish, 5 Sheephead, 18 Yellowtail"
+    },
+    {
+      "species": "rockfish",
+      "count": 66,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 5, 2017 Full Day Trip 10 24 Barracuda, 1 Bonito, 13 Lingcod, 66 Rockfish, 5 Sheephead, 18 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 18,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Aug 5, 2017 Full Day Trip 10 24 Barracuda, 1 Bonito, 13 Lingcod, 66 Rockfish, 5 Sheephead, 18 Yellowtail"
+    },
+    {
+      "species": "sheephead",
+      "count": 9,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 30, 2017 Full Day Trip 10 6 Barracuda, 9 Sheephead, 50 Whitefish, 22 Yellowtail"
+    },
+    {
+      "species": "whitefish",
+      "count": 50,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 30, 2017 Full Day Trip 10 6 Barracuda, 9 Sheephead, 50 Whitefish, 22 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 22,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 30, 2017 Full Day Trip 10 6 Barracuda, 9 Sheephead, 50 Whitefish, 22 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "bonito",
+      "count": 4,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "lingcod",
+      "count": 11,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "rockfish",
+      "count": 100,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "whitefish",
+      "count": 38,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 15,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "sheephead",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 29, 2017 Full Day Trip 10 2 Barracuda, 4 Bonito, 11 Lingcod, 100 Rockfish, 38 Whitefish, 15 Yellowtail, 2 Sheephead Released"
+    },
+    {
+      "species": "barracuda",
+      "count": 14,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 23, 2017 Full Day Trip 9 14 Barracuda, 29 Calico Bass, 37 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 29,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 23, 2017 Full Day Trip 9 14 Barracuda, 29 Calico Bass, 37 Yellowtail"
+    },
+    {
+      "species": "barracuda",
+      "count": 9,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 22, 2017 Full Day Trip 6 9 Barracuda, 2 Bonito, 30 Calico Bass, 13 Yellowtail"
+    },
+    {
+      "species": "bonito",
+      "count": 2,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 22, 2017 Full Day Trip 6 9 Barracuda, 2 Bonito, 30 Calico Bass, 13 Yellowtail"
+    },
+    {
+      "species": "calico bass",
+      "count": 30,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 22, 2017 Full Day Trip 6 9 Barracuda, 2 Bonito, 30 Calico Bass, 13 Yellowtail"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 13,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-03T18:45:23.280854+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Jul 22, 2017 Full Day Trip 6 9 Barracuda, 2 Bonito, 30 Calico Bass, 13 Yellowtail"
     }
   ],
   "predictions": [
     {
-      "species": "albacore tuna",
-      "region": "oregon",
-      "zone": "waters accessible from Newport",
-      "probability_score": 69,
-      "confidence": "low",
-      "likely_feature": "temperature break, clean/green edge",
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 70,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
       "reasons": [
-        "recent comparable catch signal contributed 29/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "recent comparable catch signal contributed 30/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 70,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 70,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 70,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Newport",
+      "probability_score": 69,
+      "confidence": "medium",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 29/30",
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
     },
     {
       "species": "albacore tuna",
       "region": "oregon",
       "zone": "waters accessible from Depoe Bay",
       "probability_score": 55,
-      "confidence": "low",
+      "confidence": "medium",
       "likely_feature": "temperature break, clean/green edge",
       "reasons": [
         "recent comparable catch signal contributed 15/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
     },
     {
       "species": "albacore tuna",
       "region": "oregon",
       "zone": "waters accessible from Garibaldi",
       "probability_score": 50,
-      "confidence": "low",
+      "confidence": "medium",
       "likely_feature": "temperature break, clean/green edge",
       "reasons": [
         "recent comparable catch signal contributed 10/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
     },
     {
       "species": "albacore tuna",
       "region": "oregon",
       "zone": "waters accessible from Pacific City",
       "probability_score": 50,
-      "confidence": "low",
+      "confidence": "medium",
       "likely_feature": "temperature break, clean/green edge",
       "reasons": [
         "recent comparable catch signal contributed 10/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Seaforth Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Seaforth Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Seaforth Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bluefin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "temperature break, bait concentration, current edge",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 60\u201372\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
     },
     {
       "species": "albacore tuna",
@@ -145,14 +2493,47 @@
       "likely_feature": "temperature break, clean/green edge",
       "reasons": [
         "recent comparable catch signal contributed 4/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 44,
+      "confidence": "low",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 4/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 3/30",
+        "SST 71.6\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
     },
     {
       "species": "albacore tuna",
@@ -163,14 +2544,1781 @@
       "likely_feature": "temperature break, clean/green edge",
       "reasons": [
         "recent comparable catch signal contributed 1/30",
-        "SST 58.8\u00b0F is within the 58\u201366\u00b0F habitat band",
-        "safety block: steep wave-height/period relationship"
+        "SST 58.6\u00b0F is within the 58\u201366\u00b0F habitat band"
       ],
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
       ],
-      "safe_to_recommend": false
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 40,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 20/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 31,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 11/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Seaforth Landing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue perch",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue perch",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sand bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue perch",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue perch",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue perch",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "halibut",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sand bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "whitefish",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 29,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 9/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 23,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 3/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 21,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 20,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 0/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "halibut",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 20,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 0/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "white seabass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 15,
+      "confidence": "low",
+      "likely_feature": "squid or bait concentration, kelp edge, low-light period",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201370\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "white seabass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 15,
+      "confidence": "low",
+      "likely_feature": "squid or bait concentration, kelp edge, low-light period",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201370\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
     }
   ],
   "marine_forecasts": {
@@ -4076,23 +8224,14 @@
     ]
   },
   "lunar": {
-    "San Diego": {
-      "phase": "waning gibbous",
-      "illumination_percent": 53.3,
-      "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:12:19.884799+00:00",
-      "moonset_utc": "2026-09-03T20:18:14.658868+00:00",
-      "overhead_utc": "2026-09-03T12:46:48.477060+00:00",
-      "underfoot_utc": "2026-09-04T01:16:48.597394+00:00"
-    },
-    "Westport": {
+    "Brookings": {
       "phase": "waning gibbous",
       "illumination_percent": 53.0,
       "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T05:43:13.766142+00:00",
-      "moonset_utc": "2026-09-03T21:43:39.240059+00:00",
-      "overhead_utc": "2026-09-03T13:15:43.409390+00:00",
-      "underfoot_utc": "2026-09-04T01:45:45.685113+00:00"
+      "moonrise_utc": "2026-09-04T06:07:24.494082+00:00",
+      "moonset_utc": "2026-09-03T21:21:34.456090+00:00",
+      "overhead_utc": "2026-09-03T13:16:28.083099+00:00",
+      "underfoot_utc": "2026-09-04T01:46:30.414097+00:00"
     },
     "Newport": {
       "phase": "waning gibbous",
@@ -4103,14 +8242,14 @@
       "overhead_utc": "2026-09-03T13:15:30.516991+00:00",
       "underfoot_utc": "2026-09-04T01:45:32.776757+00:00"
     },
-    "Neah Bay": {
+    "Eureka": {
       "phase": "waning gibbous",
       "illumination_percent": 53.0,
       "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T05:37:09.036818+00:00",
-      "moonset_utc": "2026-09-03T21:53:52.627614+00:00",
-      "overhead_utc": "2026-09-03T13:17:53.283121+00:00",
-      "underfoot_utc": "2026-09-04T01:47:55.719510+00:00"
+      "moonrise_utc": "2026-09-04T06:12:34.297975+00:00",
+      "moonset_utc": "2026-09-03T21:16:00.331465+00:00",
+      "overhead_utc": "2026-09-03T13:16:11.367931+00:00",
+      "underfoot_utc": "2026-09-04T01:46:13.678247+00:00"
     },
     "Astoria/Columbia River": {
       "phase": "waning gibbous",
@@ -4121,41 +8260,14 @@
       "overhead_utc": "2026-09-03T13:14:19.259080+00:00",
       "underfoot_utc": "2026-09-04T01:44:21.430648+00:00"
     },
-    "Brookings": {
+    "Santa Barbara": {
       "phase": "waning gibbous",
-      "illumination_percent": 53.0,
+      "illumination_percent": 53.2,
       "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:07:24.494082+00:00",
-      "moonset_utc": "2026-09-03T21:21:34.456090+00:00",
-      "overhead_utc": "2026-09-03T13:16:28.083099+00:00",
-      "underfoot_utc": "2026-09-04T01:46:30.414097+00:00"
-    },
-    "Fort Bragg": {
-      "phase": "waning gibbous",
-      "illumination_percent": 53.1,
-      "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:16:10.835105+00:00",
-      "moonset_utc": "2026-09-03T21:09:06.735903+00:00",
-      "overhead_utc": "2026-09-03T13:14:28.503613+00:00",
-      "underfoot_utc": "2026-09-04T01:44:30.686623+00:00"
-    },
-    "Eureka": {
-      "phase": "waning gibbous",
-      "illumination_percent": 53.0,
-      "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:12:34.297975+00:00",
-      "moonset_utc": "2026-09-03T21:16:00.331465+00:00",
-      "overhead_utc": "2026-09-03T13:16:11.367931+00:00",
-      "underfoot_utc": "2026-09-04T01:46:13.678247+00:00"
-    },
-    "San Francisco": {
-      "phase": "waning gibbous",
-      "illumination_percent": 53.1,
-      "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:16:53.020437+00:00",
-      "moonset_utc": "2026-09-03T20:57:24.863109+00:00",
-      "overhead_utc": "2026-09-03T13:08:53.853234+00:00",
-      "underfoot_utc": "2026-09-04T01:38:55.621673+00:00"
+      "moonrise_utc": "2026-09-04T06:17:18.376100+00:00",
+      "moonset_utc": "2026-09-03T20:34:15.745696+00:00",
+      "overhead_utc": "2026-09-03T12:57:22.351434+00:00",
+      "underfoot_utc": "2026-09-04T01:27:23.261217+00:00"
     },
     "Los Angeles/Long Beach": {
       "phase": "waning gibbous",
@@ -4166,14 +8278,41 @@
       "overhead_utc": "2026-09-03T12:51:12.158929+00:00",
       "underfoot_utc": "2026-09-04T01:21:12.607934+00:00"
     },
-    "Santa Barbara": {
+    "San Diego": {
       "phase": "waning gibbous",
-      "illumination_percent": 53.2,
+      "illumination_percent": 53.3,
       "age_days": 21.8,
-      "moonrise_utc": "2026-09-04T06:17:18.376100+00:00",
-      "moonset_utc": "2026-09-03T20:34:15.745696+00:00",
-      "overhead_utc": "2026-09-03T12:57:22.351434+00:00",
-      "underfoot_utc": "2026-09-04T01:27:23.261217+00:00"
+      "moonrise_utc": "2026-09-04T06:12:19.884799+00:00",
+      "moonset_utc": "2026-09-03T20:18:14.658868+00:00",
+      "overhead_utc": "2026-09-03T12:46:48.477060+00:00",
+      "underfoot_utc": "2026-09-04T01:16:48.597394+00:00"
+    },
+    "San Francisco": {
+      "phase": "waning gibbous",
+      "illumination_percent": 53.1,
+      "age_days": 21.8,
+      "moonrise_utc": "2026-09-04T06:16:53.020437+00:00",
+      "moonset_utc": "2026-09-03T20:57:24.863109+00:00",
+      "overhead_utc": "2026-09-03T13:08:53.853234+00:00",
+      "underfoot_utc": "2026-09-04T01:38:55.621673+00:00"
+    },
+    "Neah Bay": {
+      "phase": "waning gibbous",
+      "illumination_percent": 53.0,
+      "age_days": 21.8,
+      "moonrise_utc": "2026-09-04T05:37:09.036818+00:00",
+      "moonset_utc": "2026-09-03T21:53:52.627614+00:00",
+      "overhead_utc": "2026-09-03T13:17:53.283121+00:00",
+      "underfoot_utc": "2026-09-04T01:47:55.719510+00:00"
+    },
+    "Fort Bragg": {
+      "phase": "waning gibbous",
+      "illumination_percent": 53.1,
+      "age_days": 21.8,
+      "moonrise_utc": "2026-09-04T06:16:10.835105+00:00",
+      "moonset_utc": "2026-09-03T21:09:06.735903+00:00",
+      "overhead_utc": "2026-09-03T13:14:28.503613+00:00",
+      "underfoot_utc": "2026-09-04T01:44:30.686623+00:00"
     },
     "Monterey": {
       "phase": "waning gibbous",
@@ -4183,19 +8322,28 @@
       "moonset_utc": "2026-09-03T20:50:45.731028+00:00",
       "overhead_utc": "2026-09-03T13:06:31.139393+00:00",
       "underfoot_utc": "2026-09-04T01:36:32.730839+00:00"
+    },
+    "Westport": {
+      "phase": "waning gibbous",
+      "illumination_percent": 53.0,
+      "age_days": 21.8,
+      "moonrise_utc": "2026-09-04T05:43:13.766142+00:00",
+      "moonset_utc": "2026-09-03T21:43:39.240059+00:00",
+      "overhead_utc": "2026-09-03T13:15:43.409390+00:00",
+      "underfoot_utc": "2026-09-04T01:45:45.685113+00:00"
     }
   },
   "buoys": {
     "southern_california": [
       {
         "station": "46086",
-        "timestamp_utc": "2026-09-03-18-00",
+        "timestamp_utc": "2026-09-03-18-10",
         "wind_direction_deg": 290.0,
         "wind_speed_m_s": 5.0,
-        "gust_m_s": 5.0,
-        "wave_height_m": null,
+        "gust_m_s": 6.0,
+        "wave_height_m": 1.4,
         "dominant_period_s": null,
-        "mean_wave_direction_deg": null,
+        "mean_wave_direction_deg": 273.0,
         "water_temp_c": 21.3
       },
       {
@@ -4224,85 +8372,85 @@
     "central_california": [
       {
         "station": "46042",
-        "timestamp_utc": "2026-09-03-18-00",
+        "timestamp_utc": "2026-09-03-18-10",
         "wind_direction_deg": 130.0,
         "wind_speed_m_s": 4.0,
-        "gust_m_s": 4.0,
-        "wave_height_m": null,
+        "gust_m_s": 5.0,
+        "wave_height_m": 1.2,
         "dominant_period_s": null,
-        "mean_wave_direction_deg": null,
+        "mean_wave_direction_deg": 188.0,
         "water_temp_c": 16.1
       }
     ],
     "northern_california": [
       {
         "station": "46014",
-        "timestamp_utc": "2026-09-03-17-50",
+        "timestamp_utc": "2026-09-03-18-10",
         "wind_direction_deg": 180.0,
-        "wind_speed_m_s": 2.0,
-        "gust_m_s": 3.0,
+        "wind_speed_m_s": 3.0,
+        "gust_m_s": 4.0,
         "wave_height_m": 1.5,
-        "dominant_period_s": 9.0,
-        "mean_wave_direction_deg": 296.0,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": 298.0,
         "water_temp_c": 14.9
       },
       {
         "station": "46022",
-        "timestamp_utc": "2026-09-03-18-00",
+        "timestamp_utc": "2026-09-03-18-20",
         "wind_direction_deg": 200.0,
-        "wind_speed_m_s": 4.0,
+        "wind_speed_m_s": 5.0,
         "gust_m_s": 5.0,
-        "wave_height_m": null,
-        "dominant_period_s": null,
-        "mean_wave_direction_deg": null,
+        "wave_height_m": 2.6,
+        "dominant_period_s": 10.0,
+        "mean_wave_direction_deg": 296.0,
         "water_temp_c": 14.9
       }
     ],
     "oregon": [
       {
         "station": "46015",
-        "timestamp_utc": "2026-09-03-17-50",
+        "timestamp_utc": "2026-09-03-18-10",
         "wind_direction_deg": 170.0,
         "wind_speed_m_s": 8.0,
-        "gust_m_s": 10.0,
-        "wave_height_m": 2.5,
-        "dominant_period_s": 13.0,
-        "mean_wave_direction_deg": 300.0,
-        "water_temp_c": 14.9
+        "gust_m_s": 11.0,
+        "wave_height_m": 2.4,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": 295.0,
+        "water_temp_c": 14.8
       },
       {
         "station": "46050",
-        "timestamp_utc": "2026-09-03-17-50",
-        "wind_direction_deg": 190.0,
-        "wind_speed_m_s": 5.0,
-        "gust_m_s": 7.0,
-        "wave_height_m": 3.1,
-        "dominant_period_s": 12.0,
-        "mean_wave_direction_deg": 298.0,
+        "timestamp_utc": "2026-09-03-18-10",
+        "wind_direction_deg": 150.0,
+        "wind_speed_m_s": 6.0,
+        "gust_m_s": 8.0,
+        "wave_height_m": 2.7,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": 308.0,
         "water_temp_c": null
       }
     ],
     "washington": [
       {
         "station": "46029",
-        "timestamp_utc": "2026-09-03-18-00",
+        "timestamp_utc": "2026-09-03-18-10",
         "wind_direction_deg": 140.0,
-        "wind_speed_m_s": 12.0,
-        "gust_m_s": 15.0,
+        "wind_speed_m_s": 11.0,
+        "gust_m_s": 14.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
-        "water_temp_c": 15.9
+        "water_temp_c": 15.7
       },
       {
         "station": "46041",
-        "timestamp_utc": "2026-09-03-18-00",
-        "wind_direction_deg": 140.0,
-        "wind_speed_m_s": 9.0,
-        "gust_m_s": 11.0,
-        "wave_height_m": null,
+        "timestamp_utc": "2026-09-03-18-10",
+        "wind_direction_deg": 150.0,
+        "wind_speed_m_s": 10.0,
+        "gust_m_s": 12.0,
+        "wave_height_m": 3.1,
         "dominant_period_s": null,
-        "mean_wave_direction_deg": null,
+        "mean_wave_direction_deg": 292.0,
         "water_temp_c": 15.3
       },
       {
@@ -4319,6 +8467,11 @@
     ]
   },
   "source_health": [
+    {
+      "source": "Fisherman's Landing",
+      "ok": true,
+      "detail": "18 catch facts"
+    },
     {
       "source": "NDBC 46014",
       "ok": true,
@@ -4470,6 +8623,11 @@
       "detail": "6 structured catch rates"
     },
     {
+      "source": "Official landing pages",
+      "ok": true,
+      "detail": "134 catch facts"
+    },
+    {
       "source": "PyEphem Astoria/Columbia River",
       "ok": true,
       "detail": "lunar events calculated"
@@ -4528,6 +8686,16 @@
       "source": "PyEphem Westport",
       "ok": true,
       "detail": "lunar events calculated"
+    },
+    {
+      "source": "Redondo Beach Sportfishing",
+      "ok": true,
+      "detail": "112 catch facts"
+    },
+    {
+      "source": "Seaforth Landing",
+      "ok": true,
+      "detail": "4 catch facts"
     }
   ]
 }
