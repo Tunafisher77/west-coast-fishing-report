@@ -133,7 +133,7 @@ def render_email_summary(day: date, data: dict) -> str:
         for row in rows:
             am = "?" if row["wind_am_kt"] is None else f"{row['wind_am_kt']}g{row['gust_am_kt'] or row['wind_am_kt']}kt"
             pm = "?" if row["wind_pm_kt"] is None else f"{row['wind_pm_kt']}g{row['gust_pm_kt'] or row['wind_pm_kt']}kt"
-            sea = "seas unavailable" if row["wave_ft"] is None else f"{row['wave_ft']}ft@{row['period_s'] or '?'}s"
+            sea = "seas unavailable" if row["wave_ft"] is None else f"{row['wave_ft']}ft@{row['period_s'] or '?'}s/{row.get('wave_direction_deg') or '?'}°"
             flag = "SAFETY BLOCK" if row["safety_block"] else f"best {row['best_window']}"
             daily.append(f"<tr><td>{escape(row['date'][5:])}</td><td>{am}</td><td>{pm}</td><td>{sea}</td><td>{escape(flag)} ({row['confidence']})</td></tr>")
         condition_items.append(f"<h3>{escape(REGIONS[region]['label'])}</h3><table style='border-collapse:collapse;width:100%' border='1' cellpadding='4'><tr><th>Date</th><th>AM wind</th><th>PM wind</th><th>Seas</th><th>Window</th></tr>{''.join(daily)}</table>")
@@ -146,11 +146,16 @@ def render_email_summary(day: date, data: dict) -> str:
         chl = oc.get("chlorophyll")
         species = sorted({r["species"].title() for r in records})
         evidence = []
-        if sst: evidence.append(f"regional SST {sst['value']:.1f}°F ({sst['observed_at']})")
-        if chl: evidence.append(f"chlorophyll {chl['value']:.2f} mg/m³ ({chl['observed_at']})")
+        if sst: evidence.append(f"regional SST {sst['value']:.1f}°F, range {sst['minimum']:.1f}–{sst['maximum']:.1f}°F ({sst['observed_at']})")
+        if chl: evidence.append(f"chlorophyll {chl['value']:.2f} mg/m³, range {chl['minimum']:.2f}–{chl['maximum']:.2f} ({chl['observed_at']})")
         if not evidence: evidence.append("satellite SST/chlorophyll unavailable; no ocean-color conclusion")
         conclusion = f"The mix of {', '.join(species[:4])} is consistent with forage or structure accessible from this port; "
-        conclusion += "the water-mass evidence supports that interpretation." if sst and chl else "the cause remains provisional until a current temperature/color edge is verified."
+        if oc.get("front_detected"):
+            conclusion += "the sampled SST/chlorophyll contrast supports a nearby water-mass edge that can concentrate forage."
+        elif sst and chl:
+            conclusion += "the samples do not show a strong regional edge, so bait, structure, or a finer-scale break is the more cautious explanation."
+        else:
+            conclusion += "the cause remains provisional until a current temperature/color edge is verified."
         why_items.append(f"<li><strong>{escape(landing)}:</strong> {escape('; '.join(evidence))}. {escape(conclusion)} <em>Regional proxy—not an exact catch position.</em></li>")
 
     moon = data["lunar"].get("San Diego", {})
