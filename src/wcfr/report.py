@@ -101,7 +101,10 @@ def render_email_summary(day: date, data: dict) -> str:
             for species, value in sorted(species_totals.items())
         )
         vessel_text = f" - {', '.join(sorted(vessels)[:5])}" if vessels else ""
-        landing_items.append(f"<li><strong>{escape(landing)}</strong>{escape(vessel_text)}: {escape(catch_text)}</li>")
+        first = records[0]
+        place = ", ".join(v for v in (first.get("city"), first.get("state")) if v)
+        place_text = f" — {place}" if place else ""
+        landing_items.append(f"<li><strong>{escape(landing + place_text)}</strong>{escape(vessel_text)}: {escape(catch_text)}</li>")
     if not landing_items:
         landing_items = ["<li>No current source-attributed landing reports were retrieved.</li>"]
 
@@ -125,15 +128,30 @@ def render_email_summary(day: date, data: dict) -> str:
         outlook_items = ["<li>No location forecast met the minimum evidence requirement.</li>"]
 
     condition_items = []
-    for region, readings in data["buoys"].items():
-        winds = [b["wind_speed_m_s"] * 1.94384 for b in readings if b.get("wind_speed_m_s") is not None]
-        waves = [b["wave_height_m"] * 3.28084 for b in readings if b.get("wave_height_m") is not None]
-        temps = [b["water_temp_c"] * 9 / 5 + 32 for b in readings if b.get("water_temp_c") is not None]
-        parts = []
-        if winds: parts.append(f"wind {sum(winds)/len(winds):.0f} kt")
-        if waves: parts.append(f"seas {sum(waves)/len(waves):.1f} ft")
-        if temps: parts.append(f"water {sum(temps)/len(temps):.1f}°F")
-        condition_items.append(f"<li><strong>{escape(REGIONS[region]['label'])}:</strong> {escape(', '.join(parts) or 'data unavailable')}</li>")
+    for region, rows in data.get("daily_weather", {}).items():
+        daily = []
+        for row in rows:
+            am = "?" if row["wind_am_kt"] is None else f"{row['wind_am_kt']}g{row['gust_am_kt'] or row['wind_am_kt']}kt"
+            pm = "?" if row["wind_pm_kt"] is None else f"{row['wind_pm_kt']}g{row['gust_pm_kt'] or row['wind_pm_kt']}kt"
+            sea = "seas unavailable" if row["wave_ft"] is None else f"{row['wave_ft']}ft@{row['period_s'] or '?'}s"
+            flag = "SAFETY BLOCK" if row["safety_block"] else f"best {row['best_window']}"
+            daily.append(f"<tr><td>{escape(row['date'][5:])}</td><td>{am}</td><td>{pm}</td><td>{sea}</td><td>{escape(flag)} ({row['confidence']})</td></tr>")
+        condition_items.append(f"<h3>{escape(REGIONS[region]['label'])}</h3><table style='border-collapse:collapse;width:100%' border='1' cellpadding='4'><tr><th>Date</th><th>AM wind</th><th>PM wind</th><th>Seas</th><th>Window</th></tr>{''.join(daily)}</table>")
+
+    why_items = []
+    for landing, records in sorted(by_landing.items()):
+        region = records[0]["region"]
+        oc = data.get("ocean_color", {}).get(region, {})
+        sst = oc.get("sst")
+        chl = oc.get("chlorophyll")
+        species = sorted({r["species"].title() for r in records})
+        evidence = []
+        if sst: evidence.append(f"regional SST {sst['value']:.1f}°F ({sst['observed_at']})")
+        if chl: evidence.append(f"chlorophyll {chl['value']:.2f} mg/m³ ({chl['observed_at']})")
+        if not evidence: evidence.append("satellite SST/chlorophyll unavailable; no ocean-color conclusion")
+        conclusion = f"The mix of {', '.join(species[:4])} is consistent with forage or structure accessible from this port; "
+        conclusion += "the water-mass evidence supports that interpretation." if sst and chl else "the cause remains provisional until a current temperature/color edge is verified."
+        why_items.append(f"<li><strong>{escape(landing)}:</strong> {escape('; '.join(evidence))}. {escape(conclusion)} <em>Regional proxy—not an exact catch position.</em></li>")
 
     moon = data["lunar"].get("San Diego", {})
     moon_text = (
@@ -150,7 +168,9 @@ def render_email_summary(day: date, data: dict) -> str:
 </div>
 <h2>What is being caught</h2><ul>{''.join(landing_items)}</ul>
 <h2>Where fish are most likely this week</h2><ul>{''.join(outlook_items)}</ul>
-<h2>Marine snapshot</h2><ul>{''.join(condition_items)}</ul>
+<h2>Why fish were caught there</h2><ul>{''.join(why_items)}</ul>
+<h2>Seven-day marine outlook</h2>{''.join(condition_items)}
+<h2>Private-boat and commercial signal</h2><p>Private-boat creel/ramp samples and commercial landings are shown only when a current public record is retrieved. Commercial fish-ticket data are delayed and are never presented as a same-day bite report.</p>
 <p><strong>Moon:</strong> {escape(moon_text)}</p>
 <p><a href="{full_url}">View detailed source data, all tides, forecasts and diagnostics</a></p>
 <p style="font-size:12px;color:#626567">Reported catches and model inferences are kept separate. Safety conditions override fishing potential. Verify current NWS, Coast Guard, bar and harbor information before departure.</p>
