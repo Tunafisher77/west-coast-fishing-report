@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "west-coast-fishing-report"
-version = "0.1.0"
+version = "0.2.0"
 description = "Daily West Coast fishing intelligence report"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = ["ephem>=4.1.5"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]
