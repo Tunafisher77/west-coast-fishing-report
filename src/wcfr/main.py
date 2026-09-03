@@ -11,11 +11,12 @@ from wcfr.collectors.ndbc import fetch_latest
 from wcfr.collectors.noaa_tides import fetch_high_low
 from wcfr.collectors.nws import fetch_marine_grid
 from wcfr.collectors.odfw import fetch_report_text, parse_port_catch_rates
+from wcfr.collectors.official_landings import fetch_all as fetch_official_landings
 from wcfr.config import PORTS, REGIONS, TIDE_STATIONS
 from wcfr.forecast import predict_location
 from wcfr.lunar import lunar_for_day
 from wcfr.models import ConditionRecord, SourceRef
-from wcfr.report import render_html
+from wcfr.report import render_email_summary, render_html
 
 
 def _observed_condition(region: str, readings: list[dict], checked: str) -> ConditionRecord:
@@ -55,6 +56,7 @@ def build(day: date, output: Path) -> None:
             lat, lon = config["point"]
             jobs[pool.submit(fetch_marine_grid, lat, lon)] = ("nws", region, "")
         jobs[pool.submit(fetch_report_text)] = ("odfw", "Oregon", "")
+        jobs[pool.submit(fetch_official_landings)] = ("landings", "Official landings", "")
 
         for future in as_completed(jobs):
             kind, label, station = jobs[future]
@@ -72,6 +74,11 @@ def build(day: date, output: Path) -> None:
                 elif kind == "nws":
                     marine_forecasts[label] = result
                     detail, source = "marine grid retrieved", f"NWS grid {label}"
+                elif kind == "landings":
+                    landing_records, landing_health = result
+                    catch_records.extend(landing_records)
+                    health.extend(landing_health)
+                    detail, source = f"{len(landing_records)} catch facts", "Official landing pages"
                 else:
                     catch_records.extend(parse_port_catch_rates(result))
                     detail, source = f"{len(catch_records)} structured catch rates", "ODFW Marine Report"
@@ -80,17 +87,28 @@ def build(day: date, output: Path) -> None:
                 source = {
                     "tide": f"NOAA CO-OPS {label}", "lunar": f"PyEphem {label}",
                     "buoy": f"NDBC {station}", "nws": f"NWS grid {label}",
+                    "landings": "Official landing pages",
                     "odfw": "ODFW Marine Report",
                 }[kind]
                 health.append({"source": source, "ok": False, "detail": str(exc)})
 
     predictions = []
+    unique_records = {}
+    for catch in catch_records:
+        key = (
+            catch.get("source_url"), catch.get("vessel"), catch.get("species"),
+            catch.get("count"), catch.get("catch_per_angler"), catch.get("location_text"),
+        )
+        unique_records[key] = catch
+    catch_records = list(unique_records.values())
     by_region = {region: _observed_condition(region, readings, checked) for region, readings in buoys.items()}
     for catch in catch_records:
         region = catch["region"]
+        catch_rate = catch.get("catch_per_angler")
+        signal = min(1.0, catch_rate / 3) if catch_rate is not None else 0.35
         prediction = predict_location(
             catch["species"], region, f"waters accessible from {catch['location_text']}",
-            by_region[region], recent_catch_score=min(1.0, catch["catch_per_angler"] / 3),
+            by_region[region], recent_catch_score=signal,
         )
         predictions.append(asdict(prediction))
 
@@ -107,6 +125,7 @@ def build(day: date, output: Path) -> None:
     output.mkdir(parents=True, exist_ok=True)
     (output / "snapshot.json").write_text(json.dumps(snapshot, indent=2), encoding="utf-8")
     (output / "report.html").write_text(render_html(day, snapshot), encoding="utf-8")
+    (output / "email.html").write_text(render_email_summary(day, snapshot), encoding="utf-8")
 
 
 def main() -> None:
