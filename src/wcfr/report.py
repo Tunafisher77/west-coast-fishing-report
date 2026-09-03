@@ -99,6 +99,7 @@ def render_email_summary(day: date, data: dict) -> str:
     cards = []
     for region, config in REGIONS.items():
         records = by_region.get(region, [])
+        local = [r for r in data.get("field_reports", []) if r["region"] == region]
         oc = data.get("ocean_color", {}).get(region, {})
         sst, chl = oc.get("sst"), oc.get("chlorophyll")
         readings = data.get("buoys", {}).get(region, [])
@@ -131,12 +132,12 @@ def render_email_summary(day: date, data: dict) -> str:
             landing_lines.append(f"<li><strong>{escape(landing)} ({escape(place)}):</strong> {escape(', '.join(totals))}</li>")
         if not landing_lines: landing_lines = ["<li>No current verified catch report retrieved.</li>"]
 
-        species = sorted({r["species"].title() for r in records})
+        species = sorted({r["species"].title() for r in records} | {s.title() for r in local for s in r.get("species", [])})
         if records and oc.get("front_detected"):
             why = f"The reported {', '.join(species[:4])} coincide with a measurable change in temperature or water color. That boundary can gather bait and is the leading regional explanation."
-        elif records and (sst or buoy_temps):
+        elif (records or local) and (sst or buoy_temps):
             why = f"The reported {', '.join(species[:4])} occurred in the water-temperature band shown above, but no strong regional color/temperature edge was verified. Bait or local structure is the more cautious explanation."
-        elif records:
+        elif records or local:
             why = "Catches are verified, but environmental coverage is insufficient to explain them confidently."
         else:
             why = "No current catch evidence is available for a catch-location conclusion."
@@ -157,18 +158,40 @@ def render_email_summary(day: date, data: dict) -> str:
             region_predictions.append(prediction)
             if len(region_predictions) == 3: break
         fish_line = "; ".join(f"{p['species'].title()} - {p['zone']} ({p['probability_score']}/100, {p['confidence']})" for p in region_predictions) or "No evidence-supported species prediction"
+        quantitative_sources = len({r.get("reporter") for r in records if r.get("reporter")})
+        coverage_parts = [f"{quantitative_sources} quantitative source(s)", f"{len(local)} local/private report(s)"]
+        coverage_parts.append("satellite ocean color" if sst or chl else "buoy-only ocean temperature")
+        coverage_level = "strong" if quantitative_sources and local and (sst or chl) else "partial" if quantitative_sources or local else "weak"
+        local_lines = []
+        for item in local:
+            freshness = "current" if item["age_days"] <= 2 else "recent" if item["age_days"] <= 7 else "stale context"
+            places = ", ".join(item.get("places", [])) or "general area not specified"
+            methods = ", ".join(item.get("methods", [])) or "method not stated"
+            confirmed = ", ".join(s.title() for s in item.get("species", [])) or "no catch confirmed"
+            negative = ", ".join(s.title() for s, status in item.get("species_status", {}).items() if "little or no" in status)
+            negative_text = f"; searched with little/no action: {negative}" if negative else ""
+            local_lines.append(f"<li><strong>{escape(item['name'])} ({freshness}, {item['published_date']}):</strong> "
+                               f"catch/activity: {escape(confirmed)}{escape(negative_text)}; "
+                               f"areas: {escape(places)}; methods/bait: {escape(methods)}. "
+                               f"<a href=\"{escape(item['url'])}\">Source</a></li>")
+        if not local_lines: local_lines = ["<li>No permitted current local/private-boat narrative source was retrieved.</li>"]
+
         cards.append(f"""<section style="border:1px solid #ccd6dd;border-radius:7px;margin:18px 0;padding:14px">
 <h2 style="margin:0 0 8px;color:#154360">{escape(config['label'])}</h2>
+<p style="margin:0 0 8px;color:#566573"><strong>Coverage: {coverage_level.title()}</strong> - {escape('; '.join(coverage_parts))}</p>
 <p><strong>Fish outlook:</strong> {escape(fish_line)}</p>
 <p><strong>Ocean now:</strong> {escape(water)}.<br>{escape(color_words(chl))}.<br>{escape(observed)}.</p>
 <p><strong>Why here:</strong> {escape(why)} <em>This is a regional environmental comparison, not an undisclosed catch coordinate.</em></p>
 <p><strong>Recent verified catches:</strong></p><ul>{''.join(landing_lines)}</ul>
+<p><strong>Local and private-boat intelligence:</strong></p><ul>{''.join(local_lines)}</ul>
 <table style="border-collapse:collapse;width:100%;font-size:13px" border="1" cellpadding="5"><tr style="background:#eef3f5"><th>Date</th><th>Morning wind</th><th>Afternoon wind</th><th>Combined seas / period</th><th>Decision</th></tr>{''.join(daily)}</table>
 </section>""")
 
     opportunities = []
-    for region, records in by_region.items():
-        fish = sorted({r["species"].title() for r in records})
+    active_regions = set(by_region) | {r["region"] for r in data.get("field_reports", [])}
+    for region in active_regions:
+        records = by_region.get(region, [])
+        fish = sorted({r["species"].title() for r in records} | {s.title() for r in data.get("field_reports", []) if r["region"] == region for s in r.get("species", [])})
         candidates = [r for r in data.get("daily_weather", {}).get(region, []) if not r["safety_block"]]
         if not candidates: continue
         def burden(row):
@@ -194,7 +217,10 @@ def render_email_summary(day: date, data: dict) -> str:
 </div>
 <h2>Best supported opportunities</h2><ul>{opportunity_html}</ul>
 {''.join(cards)}
-<h2>Private-boat and commercial signal</h2><p>Private-boat creel/ramp samples and commercial landings are shown only when a current public record is retrieved. Commercial fish-ticket data are delayed and are never presented as a same-day bite report.</p>
+<h2>Coverage and delayed datasets</h2>
+<p><strong>Private boats:</strong> Current local reports appear inside each regional card. Official private/rental-boat estimates from <a href="https://www.recfin.org/">RecFIN</a> and state creel programs are sampled and delayed; they will be used as trend context, not daily counts.</p>
+<p><strong>Commercial:</strong> <a href="https://pacfin.psmfc.org/">PacFIN</a> and PFMC fish-ticket/HMS information is delayed. No same-day commercial landing feed was retrieved, so no commercial catch claim is made today.</p>
+<p><strong>Coverage rule:</strong> “No report retrieved” means the connected sources supplied no usable current record. It does not mean no fish were caught.</p>
 <p><strong>Moon:</strong> {escape(moon_text)}</p>
 <p><a href="{full_url}">View detailed source data, all tides, forecasts and diagnostics</a></p>
 <p style="font-size:12px;color:#626567">Reported catches and model inferences are kept separate. Safety conditions override fishing potential. Verify current NWS, Coast Guard, bar and harbor information before departure.</p>
