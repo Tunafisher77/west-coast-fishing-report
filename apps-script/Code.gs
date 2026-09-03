@@ -5,6 +5,24 @@
  *   FISHING_WEBHOOK_TOKEN - long random secret shared with GitHub
  *   FISHING_REPORT_TO     - destination email address
  */
+function initializeFishingReportMailer() {
+  var properties = PropertiesService.getScriptProperties();
+  var email = Session.getEffectiveUser().getEmail();
+  if (!email) {
+    throw new Error('Google did not return your email. Set FISHING_REPORT_TO manually in Script Properties.');
+  }
+
+  var token = Utilities.getUuid().replace(/-/g, '') +
+              Utilities.getUuid().replace(/-/g, '');
+  properties.setProperties({
+    FISHING_WEBHOOK_TOKEN: token,
+    FISHING_REPORT_TO: email
+  });
+
+  console.log('Destination email: ' + email);
+  console.log('GitHub FISHING_WEBHOOK_TOKEN (copy now): ' + token);
+}
+
 function doPost(e) {
   try {
     var properties = PropertiesService.getScriptProperties();
