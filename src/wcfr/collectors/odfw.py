@@ -46,6 +46,7 @@ def parse_port_catch_rates(text: str) -> list[dict]:
                 "species": species,
                 "region": "oregon",
                 "location_text": found.group(1),
+                "city": found.group(1), "state": "OR",
                 "catch_per_angler": float(found.group(2)),
                 "reporter": "Oregon Department of Fish and Wildlife",
                 "source_url": URL,
