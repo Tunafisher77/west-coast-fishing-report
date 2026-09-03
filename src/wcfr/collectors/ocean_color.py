@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import io
+import math
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from urllib.parse import quote
@@ -27,6 +28,8 @@ def _point(product: str, latitude: float, longitude: float) -> dict:
     value_key = next((k for k in keys if k.casefold().startswith(variable)), keys[-1])
     time_key = next((k for k in keys if k.casefold().startswith("time")), keys[0])
     value = float(row[value_key])
+    if not math.isfinite(value):
+        raise RuntimeError(f"{product} sample is missing/cloud-obscured")
     if product == "sst" and value < 45:  # ERDDAP product is normally degrees C.
         value = value * 9 / 5 + 32
     return {"value": value, "observed_at": row[time_key], "product": label, "source_url": url}
