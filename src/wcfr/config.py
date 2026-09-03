@@ -32,6 +32,14 @@ REGIONS = {
     },
 }
 
+REGION_BOXES = {
+    "southern_california": (32.0, 35.0, -121.5, -117.0),
+    "central_california": (35.0, 38.5, -124.5, -120.5),
+    "northern_california": (38.5, 42.0, -126.0, -123.0),
+    "oregon": (42.0, 46.3, -127.0, -123.8),
+    "washington": (46.3, 49.0, -127.0, -123.8),
+}
+
 PORTS = {
     "San Diego": (9410170, 32.7157, -117.1611),
     "Los Angeles/Long Beach": (9410660, 33.7542, -118.2165),
