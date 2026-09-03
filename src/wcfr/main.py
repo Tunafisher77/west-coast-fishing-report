@@ -8,6 +8,7 @@ from datetime import date, datetime, timezone
 from pathlib import Path
 
 from wcfr.collectors.ndbc import fetch_latest
+from wcfr.collectors.local_reports import fetch_all as fetch_local_reports
 from wcfr.collectors.noaa_tides import fetch_high_low
 from wcfr.collectors.nws import fetch_marine_grid
 from wcfr.collectors.odfw import fetch_report_text, parse_port_catch_rates
@@ -46,6 +47,7 @@ def build(day: date, output: Path) -> None:
     ocean_color = {region: {} for region in REGIONS}
     lunar = {}
     catch_records: list[dict] = []
+    field_reports: list[dict] = []
 
     jobs = {}
     with ThreadPoolExecutor(max_workers=16) as pool:
@@ -61,6 +63,7 @@ def build(day: date, output: Path) -> None:
             jobs[pool.submit(fetch_ocean_color, lat, lon)] = ("ocean", region, "")
         jobs[pool.submit(fetch_report_text)] = ("odfw", "Oregon", "")
         jobs[pool.submit(fetch_official_landings)] = ("landings", "Official landings", "")
+        jobs[pool.submit(fetch_local_reports, day)] = ("local", "Local/private reports", "")
 
         for future in as_completed(jobs):
             kind, label, station = jobs[future]
@@ -86,6 +89,11 @@ def build(day: date, output: Path) -> None:
                     catch_records.extend(landing_records)
                     health.extend(landing_health)
                     detail, source = f"{len(landing_records)} catch facts", "Official landing pages"
+                elif kind == "local":
+                    local_records, local_health = result
+                    field_reports.extend(local_records)
+                    health.extend(local_health)
+                    detail, source = f"{len(local_records)} narrative reports", "Local/private reports"
                 else:
                     catch_records.extend(parse_port_catch_rates(result))
                     detail, source = f"{len(catch_records)} structured catch rates", "ODFW Marine Report"
@@ -96,6 +104,7 @@ def build(day: date, output: Path) -> None:
                     "buoy": f"NDBC {station}", "nws": f"NWS grid {label}",
                     "ocean": f"NOAA CoastWatch {label}",
                     "landings": "Official landing pages",
+                    "local": "Local/private reports",
                     "odfw": "ODFW Marine Report",
                 }[kind]
                 health.append({"source": source, "ok": False, "detail": str(exc)})
@@ -124,6 +133,16 @@ def build(day: date, output: Path) -> None:
             front_detected=bool(ocean_color.get(region, {}).get("front_detected")),
         )
         predictions.append(asdict(prediction))
+    for report in field_reports:
+        region = report["region"]
+        zone = ", ".join(report.get("places", [])[:3]) or f"waters near {report['city']}"
+        for species in report.get("species", []):
+            prediction = predict_location(
+                species, region, zone, by_region[region], recent_catch_score=0.25,
+                front_detected=bool(ocean_color.get(region, {}).get("front_detected")),
+                bait_reported="bait" in report.get("conditions", []),
+            )
+            predictions.append(asdict(prediction))
 
     for readings in buoys.values():
         readings.sort(key=lambda item: item["station"])
@@ -135,6 +154,7 @@ def build(day: date, output: Path) -> None:
         "date": day.isoformat(), "checked_at": checked, "catch_records": catch_records,
         "predictions": predictions, "marine_forecasts": marine_forecasts,
         "daily_weather": daily_weather, "ocean_color": ocean_color,
+        "field_reports": field_reports,
         "tides": tides, "lunar": lunar, "buoys": buoys, "source_health": health,
     }
     output.mkdir(parents=True, exist_ok=True)
