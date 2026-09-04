@@ -37,7 +37,8 @@ class TextLines(HTMLParser):
             self.current.append(value)
 
     def handle_endtag(self, tag: str) -> None:
-        if tag in {"p", "li", "tr", "div", "br"} and self.current:
+        if tag.casefold() in {"p", "li", "tr", "div", "br", "h1", "h2", "h3", "h4", "article",
+                              "item", "title", "pubdate", "description", "content:encoded"} and self.current:
             self.lines.append(" ".join(self.current))
             self.current = []
 
