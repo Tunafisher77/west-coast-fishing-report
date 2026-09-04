@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "checked_at": "2026-09-04T16:56:46.314636+00:00",
+  "checked_at": "2026-09-04T17:33:58.387968+00:00",
   "catch_records": [
     {
       "species": "albacore tuna",
@@ -11,7 +11,7 @@
       "catch_per_angler": 0.95,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -23,7 +23,7 @@
       "catch_per_angler": 1.04,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -35,7 +35,7 @@
       "catch_per_angler": 1.5,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -47,7 +47,7 @@
       "catch_per_angler": 2.88,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -59,7 +59,7 @@
       "catch_per_angler": 0.43,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -71,7 +71,7 @@
       "catch_per_angler": 0.08,
       "reporter": "Oregon Department of Fish and Wildlife",
       "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
-      "retrieved_at": "2026-09-04T16:56:47.296256+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.041318+00:00",
       "evidence": "reported"
     },
     {
@@ -86,7 +86,7 @@
       "state": "CA",
       "vessel": "Tomahawk",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Tomahawk returned this morning with 23 Bluefin Tuna (60 to 140 lbs.) for 28 anglers on a 2 day trip."
     },
@@ -102,7 +102,7 @@
       "state": "CA",
       "vessel": "Pacific Queen",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pacific Queen returned this morning with 107 Bluefin Tuna, 44 Dorado, and 28 Yellowfin Tuna for 22 anglers on a 3.5 day charter."
     },
@@ -118,7 +118,7 @@
       "state": "CA",
       "vessel": "Pacific Queen",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pacific Queen returned this morning with 107 Bluefin Tuna, 44 Dorado, and 28 Yellowfin Tuna for 22 anglers on a 3.5 day charter."
     },
@@ -134,7 +134,7 @@
       "state": "CA",
       "vessel": "Pacific Queen",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pacific Queen returned this morning with 107 Bluefin Tuna, 44 Dorado, and 28 Yellowfin Tuna for 22 anglers on a 3.5 day charter."
     },
@@ -150,7 +150,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -166,7 +166,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -182,7 +182,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -198,7 +198,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -214,7 +214,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -230,7 +230,7 @@
       "state": "CA",
       "vessel": "Liberty PM",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty PM caught 4 Yellowtail, 16 Bonito, 5 Sand Bass, 2 Calico Bass, 2 Sculpin, and 14 Rockfish for 22 anglers."
     },
@@ -246,7 +246,7 @@
       "state": "CA",
       "vessel": "Dolphin",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Dolphin returned with 18 Yellowtail, 33 Bonito, 21 Calico bass, 7 Rockfish, and 1 Sheephead for 20 anglers on their full day trip."
     },
@@ -262,7 +262,7 @@
       "state": "CA",
       "vessel": "Dolphin",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Dolphin returned with 18 Yellowtail, 33 Bonito, 21 Calico bass, 7 Rockfish, and 1 Sheephead for 20 anglers on their full day trip."
     },
@@ -278,7 +278,7 @@
       "state": "CA",
       "vessel": "Dolphin",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Dolphin returned with 18 Yellowtail, 33 Bonito, 21 Calico bass, 7 Rockfish, and 1 Sheephead for 20 anglers on their full day trip."
     },
@@ -294,7 +294,7 @@
       "state": "CA",
       "vessel": "Dolphin",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Dolphin returned with 18 Yellowtail, 33 Bonito, 21 Calico bass, 7 Rockfish, and 1 Sheephead for 20 anglers on their full day trip."
     },
@@ -310,7 +310,7 @@
       "state": "CA",
       "vessel": "Dolphin",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Dolphin returned with 18 Yellowtail, 33 Bonito, 21 Calico bass, 7 Rockfish, and 1 Sheephead for 20 anglers on their full day trip."
     },
@@ -326,7 +326,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty AM trip had 23 Bonito, 5 Sand Bass, 1 Yellowtail, and 1 Halibut for 20 anglers."
     },
@@ -342,7 +342,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty AM trip had 23 Bonito, 5 Sand Bass, 1 Yellowtail, and 1 Halibut for 20 anglers."
     },
@@ -358,7 +358,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty AM trip had 23 Bonito, 5 Sand Bass, 1 Yellowtail, and 1 Halibut for 20 anglers."
     },
@@ -374,7 +374,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Liberty AM trip had 23 Bonito, 5 Sand Bass, 1 Yellowtail, and 1 Halibut for 20 anglers."
     },
@@ -390,7 +390,7 @@
       "state": "CA",
       "vessel": "Pegasus",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pegasus returned this morning with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, and 9 Yellowfin Tuna for 9 anglers on a 2 day trip."
     },
@@ -406,7 +406,7 @@
       "state": "CA",
       "vessel": "Pegasus",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pegasus returned this morning with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, and 9 Yellowfin Tuna for 9 anglers on a 2 day trip."
     },
@@ -422,7 +422,7 @@
       "state": "CA",
       "vessel": "Pegasus",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pegasus returned this morning with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, and 9 Yellowfin Tuna for 9 anglers on a 2 day trip."
     },
@@ -438,7 +438,7 @@
       "state": "CA",
       "vessel": "Pegasus",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Pegasus returned this morning with 32 Bluefin Tuna, 30 Yellowtail, 10 Dorado, and 9 Yellowfin Tuna for 9 anglers on a 2 day trip."
     },
@@ -454,7 +454,7 @@
       "state": "CA",
       "vessel": "Islander",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Islander returned this morning with 57 Bluefin Tuna and 3 Dorado for 10 anglers on a 3 day trip."
     },
@@ -470,7 +470,7 @@
       "state": "CA",
       "vessel": "Islander",
       "source_url": "https://www.fishermanslanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:47.587813+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.560132+00:00",
       "evidence": "reported",
       "source_excerpt": "The Islander returned this morning with 57 Bluefin Tuna and 3 Dorado for 10 anglers on a 3 day trip."
     },
@@ -484,11 +484,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Friday Returning Trips The Tribute",
+      "vessel": "Tribute",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "Update for Sep. 4, 2026 9:22 AM Friday Updates Friday Returning Trips The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
+      "source_excerpt": "The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
     },
     {
       "species": "dorado",
@@ -500,11 +500,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Friday Returning Trips The Tribute",
+      "vessel": "Tribute",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "Update for Sep. 4, 2026 9:22 AM Friday Updates Friday Returning Trips The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
+      "source_excerpt": "The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
     },
     {
       "species": "bonito",
@@ -516,11 +516,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Friday Returning Trips The Tribute",
+      "vessel": "Tribute",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "Update for Sep. 4, 2026 9:22 AM Friday Updates Friday Returning Trips The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
+      "source_excerpt": "The Tribute returned from their 1.5 Day trip with 31 yellowfin tuna, 2 dorado, 2 skipjack and 52 bonito."
     },
     {
       "species": "yellowfin tuna",
@@ -534,9 +534,9 @@
       "state": "CA",
       "vessel": "Day trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight"
     },
     {
       "species": "california yellowtail",
@@ -550,9 +550,9 @@
       "state": "CA",
       "vessel": "Day trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight"
     },
     {
       "species": "bonito",
@@ -564,11 +564,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Day trip",
+      "vessel": "New Seaforth 's Twilight trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
     },
     {
       "species": "barracuda",
@@ -580,11 +580,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Day trip",
+      "vessel": "New Seaforth 's Twilight trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
     },
     {
       "species": "calico bass",
@@ -596,11 +596,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Day trip",
+      "vessel": "New Seaforth 's Twilight trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
     },
     {
       "species": "sand bass",
@@ -612,11 +612,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Day trip",
+      "vessel": "New Seaforth 's Twilight trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
     },
     {
       "species": "rockfish",
@@ -628,11 +628,11 @@
       "reporter": "Seaforth Landing",
       "city": "San Diego",
       "state": "CA",
-      "vessel": "Day trip",
+      "vessel": "New Seaforth 's Twilight trip",
       "source_url": "https://www.seaforthlanding.com/fishcounts.php",
-      "retrieved_at": "2026-09-04T16:56:48.341530+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.204024+00:00",
       "evidence": "reported",
-      "source_excerpt": "The Highliner 's 1.5 Day trip finished with 15 yellowfin tuna and 11 yellowtail. Thursday Twilight The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
+      "source_excerpt": "The New Seaforth 's Twilight trip finished with 170 Bonito, 1 barracuda, 14 calico bass, 8 sand bass and 1 rockfish."
     },
     {
       "species": "calico bass",
@@ -646,7 +646,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.redondosportfishing.com/fish-counts.php",
-      "retrieved_at": "2026-09-04T16:56:49.681767+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.764114+00:00",
       "evidence": "reported",
       "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
     },
@@ -662,7 +662,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.redondosportfishing.com/fish-counts.php",
-      "retrieved_at": "2026-09-04T16:56:49.681767+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.764114+00:00",
       "evidence": "reported",
       "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
     },
@@ -678,7 +678,7 @@
       "state": "CA",
       "vessel": null,
       "source_url": "https://www.redondosportfishing.com/fish-counts.php",
-      "retrieved_at": "2026-09-04T16:56:49.681767+00:00",
+      "retrieved_at": "2026-09-04T17:34:00.764114+00:00",
       "evidence": "reported",
       "source_excerpt": "Redondo Special PM 1/2 Day Trip 24 48 Calico Bass, 41 Bonito, 2 Yellowtail"
     }
@@ -987,6 +987,74 @@
       "invalidators": [
         "the expected front dissipates or shifts",
         "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "salmon (unspecified)",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, the Hat",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "recent source-attributed bait activity is present"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "tuna (unspecified)",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, the Hat",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "recent source-attributed bait activity is present"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "lingcod",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, the Hat",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "recent source-attributed bait activity is present"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, the Hat",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "recent source-attributed bait activity is present"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts"
       ],
       "safe_to_recommend": true
     },
@@ -1334,6 +1402,23 @@
       "species": "bonito",
       "region": "central_california",
       "zone": "4 Mile, Davenport, Capitola",
+      "probability_score": 28,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "tuna (unspecified)",
+      "region": "washington",
+      "zone": "125 line",
       "probability_score": 28,
       "confidence": "low",
       "likely_feature": "structure or forage concentration",
@@ -2862,19 +2947,11 @@
       "source_url": "https://api.weather.gov/gridpoints/MTR/88,55"
     },
     "northern_california": {
-      "updated": "2026-09-04T09:10:24+00:00",
-      "valid_times": "2026-09-04T03:00:00+00:00/P8DT6H",
+      "updated": "2026-09-04T17:05:31+00:00",
+      "valid_times": "2026-09-04T11:00:00+00:00/P8DT6H",
       "wind_speed": [
         {
-          "validTime": "2026-09-04T03:00:00+00:00/PT3H",
-          "value": 11.112
-        },
-        {
-          "validTime": "2026-09-04T06:00:00+00:00/PT3H",
-          "value": 12.964
-        },
-        {
-          "validTime": "2026-09-04T09:00:00+00:00/PT3H",
+          "validTime": "2026-09-04T11:00:00+00:00/PT1H",
           "value": 16.668
         },
         {
@@ -3064,15 +3141,7 @@
       ],
       "wind_gust": [
         {
-          "validTime": "2026-09-04T03:00:00+00:00/PT3H",
-          "value": 14.816
-        },
-        {
-          "validTime": "2026-09-04T06:00:00+00:00/PT3H",
-          "value": 16.668
-        },
-        {
-          "validTime": "2026-09-04T09:00:00+00:00/PT3H",
+          "validTime": "2026-09-04T11:00:00+00:00/PT1H",
           "value": 22.224
         },
         {
@@ -3250,11 +3319,7 @@
       ],
       "wave_height": [
         {
-          "validTime": "2026-09-04T03:00:00+00:00/PT3H",
-          "value": 2.7432
-        },
-        {
-          "validTime": "2026-09-04T06:00:00+00:00/PT12H",
+          "validTime": "2026-09-04T11:00:00+00:00/PT7H",
           "value": 2.4384
         },
         {
@@ -3294,22 +3359,7 @@
       "wave_direction": [],
       "weather": [
         {
-          "validTime": "2026-09-04T03:00:00+00:00/PT6H",
-          "value": [
-            {
-              "coverage": null,
-              "weather": null,
-              "intensity": null,
-              "visibility": {
-                "unitCode": "wmoUnit:km",
-                "value": null
-              },
-              "attributes": []
-            }
-          ]
-        },
-        {
-          "validTime": "2026-09-04T09:00:00+00:00/PT3H",
+          "validTime": "2026-09-04T11:00:00+00:00/PT1H",
           "value": [
             {
               "coverage": "isolated",
@@ -3446,7 +3496,7 @@
       ],
       "hazards": [
         {
-          "validTime": "2026-09-04T03:00:00+00:00/PT13H",
+          "validTime": "2026-09-04T11:00:00+00:00/PT5H",
           "value": [
             {
               "phenomenon": "SC",
@@ -5404,6 +5454,53 @@
     "oregon": {},
     "washington": {}
   },
+  "weekly_weather": {
+    "southern_california": {
+      "text": "The marine pattern is deteriorating through the seven-day period. Typical sustained wind runs 4-14 kt; morning is favored on 7 of 7 days. Combined seas range 4.0-7.0 ft with 4-11 sec periods. Best current windows: 09-04 AM, 09-05 AM, 09-09 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-04 AM",
+        "09-05 AM",
+        "09-09 AM"
+      ],
+      "blocked_dates": []
+    },
+    "central_california": {
+      "text": "The marine pattern is improving through the seven-day period. Typical sustained wind runs 5-16 kt; morning is favored on 7 of 7 days. Combined seas range 4.0-5.0 ft with 7-10 sec periods. Best current windows: 09-09 AM, 09-08 AM, 09-07 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-09 AM",
+        "09-08 AM",
+        "09-07 AM"
+      ],
+      "blocked_dates": []
+    },
+    "northern_california": {
+      "text": "The marine pattern is improving through the seven-day period. Typical sustained wind runs 4-12 kt; morning is favored on 6 of 7 days. Combined seas range 3.0-8.0 ft; forecast periods are incomplete. Best current windows: 09-09 AM, 09-10 AM, 09-06 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-09 AM",
+        "09-10 AM",
+        "09-06 AM"
+      ],
+      "blocked_dates": []
+    },
+    "oregon": {
+      "text": "The marine pattern is improving through the seven-day period. Typical sustained wind runs 3-15 kt; morning is favored on 6 of 7 days. Combined seas range 4.0-7.0 ft with 8-11 sec periods. Best current windows: 09-05 AM, 09-07 AM, 09-06 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-05 AM",
+        "09-07 AM",
+        "09-06 AM"
+      ],
+      "blocked_dates": []
+    },
+    "washington": {
+      "text": "The marine pattern is deteriorating through the seven-day period. Typical sustained wind runs 6-14 kt; morning is favored on 7 of 7 days. Combined seas range 4.0-5.0 ft; forecast periods are incomplete. Best current windows: 09-04 AM, 09-07 AM, 09-05 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-04 AM",
+        "09-07 AM",
+        "09-05 AM"
+      ],
+      "blocked_dates": []
+    }
+  },
   "field_reports": [
     {
       "name": "Bayside Marine Monterey Bay Report",
@@ -5440,8 +5537,123 @@
         "calm"
       ],
       "methods": [],
+      "boats": [],
       "summary": "The fishing remained the same here in Santa Cruz . There were rock fish, lingcod, and halibut caught up the coast near 4 Mile and Davenport. The deep water anglers caught a mix of rock fish and bonito. The anglers near Capitola caught a mix of halibut and rock fish. There are still a few sea bass being caught near Capitola and Aptos. The water conditions have been calm with light winds and small swells.",
-      "retrieved_at": "2026-09-04T16:56:47.490230+00:00",
+      "retrieved_at": "2026-09-04T17:33:59.575730+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "Fishing the North Coast",
+      "city": "Eureka",
+      "state": "CA",
+      "region": "northern_california",
+      "url": "https://fishingthenorthcoast.com/2026/09/03/cool-water-rain-spark-klamath-salmon-push/",
+      "mode": "multi-port local/private-boat intelligence",
+      "published_date": "2026-09-03",
+      "age_days": 1,
+      "species": [
+        "salmon (unspecified)",
+        "tuna (unspecified)",
+        "lingcod",
+        "rockfish"
+      ],
+      "species_status": {
+        "salmon (unspecified)": "catch/activity reported",
+        "chinook salmon": "mentioned; catch not confirmed",
+        "tuna (unspecified)": "catch/activity reported",
+        "halibut": "searched; little or no action",
+        "lingcod": "catch/activity reported",
+        "rockfish": "catch/activity reported",
+        "albacore tuna": "regulation/target mention",
+        "coho salmon": "regulation/target mention"
+      },
+      "places": [
+        "Trinidad",
+        "Shelter Cove",
+        "the Hat",
+        "Crescent City",
+        "Brookings"
+      ],
+      "conditions": [
+        "wind",
+        "calm",
+        "flat",
+        "storm",
+        "warm water",
+        "bait"
+      ],
+      "methods": [],
+      "boats": [],
+      "summary": "fishingthenorthcoast September 3, 2026 Cool Water, Rain Spark Klamath Salmon Push Eureka resident Michael Marcelli with a nice king salmon taken earlier this week on the lower Klamath. Water conditions, as well as fishing, should be good through the holiday weekend. Photo courtesy of Alan\u2019s Guide Service Following some excellent salmon fishing in the Klamath estuary over the past few weeks, adult fall-run king salmon are now beginning to make their way upriver. There are a couple of reasons for the push. First, cool water releases from behind Lewiston Dam began last Friday to help reduce the risk of disease in the salmon. The other factor is the weather. Cooler outside temperatures, along with a fair amount of rain, can do wonders for river temperatures. Combined, these conditions should produce a steady stream of kings moving upriver and staging in the various holes throughout the lower river. But don\u2019t give up on the estuary just yet\u2014the fishing was reportedly pretty wide-open on Monday. I think it\u2019s safe to say we\u2019re smackdab in the middle of what could be a pretty good run of kings. According to Dan Troxel, an environmental scientist with the Klamath River Project, 432 adult sa",
+      "retrieved_at": "2026-09-04T17:34:00.069709+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "Shake N' Bake Ilwaco Report",
+      "city": "Ilwaco",
+      "state": "WA",
+      "region": "washington",
+      "url": "https://www.shakenbakesportfishing.com/fishing-reports",
+      "mode": "fleet/private/commercial tuna intelligence",
+      "known_boats": [
+        "Shake N' Bake",
+        "SNB",
+        "Legendz",
+        "Salty Dog",
+        "Gold Rush",
+        "Hot Pursuit",
+        "Fury"
+      ],
+      "published_date": "2026-08-23",
+      "age_days": 12,
+      "species": [
+        "tuna (unspecified)"
+      ],
+      "species_status": {
+        "tuna (unspecified)": "catch/activity reported"
+      },
+      "places": [
+        "125 line"
+      ],
+      "conditions": [
+        "wind"
+      ],
+      "methods": [
+        "anchovies"
+      ],
+      "boats": [
+        "SNB"
+      ],
+      "summary": "SNB did not run as the crew was fishing the ITC tournament on other boats. Pretty much everyone did well today, 30-40 fish, and big ones. It looks like the anchovies finally got big enough and the tuna are back on top. The fish are finally inside the 125 line. Time to make up for some spotty early fishing. \u200bMike C Skunked. Ouch. Thank god the wind is going to turn over the water.",
+      "retrieved_at": "2026-09-04T17:34:00.772854+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "ODFW Ocean Salmon Updates",
+      "city": "Oregon Coast",
+      "state": "OR",
+      "region": "oregon",
+      "url": "https://www.dfw.state.or.us/mrp/salmon/updatesnew.asp",
+      "mode": "official commercial troll catch and management updates",
+      "published_date": "2026-08-26",
+      "age_days": 9,
+      "species": [],
+      "species_status": {
+        "salmon (unspecified)": "mentioned; catch not confirmed",
+        "coho salmon": "mentioned; catch not confirmed",
+        "chinook salmon": "mentioned; catch not confirmed"
+      },
+      "places": [
+        "Columbia River"
+      ],
+      "conditions": [],
+      "methods": [],
+      "boats": [],
+      "summary": "The National Marine Fisheries Service (NMFS) in consultation with the Pacific Fishery Management Council (PFMC), the States of Oregon and Washington, and fishery representatives met today via conference call and have taken the following in-season management action related to the recreational ocean salmon fishery in the area from Leadbetter Point, Washington to Cape Falcon, Oregon: ACTIONS TAKEN: \u2022 Effective 12:01 AM Friday, September 4, 2026, the ocean recreational fishery in the area between Cape Falcon and Leadbetter Point (Columbia River Subarea) is open to fishing for salmon. Two salmon per day. All coho must be marked with a healed adipose fin clip. Chinook may not be retained. Possession of Chinook onboard a vessel is prohibited. Columbia River Control Zone is closed. That portion of the Columbia River ocean subarea north of 46 degrees 15\u2019 N and east of 124 degrees 08.667\u2019 W is closed to fishing for salmon (see map below). \u2022 Effective 11:59 PM Tuesday, September 8, 2026, the ocean recreational fishery in the area between Cape Falcon and Leadbetter Point (Columbia River Subarea) is closed to fishing for salmon. Possession of salmon on board a vessel is prohibited in the Columb",
+      "retrieved_at": "2026-09-04T17:34:02.529005+00:00",
       "evidence": "local reported observation",
       "quantitative": false
     }
@@ -5658,60 +5870,6 @@
     ]
   },
   "lunar": {
-    "Brookings": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.1,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:04:59.667836+00:00",
-      "moonset_utc": "2026-09-04T22:32:03.611140+00:00",
-      "overhead_utc": "2026-09-04T14:17:21.823083+00:00",
-      "underfoot_utc": "2026-09-05T02:48:46.004752+00:00"
-    },
-    "Eureka": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.1,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:10:28.633122+00:00",
-      "moonset_utc": "2026-09-04T22:26:02.229951+00:00",
-      "overhead_utc": "2026-09-04T14:17:05.071744+00:00",
-      "underfoot_utc": "2026-09-05T02:48:29.244765+00:00"
-    },
-    "Los Angeles/Long Beach": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.3,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:12:30.109227+00:00",
-      "moonset_utc": "2026-09-04T21:33:57.116881+00:00",
-      "overhead_utc": "2026-09-04T13:52:02.602983+00:00",
-      "underfoot_utc": "2026-09-05T02:23:25.989191+00:00"
-    },
-    "Fort Bragg": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.1,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:14:22.715779+00:00",
-      "moonset_utc": "2026-09-04T22:18:42.679806+00:00",
-      "overhead_utc": "2026-09-04T14:15:21.984753+00:00",
-      "underfoot_utc": "2026-09-05T02:46:46.104501+00:00"
-    },
-    "Monterey": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.2,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:17:37.782038+00:00",
-      "moonset_utc": "2026-09-04T21:59:31.731282+00:00",
-      "overhead_utc": "2026-09-04T14:07:23.585267+00:00",
-      "underfoot_utc": "2026-09-05T02:38:47.456420+00:00"
-    },
-    "Santa Barbara": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.2,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:16:22.301099+00:00",
-      "moonset_utc": "2026-09-04T21:42:27.450161+00:00",
-      "overhead_utc": "2026-09-04T13:58:13.603267+00:00",
-      "underfoot_utc": "2026-09-05T02:29:37.185834+00:00"
-    },
     "Westport": {
       "phase": "waning crescent",
       "illumination_percent": 41.1,
@@ -5730,23 +5888,14 @@
       "overhead_utc": "2026-09-04T14:18:47.207410+00:00",
       "underfoot_utc": "2026-09-05T02:50:11.433108+00:00"
     },
-    "San Diego": {
-      "phase": "waning crescent",
-      "illumination_percent": 41.3,
-      "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T07:11:37.157038+00:00",
-      "moonset_utc": "2026-09-04T21:26:01.704758+00:00",
-      "overhead_utc": "2026-09-04T13:47:38.344602+00:00",
-      "underfoot_utc": "2026-09-05T02:19:01.590120+00:00"
-    },
-    "Astoria/Columbia River": {
+    "Fort Bragg": {
       "phase": "waning crescent",
       "illumination_percent": 41.1,
       "age_days": 22.8,
-      "moonrise_utc": "2026-09-05T06:41:49.542008+00:00",
-      "moonset_utc": "2026-09-04T22:50:51.142406+00:00",
-      "overhead_utc": "2026-09-04T14:15:12.720204+00:00",
-      "underfoot_utc": "2026-09-05T02:46:36.835157+00:00"
+      "moonrise_utc": "2026-09-05T07:14:22.715779+00:00",
+      "moonset_utc": "2026-09-04T22:18:42.679806+00:00",
+      "overhead_utc": "2026-09-04T14:15:21.984753+00:00",
+      "underfoot_utc": "2026-09-05T02:46:46.104501+00:00"
     },
     "San Francisco": {
       "phase": "waning crescent",
@@ -5757,6 +5906,24 @@
       "overhead_utc": "2026-09-04T14:09:46.608942+00:00",
       "underfoot_utc": "2026-09-05T02:41:10.554655+00:00"
     },
+    "Astoria/Columbia River": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.1,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T06:41:49.542008+00:00",
+      "moonset_utc": "2026-09-04T22:50:51.142406+00:00",
+      "overhead_utc": "2026-09-04T14:15:12.720204+00:00",
+      "underfoot_utc": "2026-09-05T02:46:36.835157+00:00"
+    },
+    "Santa Barbara": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.2,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:16:22.301099+00:00",
+      "moonset_utc": "2026-09-04T21:42:27.450161+00:00",
+      "overhead_utc": "2026-09-04T13:58:13.603267+00:00",
+      "underfoot_utc": "2026-09-05T02:29:37.185834+00:00"
+    },
     "Newport": {
       "phase": "waning crescent",
       "illumination_percent": 41.1,
@@ -5765,30 +5932,75 @@
       "moonset_utc": "2026-09-04T22:43:38.498092+00:00",
       "overhead_utc": "2026-09-04T14:16:24.132390+00:00",
       "underfoot_utc": "2026-09-05T02:47:48.284267+00:00"
+    },
+    "Monterey": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.2,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:17:37.782038+00:00",
+      "moonset_utc": "2026-09-04T21:59:31.731282+00:00",
+      "overhead_utc": "2026-09-04T14:07:23.585267+00:00",
+      "underfoot_utc": "2026-09-05T02:38:47.456420+00:00"
+    },
+    "Los Angeles/Long Beach": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.3,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:12:30.109227+00:00",
+      "moonset_utc": "2026-09-04T21:33:57.116881+00:00",
+      "overhead_utc": "2026-09-04T13:52:02.602983+00:00",
+      "underfoot_utc": "2026-09-05T02:23:25.989191+00:00"
+    },
+    "Brookings": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.1,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:04:59.667836+00:00",
+      "moonset_utc": "2026-09-04T22:32:03.611140+00:00",
+      "overhead_utc": "2026-09-04T14:17:21.823083+00:00",
+      "underfoot_utc": "2026-09-05T02:48:46.004752+00:00"
+    },
+    "Eureka": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.1,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:10:28.633122+00:00",
+      "moonset_utc": "2026-09-04T22:26:02.229951+00:00",
+      "overhead_utc": "2026-09-04T14:17:05.071744+00:00",
+      "underfoot_utc": "2026-09-05T02:48:29.244765+00:00"
+    },
+    "San Diego": {
+      "phase": "waning crescent",
+      "illumination_percent": 41.3,
+      "age_days": 22.8,
+      "moonrise_utc": "2026-09-05T07:11:37.157038+00:00",
+      "moonset_utc": "2026-09-04T21:26:01.704758+00:00",
+      "overhead_utc": "2026-09-04T13:47:38.344602+00:00",
+      "underfoot_utc": "2026-09-05T02:19:01.590120+00:00"
     }
   },
   "buoys": {
     "southern_california": [
       {
         "station": "46086",
-        "timestamp_utc": "2026-09-04-16-30",
-        "wind_direction_deg": 300.0,
-        "wind_speed_m_s": 2.0,
-        "gust_m_s": 4.0,
+        "timestamp_utc": "2026-09-04-17-10",
+        "wind_direction_deg": 200.0,
+        "wind_speed_m_s": 1.0,
+        "gust_m_s": 3.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
-        "water_temp_c": 21.1
+        "water_temp_c": 21.2
       },
       {
         "station": "46225",
-        "timestamp_utc": "2026-09-04-16-26",
+        "timestamp_utc": "2026-09-04-16-56",
         "wind_direction_deg": null,
         "wind_speed_m_s": null,
         "gust_m_s": null,
         "wave_height_m": 1.0,
-        "dominant_period_s": 18.0,
-        "mean_wave_direction_deg": 218.0,
+        "dominant_period_s": 17.0,
+        "mean_wave_direction_deg": 219.0,
         "water_temp_c": 22.4
       },
       {
@@ -5806,8 +6018,8 @@
     "central_california": [
       {
         "station": "46042",
-        "timestamp_utc": "2026-09-04-16-30",
-        "wind_direction_deg": 340.0,
+        "timestamp_utc": "2026-09-04-17-00",
+        "wind_direction_deg": 350.0,
         "wind_speed_m_s": 5.0,
         "gust_m_s": 6.0,
         "wave_height_m": null,
@@ -5819,32 +6031,32 @@
     "northern_california": [
       {
         "station": "46014",
-        "timestamp_utc": "2026-09-04-16-30",
+        "timestamp_utc": "2026-09-04-17-00",
         "wind_direction_deg": 100.0,
-        "wind_speed_m_s": 4.0,
+        "wind_speed_m_s": 3.0,
         "gust_m_s": 5.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
-        "water_temp_c": 15.1
+        "water_temp_c": 15.4
       },
       {
         "station": "46022",
-        "timestamp_utc": "2026-09-04-16-30",
+        "timestamp_utc": "2026-09-04-17-10",
         "wind_direction_deg": 150.0,
         "wind_speed_m_s": 5.0,
-        "gust_m_s": 6.0,
+        "gust_m_s": 7.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
-        "water_temp_c": 14.0
+        "water_temp_c": 13.9
       }
     ],
     "oregon": [
       {
         "station": "46015",
-        "timestamp_utc": "2026-09-04-16-30",
-        "wind_direction_deg": 190.0,
+        "timestamp_utc": "2026-09-04-17-00",
+        "wind_direction_deg": 160.0,
         "wind_speed_m_s": 5.0,
         "gust_m_s": 7.0,
         "wave_height_m": null,
@@ -5854,7 +6066,7 @@
       },
       {
         "station": "46050",
-        "timestamp_utc": "2026-09-04-16-30",
+        "timestamp_utc": "2026-09-04-17-00",
         "wind_direction_deg": 80.0,
         "wind_speed_m_s": 7.0,
         "gust_m_s": 9.0,
@@ -5867,7 +6079,7 @@
     "washington": [
       {
         "station": "46029",
-        "timestamp_utc": "2026-09-04-16-30",
+        "timestamp_utc": "2026-09-04-17-00",
         "wind_direction_deg": 80.0,
         "wind_speed_m_s": 6.0,
         "gust_m_s": 7.0,
@@ -5878,10 +6090,10 @@
       },
       {
         "station": "46041",
-        "timestamp_utc": "2026-09-04-16-30",
-        "wind_direction_deg": 70.0,
+        "timestamp_utc": "2026-09-04-17-00",
+        "wind_direction_deg": 60.0,
         "wind_speed_m_s": 3.0,
-        "gust_m_s": 3.0,
+        "gust_m_s": 4.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
@@ -5889,14 +6101,14 @@
       },
       {
         "station": "46087",
-        "timestamp_utc": "2026-09-04-16-30",
-        "wind_direction_deg": 90.0,
+        "timestamp_utc": "2026-09-04-17-00",
+        "wind_direction_deg": 80.0,
         "wind_speed_m_s": 3.0,
-        "gust_m_s": 5.0,
+        "gust_m_s": 4.0,
         "wave_height_m": null,
         "dominant_period_s": null,
         "mean_wave_direction_deg": null,
-        "water_temp_c": 13.0
+        "water_temp_c": 13.1
       }
     ]
   },
@@ -5907,14 +6119,29 @@
       "detail": "latest local report 2026-09-03 (1 days old)"
     },
     {
+      "source": "CDFW Ocean Salmon Tracker",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
+    },
+    {
+      "source": "Dockside Depoe Bay Daily Report",
+      "ok": false,
+      "detail": "Dockside report date not found"
+    },
+    {
       "source": "Fisherman's Landing",
       "ok": true,
       "detail": "25 catch facts"
     },
     {
+      "source": "Fishing the North Coast",
+      "ok": true,
+      "detail": "latest multi-port report 2026-09-03 (1 days old)"
+    },
+    {
       "source": "Local/private reports",
       "ok": true,
-      "detail": "1 narrative reports"
+      "detail": "4 narrative reports"
     },
     {
       "source": "NDBC 46014",
@@ -6039,27 +6266,27 @@
     {
       "source": "NOAA CoastWatch central_california",
       "ok": false,
-      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(37.050000000000004)][(-122.05)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.05)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-121.6)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.35)][(-122.05)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.5)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-122.05)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(37.050000000000004)][(-122.05)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-121.6)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-122.5)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.35)][(-122.05)]"
+      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.5)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.35)][(-122.05)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-121.6)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(37.050000000000004)][(-122.05)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.05)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(37.050000000000004)][(-122.05)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-121.6)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.35)][(-122.05)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-122.5)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(36.7)][(-122.05)]"
     },
     {
       "source": "NOAA CoastWatch northern_california",
       "ok": false,
-      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.9)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(41.15)][(-124.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.449999999999996)][(-124.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.0)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.9)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.0)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(41.15)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.449999999999996)][(-124.45)]"
+      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.0)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.9)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(41.15)][(-124.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.449999999999996)][(-124.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(41.15)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.449999999999996)][(-124.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.9)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(40.8)][(-124.0)]"
     },
     {
       "source": "NOAA CoastWatch oregon",
       "ok": false,
-      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-123.8)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.25)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.95)][(-124.25)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.25)][(-124.25)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.7)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.95)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-123.8)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.25)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-124.7)]"
+      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.7)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-123.8)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.25)][(-124.25)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.95)][(-124.25)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-124.7)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.95)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.25)][(-124.25)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(44.6)][(-123.8)]"
     },
     {
       "source": "NOAA CoastWatch southern_california",
       "ok": false,
-      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.0)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(33.0)][(-117.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.3)][(-117.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.9)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.9)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.3)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(33.0)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.0)]"
+      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.9)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.3)][(-117.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.45)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(32.65)][(-117.0)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(33.0)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.9)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.3)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(33.0)][(-117.45)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(32.65)][(-117.0)]"
     },
     {
       "source": "NOAA CoastWatch washington",
       "ok": false,
-      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.8)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.35)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-123.89999999999999)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(47.25)][(-124.35)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.55)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(47.25)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.55)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-123.89999999999999)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-124.8)]"
+      "detail": "sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(47.25)][(-124.35)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.8)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.55)][(-124.35)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-123.89999999999999)]; sst sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-123.89999999999999)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.55)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(47.25)][(-124.35)]; chlorophyll sample: request failed after 1 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdMH1chla8day_R2022NRT.csvp?chlorophyll[(last)][(46.9)][(-124.8)]"
     },
     {
       "source": "NWS grid central_california",
@@ -6092,9 +6319,19 @@
       "detail": "6 structured catch rates"
     },
     {
+      "source": "ODFW Ocean Salmon Updates",
+      "ok": true,
+      "detail": "latest local report 2026-08-26 (9 days old)"
+    },
+    {
       "source": "Official landing pages",
       "ok": true,
       "detail": "38 catch facts"
+    },
+    {
+      "source": "Oregon Albacore Dock Network",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
     },
     {
       "source": "PyEphem Astoria/Columbia River",
@@ -6167,9 +6404,24 @@
       "detail": "10 catch facts"
     },
     {
+      "source": "Shake N' Bake Ilwaco Report",
+      "ok": true,
+      "detail": "latest local report 2026-08-23 (12 days old)"
+    },
+    {
       "source": "Virg's Landing",
       "ok": true,
       "detail": "0 catch facts"
+    },
+    {
+      "source": "WDFW Marine Creel Reports",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
+    },
+    {
+      "source": "WDFW Ocean Salmon Quota Report",
+      "ok": false,
+      "detail": "WDFW current area summaries not found"
     }
   ]
 }
