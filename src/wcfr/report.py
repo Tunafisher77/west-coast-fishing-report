@@ -225,3 +225,138 @@ def render_email_summary(day: date, data: dict) -> str:
 <p><a href="{full_url}">View detailed source data, all tides, forecasts and diagnostics</a></p>
 <p style="font-size:12px;color:#626567">Reported catches and model inferences are kept separate. Safety conditions override fishing potential. Verify current NWS, Coast Guard, bar and harbor information before departure.</p>
 </body></html>"""
+
+
+def _catch_detail_rows(records: list[dict], field_reports: list[dict] | None = None) -> str:
+    """Preserve boat and trip detail instead of collapsing everything by landing."""
+    groups: dict[tuple, list[dict]] = {}
+    for record in records:
+        key = (record.get("reporter"), record.get("vessel"), record.get("source_excerpt"))
+        groups.setdefault(key, []).append(record)
+    rows = []
+    for (reporter, vessel, excerpt), grouped in groups.items():
+        first = grouped[0]
+        catches = []
+        for item in grouped:
+            amount = f"{item['count']:g}" if item.get("count") is not None else (
+                f"{item['catch_per_angler']:g}/angler" if item.get("catch_per_angler") is not None else "reported"
+            )
+            catches.append(f"{amount} {item['species'].title()}")
+        boat = vessel or "Boat not identified"
+        port = first.get("location_text") or reporter or "Port not identified"
+        basis = "Port only - offshore catch position not reported"
+        matching_reports = []
+        record_species = {item["species"] for item in grouped}
+        for report in field_reports or []:
+            if record_species.intersection(report.get("species", [])) and report.get("places"):
+                matching_reports.append(report)
+        if matching_reports:
+            places = []
+            for report in matching_reports:
+                places.extend(place for place in report["places"] if place not in places)
+            newest = max(matching_reports, key=lambda item: item.get("published_date", ""))
+            confidence = "medium" if newest.get("age_days", 99) <= 2 else "low"
+            basis = f"Triangulated estimate: {', '.join(places[:5])} ({confidence} confidence; matching {newest['name']} report)"
+        context = escape(excerpt[:360]) if excerpt else "Official port-level catch estimate; charter and private modes may be combined."
+        url = first.get("source_url", "")
+        rows.append(f"""<tr>
+<td><strong>{escape(boat)}</strong><br><small>{escape(str(reporter or 'Unknown reporter'))}</small></td>
+<td><strong>{escape(port)}</strong><br><small>{basis}</small></td>
+<td>{escape(', '.join(catches))}</td>
+<td>{context}<br><a href="{escape(url)}">Source</a></td>
+</tr>""")
+    return "".join(rows) or '<tr><td colspan="4">No current quantitative catch report retrieved.</td></tr>'
+
+
+def _field_report_cards(reports: list[dict]) -> str:
+    blocks = []
+    for item in sorted(reports, key=lambda x: x.get("published_date", ""), reverse=True):
+        places = item.get("places", [])
+        location = ", ".join(places) or f"general waters near {item.get('city', 'the reporting port')}"
+        basis = "Reported catch area" if places else "Regional report; exact position not supplied"
+        fish = ", ".join(s.title() for s in item.get("species", [])) or "No positive catch confirmed"
+        methods = ", ".join(item.get("methods", [])) or "not stated"
+        conditions = ", ".join(item.get("conditions", [])) or "not stated"
+        boats = ", ".join(item.get("boats", [])) or "not identified"
+        age = item.get("age_days", "?")
+        confidence = "high" if places and age != "?" and age <= 2 else "medium" if age != "?" and age <= 7 else "low"
+        blocks.append(f"""<div style="border-left:4px solid #2874a6;background:#f7fafc;padding:9px 11px;margin:8px 0">
+<strong>{escape(item['name'])}</strong> <span style="color:#566573">- {escape(item.get('published_date','date unavailable'))}</span><br>
+<strong>Where:</strong> {escape(location)} <small>({basis}; {confidence} confidence)</small><br>
+<strong>Catch/activity:</strong> {escape(fish)}<br>
+<strong>Boats named:</strong> {escape(boats)}<br>
+<strong>Conditions:</strong> {escape(conditions)} &nbsp; <strong>Method/bait:</strong> {escape(methods)}<br>
+<span style="color:#4d5656">{escape(item.get('summary','')[:650])}</span> <a href="{escape(item['url'])}">Source</a>
+</div>""")
+    return "".join(blocks) or '<p style="color:#707b7c">No current permitted local/private-boat narrative was retrieved.</p>'
+
+
+def render_email_summary_v2(day: date, data: dict) -> str:
+    catches = data.get("catch_records", [])
+    field_reports = data.get("field_reports", [])
+    by_region: dict[str, list[dict]] = {}
+    for catch in catches:
+        by_region.setdefault(catch["region"], []).append(catch)
+    fields_by_region: dict[str, list[dict]] = {}
+    for report in field_reports:
+        fields_by_region.setdefault(report["region"], []).append(report)
+
+    regional_cards = []
+    for region, config in REGIONS.items():
+        records = by_region.get(region, [])
+        reports = fields_by_region.get(region, [])
+        readings = data.get("buoys", {}).get(region, [])
+        temps = [b["water_temp_c"] * 9 / 5 + 32 for b in readings if b.get("water_temp_c") is not None]
+        waves = [b["wave_height_m"] * 3.28084 for b in readings if b.get("wave_height_m") is not None]
+        periods = [b["dominant_period_s"] for b in readings if b.get("dominant_period_s") is not None]
+        oc = data.get("ocean_color", {}).get(region, {})
+        sst, chl = oc.get("sst"), oc.get("chlorophyll")
+        water_bits = []
+        if sst: water_bits.append(f"Satellite SST {sst['value']:.1f} F ({sst['minimum']:.1f}-{sst['maximum']:.1f} F sampled)")
+        elif temps: water_bits.append(f"Buoy water {min(temps):.1f}-{max(temps):.1f} F; satellite SST unavailable")
+        else: water_bits.append("Water temperature unavailable")
+        if chl: water_bits.append(f"chlorophyll {chl['value']:.2f} mg/m3")
+        else: water_bits.append("satellite color unavailable")
+        if waves:
+            sea = f"observed seas {sum(waves)/len(waves):.1f} ft"
+            sea += f" at {sum(periods)/len(periods):.0f} sec" if periods else "; period unavailable"
+            water_bits.append(sea)
+        species = sorted({r["species"].title() for r in records} | {s.title() for x in reports for s in x.get("species", [])})
+        weather = data.get("weekly_weather", {}).get(region, {}).get("text", "Seven-day synopsis unavailable.")
+        if records or reports:
+            where_summary = "Named areas below are source-reported. Port-only catches remain port-level; broader offshore zones require corroborating water and narrative evidence."
+        else:
+            where_summary = "No current catch evidence supports a fishing-zone estimate."
+        coverage = f"{len(records)} quantitative catch facts; {len(reports)} local/private/commercial narratives"
+        regional_cards.append(f"""<section style="border:1px solid #ccd6dd;border-radius:8px;margin:18px 0;padding:15px">
+<h2 style="margin:0;color:#154360">{escape(config['label'])}</h2>
+<p style="margin:3px 0 12px;color:#5d6d7e">{escape(coverage)}</p>
+<div style="background:#eef6fc;padding:10px 12px"><strong>Current picture:</strong> {escape(', '.join(species[:8]) or 'No evidence-supported active species')}<br>
+<strong>Ocean:</strong> {escape('; '.join(water_bits))}</div>
+<h3 style="margin-bottom:4px">Where fish were reported or estimated</h3>
+<p style="margin-top:0;font-size:13px;color:#566573">{escape(where_summary)}</p>
+{_field_report_cards(reports)}
+<h3>Boat and landing catch detail</h3>
+<table style="border-collapse:collapse;width:100%;font-size:12px" border="1" cellpadding="6">
+<tr style="background:#eaf2f8"><th>Boat / reporter</th><th>Location basis</th><th>Catch</th><th>Trip evidence</th></tr>{_catch_detail_rows(records, reports)}</table>
+<h3 style="margin-bottom:4px">Seven-day marine synopsis</h3><p style="margin-top:0">{escape(weather)}</p>
+</section>""")
+
+    failed = [item for item in data.get("source_health", []) if not item["ok"]]
+    unique_sources = {r.get("reporter") for r in catches if r.get("reporter")} | {r.get("name") for r in field_reports}
+    full_url = f"https://github.com/Tunafisher77/west-coast-fishing-report/tree/main/archive/{day.isoformat()}"
+    return f"""<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17202a;max-width:820px;margin:auto;line-height:1.42">
+<h1 style="margin-bottom:3px">West Coast Fishing Intelligence</h1>
+<p style="margin-top:0;color:#566573">{day.isoformat()} - California, Oregon and Washington</p>
+<div style="background:#154360;color:white;padding:14px 16px;border-radius:7px">
+<strong>Today at a glance</strong><br>{len(catches)} quantitative catch facts and {len(field_reports)} local/private/commercial narratives from {len(unique_sources)} named sources. {len(failed)} failed checks are excluded rather than treated as “no fish.”
+</div>
+<p><strong>How to read locations:</strong> Reported areas come directly from a named source. Triangulated estimates use multiple reports plus ocean conditions and are labeled as estimates. “Port only” means the fish were landed there but the offshore catch position was not published.</p>
+{''.join(regional_cards)}
+<p><a href="{full_url}">Detailed source data, tides, complete forecasts and diagnostics</a></p>
+<p style="font-size:12px;color:#626567">Planning aid only. Reported facts and model inference are kept separate. Verify current NWS, Coast Guard, bar and harbor conditions before departure.</p>
+</body></html>"""
+
+
+# The email uses the information-dense regional layout; report.html retains full diagnostics.
+render_email_summary = render_email_summary_v2
