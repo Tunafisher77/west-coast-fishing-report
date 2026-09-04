@@ -425,5 +425,135 @@ def render_email_summary_v2(day: date, data: dict) -> str:
 </body></html>"""
 
 
+def _region_opportunity(region: str, data: dict) -> dict:
+    config = REGIONS[region]
+    records = [x for x in data.get("catch_records", []) if x.get("region") == region]
+    reports = [x for x in data.get("field_reports", []) if x.get("region") == region and
+               x.get("age_days", 99) <= 7 and x.get("species")]
+    very_fresh = [x for x in reports if x.get("age_days", 99) <= 2]
+    species = list(dict.fromkeys(
+        [x["species"].title() for x in records] +
+        [s.title() for x in reports for s in x.get("species", [])]
+    ))
+    places = list(dict.fromkeys(p for x in reports for p in x.get("places", [])))
+    boats = list(dict.fromkeys(x.get("vessel") for x in records if x.get("vessel")))
+    reporter_count = len({x.get("reporter") for x in records if x.get("reporter")} |
+                         {x.get("name") for x in reports if x.get("name")})
+    ocean = data.get("ocean_color", {}).get(region, {})
+    weather_rows = data.get("daily_weather", {}).get(region, [])[:3]
+    usable = [x for x in weather_rows if not x.get("safety_block")]
+    def burden(row):
+        winds = [v for v in (row.get("wind_am_kt"), row.get("wind_pm_kt"), row.get("gust_am_kt"), row.get("gust_pm_kt")) if v is not None]
+        return max(winds, default=30) + (row.get("wave_ft") or 10) * 2
+    best = min(usable, key=burden) if usable else None
+    # Geography and freshness outrank raw dock volume: a fisherman can act on a
+    # named current area, but not on a large port total with no offshore position.
+    score = min(32, len(records) * 2) + min(24, len(very_fresh) * 22) + (24 if places else 0)
+    score += min(8, reporter_count * 3) + (8 if ocean.get("sst") else 0) + (6 if ocean.get("chlorophyll") else 0)
+    score += (8 if ocean.get("front_detected") else 0) + (8 if best else 0)
+    if not records and not reports:
+        score = 0
+    location_basis = "Reported area" if places else "Port-only evidence" if records else "No current location evidence"
+    confidence = "Strong" if score >= 60 and places else "Moderate" if score >= 35 else "Low"
+    catch_text, boat_text = _catch_brief(records)
+    if places:
+        where = ", ".join(places[:6])
+    elif records:
+        ports = list(dict.fromkeys(x.get("location_text") for x in records if x.get("location_text")))
+        where = f"Offshore positions undisclosed; fish returned to {', '.join(ports[:3])}"
+    else:
+        where = "No defensible fishing area identified"
+    if best:
+        sea = f"{best.get('wave_ft', '?')} ft"
+        if best.get("period_s") is not None:
+            sea += f" at {best['period_s']} sec"
+        weather = f"{best['date'][5:]} {best['best_window']} - {sea}; wind {best.get('wind_am_kt') if best['best_window'] == 'AM' else best.get('wind_pm_kt')} kt"
+    else:
+        weather = "No near-term window passed the safety screen"
+    return {"region": region, "label": config["label"], "score": score, "confidence": confidence,
+            "species": species, "places": places, "boats": boats, "sources": reporter_count,
+            "location_basis": location_basis, "where": where, "catch_text": catch_text,
+            "boat_text": boat_text, "weather": weather, "best": best, "ocean": ocean,
+            "weekly": data.get("weekly_weather", {}).get(region, {}).get("text", "Outlook unavailable."),
+            "reports": reports}
+
+
+def _captain_card(rank: int, item: dict) -> str:
+    ocean = item["ocean"]
+    sst, chl = ocean.get("sst"), ocean.get("chlorophyll")
+    water = []
+    if sst:
+        water.append(f"SST {sst['minimum']:.1f}-{sst['maximum']:.1f} F ({sst['observed_at'][:10]})")
+    if chl:
+        water.append(_water_color_words(chl))
+    water_text = "; ".join(water) or "Satellite water picture incomplete"
+    why = []
+    if item["reports"]:
+        why.append(f"{len(item['reports'])} current narrative report(s)")
+    if item["sources"]:
+        why.append(f"{item['sources']} independent named source(s)")
+    if ocean.get("front_detected"):
+        why.append("sampled water contrast")
+    why_text = ", ".join(why) or "limited current evidence"
+    return f"""<section style="border:1px solid #bdc3c7;border-radius:9px;margin:14px 0;padding:15px">
+<table role="presentation" style="border-collapse:collapse;width:100%"><tr><td style="width:42px;vertical-align:top"><div style="background:#154360;color:white;border-radius:20px;width:32px;height:32px;line-height:32px;text-align:center;font-weight:bold">{rank}</div></td><td>
+<h2 style="margin:0;color:#154360">{escape(item['label'])}: {escape(', '.join(item['species'][:4]) or 'Monitor only')}</h2>
+<p style="margin:3px 0;color:#566573"><strong>{escape(item['confidence'])} confidence</strong> - {escape(item['location_basis'])}</p></td></tr></table>
+<p><strong>Where I would focus:</strong> {escape(item['where'])}</p>
+<p><strong>What confirms it:</strong> {escape(item['catch_text'])} {escape(item['boat_text'])}</p>
+<p><strong>Water to look for:</strong> {escape(water_text)}.</p>
+<p><strong>Best near-term window:</strong> {escape(item['weather'])}.</p>
+<p><strong>Why it ranks here:</strong> {escape(why_text)}. The recommendation weakens if newer catch reports contradict this area or the marine forecast deteriorates.</p>
+</section>"""
+
+
+def render_email_summary_v3(day: date, data: dict) -> str:
+    opportunities = sorted((_region_opportunity(region, data) for region in REGIONS),
+                           key=lambda x: x["score"], reverse=True)
+    ranked = [x for x in opportunities if x["score"] > 0][:3]
+    watch = [x for x in opportunities if x not in ranked]
+    best = ranked[0] if ranked else None
+    if best:
+        morning = (f"Best-supported opportunity: {best['label']} for {', '.join(best['species'][:4])}. "
+                   f"{best['where']}. Best near-term window: {best['weather']}.")
+    else:
+        morning = "No region has enough current catch and location evidence for a recommended run today."
+    maps = data.get("ocean_maps", {})
+    map_blocks = []
+    for kind, title, caption in (
+        ("sst", "Sea Surface Temperature", "Find temperature breaks and the water bands matching current target species."),
+        ("chlorophyll", "Chlorophyll / Water Color", "Look for the clean side of blue-green boundaries, not simply the lowest or highest number."),
+    ):
+        info = maps.get(kind, {})
+        if info.get("ok"):
+            raw = f"https://raw.githubusercontent.com/Tunafisher77/west-coast-fishing-report/main/archive/{day.isoformat()}/{info['filename']}"
+            map_blocks.append(f'<h3>{escape(title)}</h3><a href="{raw}"><img src="{raw}" alt="{escape(title)} map" style="display:block;width:100%;max-width:760px;height:auto;border:1px solid #ccd6dd"></a><p style="font-size:12px;color:#566573">{escape(caption)} Click for the full image.</p>')
+        else:
+            map_blocks.append(f'<p><strong>{escape(title)} map:</strong> unavailable today; numeric samples are used where available.</p>')
+    active_moon = _lunar_brief(data, best and REGIONS[best["region"]]["reference_port"] or "San Diego")
+    watch_items = []
+    for item in watch:
+        reason = (f"{', '.join(item['species'][:3])}: {item['where']}" if item["score"] else
+                  "No fresh, location-specific catch evidence")
+        watch_items.append(f"<li><strong>{escape(item['label'])}:</strong> {escape(reason)}.</li>")
+    failed = sum(not x["ok"] for x in data.get("source_health", []))
+    archive = f"https://github.com/Tunafisher77/west-coast-fishing-report/tree/main/archive/{day.isoformat()}"
+    return f"""<!doctype html><html><body style="font-family:Arial,sans-serif;color:#17202a;max-width:820px;margin:auto;line-height:1.45">
+<h1 style="margin-bottom:3px">West Coast Captain's Brief</h1>
+<p style="margin-top:0;color:#566573">{day.isoformat()} - California, Oregon and Washington</p>
+<div style="background:#154360;color:white;padding:16px;border-radius:8px"><strong>THE MORNING CALL</strong><br>{escape(morning)}</div>
+<p style="font-size:13px"><strong>Evidence rule:</strong> Reported areas are printed as reported. Port-only landings are never presented as offshore catch locations. Environmental matches are planning clues, not catch coordinates.</p>
+<h2>Ranked opportunities</h2>
+{''.join(_captain_card(i + 1, item) for i, item in enumerate(ranked)) or '<p>No recommendation passed the evidence screen.</p>'}
+<h2>West Coast water picture</h2>
+{''.join(map_blocks)}
+<h2>Tactical light and tide</h2>
+<p>{escape(active_moon)} Lunar and tide timing is emphasized only when it overlaps a credible inshore, estuary, salmon, halibut or seabass opportunity.</p>
+<h2>Regional watchlist</h2><ul>{''.join(watch_items) or '<li>All regions are covered above.</li>'}</ul>
+<p><a href="{archive}">Open the full evidence archive: boat counts, source excerpts, tides, forecasts, maps and diagnostics</a></p>
+<p style="font-size:12px;color:#626567">{failed} failed source checks were excluded. Planning aid only. Verify current NWS, Coast Guard, bar and harbor information before departure.</p>
+</body></html>"""
+
+
 # The email uses the information-dense regional layout; report.html retains full diagnostics.
-render_email_summary = render_email_summary_v2
+render_email_summary = render_email_summary_v3
