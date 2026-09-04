@@ -18,6 +18,7 @@ from wcfr.config import PORTS, REGIONS, TIDE_STATIONS
 from wcfr.forecast import predict_location
 from wcfr.lunar import lunar_for_day
 from wcfr.models import ConditionRecord, SourceRef
+from wcfr.ocean_maps import download_maps
 from wcfr.report import render_email_summary, render_html
 from wcfr.weather_summary import summarize_week, week_synopsis
 
@@ -151,6 +152,8 @@ def build(day: date, output: Path) -> None:
     daily_weather = {region: summarize_week(value, day) for region, value in marine_forecasts.items()}
     weekly_weather = {region: week_synopsis(rows) for region, rows in daily_weather.items()}
 
+    output.mkdir(parents=True, exist_ok=True)
+    ocean_maps = download_maps(output)
     snapshot = {
         "date": day.isoformat(), "checked_at": checked, "catch_records": catch_records,
         "predictions": predictions, "marine_forecasts": marine_forecasts,
@@ -158,8 +161,8 @@ def build(day: date, output: Path) -> None:
         "weekly_weather": weekly_weather,
         "field_reports": field_reports,
         "tides": tides, "lunar": lunar, "buoys": buoys, "source_health": health,
+        "ocean_maps": ocean_maps,
     }
-    output.mkdir(parents=True, exist_ok=True)
     (output / "snapshot.json").write_text(json.dumps(snapshot, indent=2), encoding="utf-8")
     (output / "report.html").write_text(render_html(day, snapshot), encoding="utf-8")
     (output / "email.html").write_text(render_email_summary(day, snapshot), encoding="utf-8")
