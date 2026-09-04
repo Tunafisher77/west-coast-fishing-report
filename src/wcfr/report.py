@@ -1,7 +1,8 @@
 from __future__ import annotations
 
-from datetime import date
+from datetime import date, datetime
 from html import escape
+from zoneinfo import ZoneInfo
 
 from wcfr.config import PRIORITY_SPECIES, REGIONS
 
@@ -291,6 +292,60 @@ def _field_report_cards(reports: list[dict]) -> str:
     return "".join(blocks) or '<p style="color:#707b7c">No current permitted local/private-boat narrative was retrieved.</p>'
 
 
+def _water_color_words(chl: dict | None) -> str:
+    if not chl:
+        return "No current satellite color sample passed quality checks."
+    value = chl["value"]
+    if value < .15:
+        meaning = "very clean blue water with little plankton signal"
+    elif value <= .35:
+        meaning = "clean blue-green water; edges against greener water can concentrate bait"
+    elif value <= 1:
+        meaning = "productive green water; the cleaner outside edge is normally the useful feature"
+    else:
+        meaning = "strong green/plankton-rich water; look for its cleaner boundary, not the greenest center"
+    return f"{value:.2f} mg/m3 - {meaning}"
+
+
+def _lunar_brief(data: dict, port: str) -> str:
+    moon = data.get("lunar", {}).get(port, {})
+    if not moon:
+        return "Lunar calculation unavailable."
+    local = ZoneInfo("America/Los_Angeles")
+    def clock(key):
+        value = moon.get(key)
+        if not value:
+            return "unavailable"
+        return datetime.fromisoformat(value).astimezone(local).strftime("%-I:%M %p")
+    return (f"{moon.get('phase', 'phase unavailable').title()}, {moon.get('illumination_percent', '?')}% illuminated; "
+            f"moonrise {clock('moonrise_utc')}, overhead {clock('overhead_utc')}, moonset {clock('moonset_utc')} Pacific.")
+
+
+def _catch_brief(records: list[dict]) -> tuple[str, str]:
+    if not records:
+        return "No current quantitative landing report was retrieved.", ""
+    totals: dict[str, float] = {}
+    rates: dict[str, list[float]] = {}
+    boats: dict[str, list[str]] = {}
+    for item in records:
+        species = item["species"].title()
+        if item.get("count") is not None:
+            totals[species] = totals.get(species, 0) + item["count"]
+        elif item.get("catch_per_angler") is not None:
+            rates.setdefault(species, []).append(item["catch_per_angler"])
+        vessel = item.get("vessel")
+        if vessel:
+            boats.setdefault(vessel, []).append(species)
+    ranked = sorted(totals.items(), key=lambda x: x[1], reverse=True)
+    catch_text = ", ".join(f"{amount:g} {species}" for species, amount in ranked[:6])
+    if not catch_text and rates:
+        catch_text = ", ".join(f"{min(values):.2g}-{max(values):.2g} per angler {species}"
+                               for species, values in rates.items())
+    boat_text = "; ".join(f"{boat}: {', '.join(dict.fromkeys(fish))}" for boat, fish in list(boats.items())[:4])
+    return (f"Reported landings were led by {catch_text}." if catch_text else "Catch activity was reported without comparable totals.",
+            f"Named-boat examples: {boat_text}." if boat_text else "")
+
+
 def render_email_summary_v2(day: date, data: dict) -> str:
     catches = data.get("catch_records", [])
     field_reports = data.get("field_reports", [])
@@ -321,25 +376,37 @@ def render_email_summary_v2(day: date, data: dict) -> str:
             sea = f"observed seas {sum(waves)/len(waves):.1f} ft"
             sea += f" at {sum(periods)/len(periods):.0f} sec" if periods else "; period unavailable"
             water_bits.append(sea)
-        species = sorted({r["species"].title() for r in records} | {s.title() for x in reports for s in x.get("species", [])})
+        current_reports = [x for x in reports if x.get("age_days", 99) <= 7]
+        species = sorted({r["species"].title() for r in records} | {s.title() for x in current_reports for s in x.get("species", [])})
         weather = data.get("weekly_weather", {}).get(region, {}).get("text", "Seven-day synopsis unavailable.")
-        if records or reports:
-            where_summary = "Named areas below are source-reported. Port-only catches remain port-level; broader offshore zones require corroborating water and narrative evidence."
+        catch_text, boats_text = _catch_brief(records)
+        places = list(dict.fromkeys(p for x in current_reports for p in x.get("places", [])))
+        report_fish = sorted({s.title() for x in current_reports for s in x.get("species", [])})
+        if places:
+            bite = f"Source-reported activity centers on {', '.join(places[:6])}, with {', '.join(report_fish[:6]) or 'fish activity'} mentioned."
+        elif records:
+            bite = "Landings confirm activity, but the sources did not publish offshore catch positions; do not treat the landing port as the fishing spot."
         else:
-            where_summary = "No current catch evidence supports a fishing-zone estimate."
-        coverage = f"{len(records)} quantitative catch facts; {len(reports)} local/private/commercial narratives"
+            bite = "No current catch evidence supports a fishing-zone conclusion today."
+        sst_text = (f"MUR SST is {sst['value']:.1f} F across a {sst['minimum']:.1f}-{sst['maximum']:.1f} F sample "
+                    f"dated {sst['observed_at'][:10]}." if sst else
+                    (f"Buoys show {min(temps):.1f}-{max(temps):.1f} F, but no satellite SST sample passed." if temps else
+                     "No current water-temperature sample passed quality checks."))
+        front = ("The sampled temperature/color contrast suggests an edge worth comparing with the reported bite."
+                 if oc.get("front_detected") else "No strong regional SST/color break was verified by the sampled points.")
+        source_notes = []
+        for item in current_reports[:3]:
+            source_notes.append(f"<a href=\"{escape(item['url'])}\">{escape(item['name'])}</a> ({escape(item.get('published_date','date unavailable'))})")
+        sources_html = "; ".join(source_notes) or "No current narrative source."
+        lunar = _lunar_brief(data, config["reference_port"])
         regional_cards.append(f"""<section style="border:1px solid #ccd6dd;border-radius:8px;margin:18px 0;padding:15px">
 <h2 style="margin:0;color:#154360">{escape(config['label'])}</h2>
-<p style="margin:3px 0 12px;color:#5d6d7e">{escape(coverage)}</p>
-<div style="background:#eef6fc;padding:10px 12px"><strong>Current picture:</strong> {escape(', '.join(species[:8]) or 'No evidence-supported active species')}<br>
-<strong>Ocean:</strong> {escape('; '.join(water_bits))}</div>
-<h3 style="margin-bottom:4px">Where fish were reported or estimated</h3>
-<p style="margin-top:0;font-size:13px;color:#566573">{escape(where_summary)}</p>
-{_field_report_cards(reports)}
-<h3>Boat and landing catch detail</h3>
-<table style="border-collapse:collapse;width:100%;font-size:12px" border="1" cellpadding="6">
-<tr style="background:#eaf2f8"><th>Boat / reporter</th><th>Location basis</th><th>Catch</th><th>Trip evidence</th></tr>{_catch_detail_rows(records, reports)}</table>
-<h3 style="margin-bottom:4px">Seven-day marine synopsis</h3><p style="margin-top:0">{escape(weather)}</p>
+<p style="margin:4px 0 12px;color:#566573"><strong>Active fish:</strong> {escape(', '.join(species[:8]) or 'No evidence-supported active species')}</p>
+<div style="background:#eef6fc;padding:11px 13px;border-left:4px solid #2471a3"><strong>The briefing:</strong> {escape(bite)} {escape(catch_text)} {escape(boats_text)}</div>
+<p><strong>Water picture:</strong> {escape(sst_text)} Chlorophyll: {escape(_water_color_words(chl))} {escape(front)}</p>
+<p><strong>Conditions and outlook:</strong> {escape(weather)}</p>
+<p><strong>Lunar/tide context:</strong> {escape(lunar)} Tide timing is used only when it plausibly overlaps a reported coastal bite.</p>
+<p style="font-size:13px;color:#566573"><strong>Evidence:</strong> {sources_html} Quantitative boat detail remains in the linked archive.</p>
 </section>""")
 
     failed = [item for item in data.get("source_health", []) if not item["ok"]]
@@ -349,9 +416,9 @@ def render_email_summary_v2(day: date, data: dict) -> str:
 <h1 style="margin-bottom:3px">West Coast Fishing Intelligence</h1>
 <p style="margin-top:0;color:#566573">{day.isoformat()} - California, Oregon and Washington</p>
 <div style="background:#154360;color:white;padding:14px 16px;border-radius:7px">
-<strong>Today at a glance</strong><br>{len(catches)} quantitative catch facts and {len(field_reports)} local/private/commercial narratives from {len(unique_sources)} named sources. {len(failed)} failed checks are excluded rather than treated as “no fish.”
+<strong>Coastwide briefing</strong><br>The report below synthesizes the freshest catch reports, named boats and areas, ocean structure, marine weather and lunar timing. Raw counts and diagnostics are kept in the archive. {len(failed)} failed checks were excluded.
 </div>
-<p><strong>How to read locations:</strong> Reported areas come directly from a named source. Triangulated estimates use multiple reports plus ocean conditions and are labeled as estimates. “Port only” means the fish were landed there but the offshore catch position was not published.</p>
+<p><strong>Location rule:</strong> A named area is shown only when a source reported it. A landing confirms fish came back to that port, not where offshore they were caught.</p>
 {''.join(regional_cards)}
 <p><a href="{full_url}">Detailed source data, tides, complete forecasts and diagnostics</a></p>
 <p style="font-size:12px;color:#626567">Planning aid only. Reported facts and model inference are kept separate. Verify current NWS, Coast Guard, bar and harbor conditions before departure.</p>
