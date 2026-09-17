@@ -1,0 +1,6084 @@
+{
+  "date": "2026-09-17",
+  "checked_at": "2026-09-17T17:35:59.576480+00:00",
+  "catch_records": [
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Garibaldi",
+      "city": "Garibaldi",
+      "state": "OR",
+      "catch_per_angler": 1.35,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Pacific City",
+      "city": "Pacific City",
+      "state": "OR",
+      "catch_per_angler": 0.33,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Depoe Bay",
+      "city": "Depoe Bay",
+      "state": "OR",
+      "catch_per_angler": 2.85,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Newport",
+      "city": "Newport",
+      "state": "OR",
+      "catch_per_angler": 4.58,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Charleston",
+      "city": "Charleston",
+      "state": "OR",
+      "catch_per_angler": 7.0,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "location_text": "Brookings",
+      "city": "Brookings",
+      "state": "OR",
+      "catch_per_angler": 5.2,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "pacific halibut",
+      "region": "oregon",
+      "location_text": "Charleston",
+      "city": "Charleston",
+      "state": "OR",
+      "catch_per_angler": 0.55,
+      "reporter": "Oregon Department of Fish and Wildlife",
+      "source_url": "https://myodfw.com/recreation-report/fishing-report/marine-zone",
+      "retrieved_at": "2026-09-17T17:36:00.738774+00:00",
+      "evidence": "reported"
+    },
+    {
+      "species": "dorado",
+      "count": 92,
+      "anglers": 18,
+      "catch_per_angler": 5.111,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Poseidon just",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Poseidon just called with 14 Wahoo, 92 Dorado, 43 Yellowfin Tuna, and 1 Striped Marlin released for thier 2.5 day trip with 18 anglers."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 43,
+      "anglers": 18,
+      "catch_per_angler": 2.389,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Poseidon just",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Poseidon just called with 14 Wahoo, 92 Dorado, 43 Yellowfin Tuna, and 1 Striped Marlin released for thier 2.5 day trip with 18 anglers."
+    },
+    {
+      "species": "striped marlin",
+      "count": 1,
+      "anglers": 18,
+      "catch_per_angler": 0.056,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Poseidon just",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Poseidon just called with 14 Wahoo, 92 Dorado, 43 Yellowfin Tuna, and 1 Striped Marlin released for thier 2.5 day trip with 18 anglers."
+    },
+    {
+      "species": "dorado",
+      "count": 150,
+      "anglers": 26,
+      "catch_per_angler": 5.769,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Islander",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Islander returned this AM with 150 Dorado, 1 Wahoo, and 1 Yellowfin for 26 anglers on a3 day trip."
+    },
+    {
+      "species": "dorado",
+      "count": 36,
+      "anglers": 18,
+      "catch_per_angler": 2.0,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus returned this AM with 36 Dorado, 1 Yellowfin, and 1 Blue Marlin and 1 Stripped Marlin both released for 18 anglers ona 1.5 day trip."
+    },
+    {
+      "species": "blue marlin",
+      "count": 1,
+      "anglers": 18,
+      "catch_per_angler": 0.056,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Pegasus",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pegasus returned this AM with 36 Dorado, 1 Yellowfin, and 1 Blue Marlin and 1 Stripped Marlin both released for 18 anglers ona 1.5 day trip."
+    },
+    {
+      "species": "dorado",
+      "count": 10,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Pacific Dawn",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Dawn called in with Limits of Yellow Fin, 10 Dorado and 1 Wahoo for their second day of 2.5 day limited load trip."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 24,
+      "anglers": 35,
+      "catch_per_angler": 0.686,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "calico bass",
+      "count": 123,
+      "anglers": 35,
+      "catch_per_angler": 3.514,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "bonito",
+      "count": 15,
+      "anglers": 35,
+      "catch_per_angler": 0.429,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "sheephead",
+      "count": 2,
+      "anglers": 35,
+      "catch_per_angler": 0.057,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "barracuda",
+      "count": 6,
+      "anglers": 35,
+      "catch_per_angler": 0.171,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "rockfish",
+      "count": 11,
+      "anglers": 35,
+      "catch_per_angler": 0.314,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "sculpin",
+      "count": 7,
+      "anglers": 35,
+      "catch_per_angler": 0.2,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their 3/4 day trip, with 24 Yellowtail up to 25lbs., 123 calico bass, 15 Bonito, 17 Sandbass, 2 Sheephead, 6 Barracuda, 11 Rockfish, 7 Bullet Tuna, 7 Sculpin, and 1 Cabazon for 35 anglers. The boat did get sardines this morning."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 7,
+      "anglers": 14,
+      "catch_per_angler": 0.5,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty returned this morning with LIMITS (56) of Dorado, 7 Yellowfin Tuna and 4 Yellowtail for 14 anglers on a 2 day trip."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 4,
+      "anglers": 14,
+      "catch_per_angler": 0.286,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Liberty",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Liberty returned this morning with LIMITS (56) of Dorado, 7 Yellowfin Tuna and 4 Yellowtail for 14 anglers on a 2 day trip."
+    },
+    {
+      "species": "dorado",
+      "count": 144,
+      "anglers": 25,
+      "catch_per_angler": 5.76,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Pacific Queen",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Queen returned this morning with 144 Dorado, 31 Yellowfin Tuna and 6 Wahoo for their 3 day charter with 25 anglers."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 31,
+      "anglers": 25,
+      "catch_per_angler": 1.24,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Pacific Queen",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Pacific Queen returned this morning with 144 Dorado, 31 Yellowfin Tuna and 6 Wahoo for their 3 day charter with 25 anglers."
+    },
+    {
+      "species": "rockfish",
+      "count": 15,
+      "anglers": 22,
+      "catch_per_angler": 0.682,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their full day trip with LIMITS (110) of Bonita, 88 (Limits) Calico Bass, 20 Sandbass, 15 Rockfish, 3 Sheephead, 1 Halibut and 5 Yellowtail for 22 anglers aboard."
+    },
+    {
+      "species": "sheephead",
+      "count": 3,
+      "anglers": 22,
+      "catch_per_angler": 0.136,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their full day trip with LIMITS (110) of Bonita, 88 (Limits) Calico Bass, 20 Sandbass, 15 Rockfish, 3 Sheephead, 1 Halibut and 5 Yellowtail for 22 anglers aboard."
+    },
+    {
+      "species": "halibut",
+      "count": 1,
+      "anglers": 22,
+      "catch_per_angler": 0.045,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their full day trip with LIMITS (110) of Bonita, 88 (Limits) Calico Bass, 20 Sandbass, 15 Rockfish, 3 Sheephead, 1 Halibut and 5 Yellowtail for 22 anglers aboard."
+    },
+    {
+      "species": "california yellowtail",
+      "count": 5,
+      "anglers": 22,
+      "catch_per_angler": 0.227,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Dolphin",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Dolphin finished their full day trip with LIMITS (110) of Bonita, 88 (Limits) Calico Bass, 20 Sandbass, 15 Rockfish, 3 Sheephead, 1 Halibut and 5 Yellowtail for 22 anglers aboard."
+    },
+    {
+      "species": "dorado",
+      "count": 15,
+      "anglers": 19,
+      "catch_per_angler": 0.789,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Constitution",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Constitution returned this morning with 15 Dorado, 1 Yellowfin Tuna, 1 Striped Marlin (5 Released), and 2 Wahoo for 19 anglers on their 2 day trip."
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 1,
+      "anglers": 19,
+      "catch_per_angler": 0.053,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Constitution",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Constitution returned this morning with 15 Dorado, 1 Yellowfin Tuna, 1 Striped Marlin (5 Released), and 2 Wahoo for 19 anglers on their 2 day trip."
+    },
+    {
+      "species": "striped marlin",
+      "count": 1,
+      "anglers": 19,
+      "catch_per_angler": 0.053,
+      "region": "southern_california",
+      "location_text": "Fisherman's Landing",
+      "reporter": "Fisherman's Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "Constitution",
+      "source_url": "https://www.fishermanslanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.037350+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The Constitution returned this morning with 15 Dorado, 1 Yellowfin Tuna, 1 Striped Marlin (5 Released), and 2 Wahoo for 19 anglers on their 2 day trip."
+    },
+    {
+      "species": "dorado",
+      "count": 1,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Seaforth Landing",
+      "reporter": "Seaforth Landing",
+      "city": "San Diego",
+      "state": "CA",
+      "vessel": "San Diego on their full day trip",
+      "source_url": "https://www.seaforthlanding.com/fishcounts.php",
+      "retrieved_at": "2026-09-17T17:36:01.352072+00:00",
+      "evidence": "reported",
+      "source_excerpt": "The San Diego on their full day trip finished up with 131 Yellowfin, 1 Dorado and 22 Skipjack. Flyline live bait on 15lb-30lb has been getting it done along with sniper style jigs in those smaller sizes. Bring a multiple sizes for hooks between #2-2/0. Passports are Not required."
+    },
+    {
+      "species": "sheephead",
+      "count": 48,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    },
+    {
+      "species": "calico bass",
+      "count": 18,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    },
+    {
+      "species": "bonito",
+      "count": 25,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    },
+    {
+      "species": "california yellowtail",
+      "count": 31,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    },
+    {
+      "species": "yellowfin tuna",
+      "count": 12,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    },
+    {
+      "species": "skipjack tuna",
+      "count": 75,
+      "anglers": null,
+      "catch_per_angler": null,
+      "region": "southern_california",
+      "location_text": "Redondo Beach Sportfishing",
+      "reporter": "Redondo Beach Sportfishing",
+      "city": "Redondo Beach",
+      "state": "CA",
+      "vessel": null,
+      "source_url": "https://www.redondosportfishing.com/fish-counts.php",
+      "retrieved_at": "2026-09-17T17:36:01.696733+00:00",
+      "evidence": "reported",
+      "source_excerpt": "Navegante 2 Day Trip 18 48 Sheephead, 18 Calico Bass, 25 Bonito, 31 Yellowtail, 12 Yellowfin Tuna, 75 Skipjack Tuna"
+    }
+  ],
+  "predictions": [
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 64,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 24/30",
+        "SST 73.5\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "chinook salmon",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, Crescent City",
+      "probability_score": 63,
+      "confidence": "medium",
+      "likely_feature": "bait concentration, upwelling edge, river plume",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "SST 57.6\u00b0F is within the 50\u201360\u00b0F habitat band",
+        "a current SST/chlorophyll front is detected"
+      ],
+      "invalidators": [
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 52,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 12/30",
+        "SST 73.5\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 73.5\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 50,
+      "confidence": "medium",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30",
+        "SST 73.5\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 47,
+      "confidence": "low",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 7/30",
+        "SST 73.5\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 45,
+      "confidence": "low",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 5/30",
+        "SST 73.5\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 3/30",
+        "SST 73.5\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "central_california",
+      "zone": "Davenport, Capitola",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "a current SST/chlorophyll front is detected"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "halibut",
+      "region": "central_california",
+      "zone": "Davenport, Capitola",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "a current SST/chlorophyll front is detected"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "salmon (unspecified)",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, Crescent City",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "a current SST/chlorophyll front is detected"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "tuna (unspecified)",
+      "region": "northern_california",
+      "zone": "Trinidad, Shelter Cove, Crescent City",
+      "probability_score": 43,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30",
+        "a current SST/chlorophyll front is detected"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "california yellowtail",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 42,
+      "confidence": "low",
+      "likely_feature": "kelp or structure, current edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 2/30",
+        "SST 73.5\u00b0F is within the 62\u201374\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "striped marlin",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 41,
+      "confidence": "low",
+      "likely_feature": "warm-water edge, current convergence, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30",
+        "SST 73.5\u00b0F is within the 66\u201376\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "blue marlin",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 41,
+      "confidence": "low",
+      "likely_feature": "warm blue water, current convergence",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30",
+        "SST 73.5\u00b0F is within the 72\u201382\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "yellowfin tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 41,
+      "confidence": "low",
+      "likely_feature": "warm-water edge, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30",
+        "SST 73.5\u00b0F is within the 68\u201378\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "striped marlin",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 41,
+      "confidence": "low",
+      "likely_feature": "warm-water edge, current convergence, bait concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30",
+        "SST 73.5\u00b0F is within the 66\u201376\u00b0F habitat band"
+      ],
+      "invalidators": [
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 40,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 20/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Newport",
+      "probability_score": 35,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Charleston",
+      "probability_score": 35,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Brookings",
+      "probability_score": 35,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 30/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Depoe Bay",
+      "probability_score": 34,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 29/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Seaforth Landing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "calico bass",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "skipjack tuna",
+      "region": "southern_california",
+      "zone": "waters accessible from Redondo Beach Sportfishing",
+      "probability_score": 30,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 10/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "dorado",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 28,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 8/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 27,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 7/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "pacific halibut",
+      "region": "oregon",
+      "zone": "waters accessible from Charleston",
+      "probability_score": 26,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 6/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "bonito",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 24,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 4/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "rockfish",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 23,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 3/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "barracuda",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 22,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 2/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sculpin",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 22,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 2/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 21,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "sheephead",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 21,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 1/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "halibut",
+      "region": "southern_california",
+      "zone": "waters accessible from Fisherman's Landing",
+      "probability_score": 20,
+      "confidence": "low",
+      "likely_feature": "structure or forage concentration",
+      "reasons": [
+        "recent comparable catch signal contributed 0/30"
+      ],
+      "invalidators": [
+        "no current SST match is available",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Garibaldi",
+      "probability_score": 19,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 14/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    },
+    {
+      "species": "albacore tuna",
+      "region": "oregon",
+      "zone": "waters accessible from Pacific City",
+      "probability_score": 8,
+      "confidence": "low",
+      "likely_feature": "temperature break, clean/green edge",
+      "reasons": [
+        "recent comparable catch signal contributed 3/30"
+      ],
+      "invalidators": [
+        "SST remains outside 58\u201366\u00b0F",
+        "the expected front dissipates or shifts",
+        "no bait concentration is confirmed"
+      ],
+      "safe_to_recommend": true
+    }
+  ],
+  "marine_forecasts": {
+    "southern_california": {
+      "updated": "2026-09-17T10:26:53+00:00",
+      "valid_times": "2026-09-17T04:00:00+00:00/P7DT21H",
+      "wind_speed": [
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT7H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT2H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T19:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-17T23:00:00+00:00/PT2H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T01:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT4H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT2H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T08:00:00+00:00/PT10H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T19:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T20:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T22:00:00+00:00/PT4H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T02:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T04:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T05:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T07:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-19T08:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT4H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T13:00:00+00:00/PT6H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-19T19:00:00+00:00/PT1H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T20:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-20T01:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-20T02:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT1H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-20T04:00:00+00:00/PT2H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT9H",
+          "value": 3.704
+        },
+        {
+          "validTime": "2026-09-20T15:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT6H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT9H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT9H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT9H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT6H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT6H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-24T15:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT6H",
+          "value": 16.668
+        }
+      ],
+      "wind_gust": [
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT2H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T07:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T08:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT2H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T15:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT2H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT2H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-18T01:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT4H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T07:00:00+00:00/PT2H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT8H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T17:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T19:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T20:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-18T22:00:00+00:00/PT1H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-18T23:00:00+00:00/PT1H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT2H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-19T02:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T04:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T05:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T07:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T08:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT4H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T13:00:00+00:00/PT6H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-19T19:00:00+00:00/PT1H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T20:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T22:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T23:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-20T01:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-20T02:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT1H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-20T04:00:00+00:00/PT2H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT9H",
+          "value": 3.704
+        },
+        {
+          "validTime": "2026-09-20T15:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT9H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT9H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT6H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT6H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT9H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 20.372
+        }
+      ],
+      "wave_height": [
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT14H",
+          "value": 0.6096
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/P1D",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT12H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT18H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT18H",
+          "value": 0.6096
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/P3DT18H",
+          "value": 0.9144
+        }
+      ],
+      "wave_period": [
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT8H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT6H",
+          "value": 6
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT6H",
+          "value": 5
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT12H",
+          "value": 4
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/PT6H",
+          "value": 5
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/P5DT12H",
+          "value": 6
+        }
+      ],
+      "wave_direction": [],
+      "weather": [
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/P8DT2H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        }
+      ],
+      "hazards": [],
+      "source_url": "https://api.weather.gov/gridpoints/SGX/46,13"
+    },
+    "central_california": {
+      "updated": "2026-09-17T08:27:16+00:00",
+      "valid_times": "2026-09-17T02:00:00+00:00/P7DT23H",
+      "wind_speed": [
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/PT2H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T05:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T07:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T08:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT2H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT3H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-17T15:00:00+00:00/PT1H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT2H",
+          "value": 3.704
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T23:00:00+00:00/PT4H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT5H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T08:00:00+00:00/PT2H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T10:00:00+00:00/PT2H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/PT5H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T17:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT9H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT6H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-20T09:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-20T15:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT6H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT6H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT6H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT3H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT6H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT9H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T15:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T16:00:00+00:00/PT2H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T22:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T23:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 22.224
+        }
+      ],
+      "wind_gust": [
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/PT1H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-17T03:00:00+00:00/PT1H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-17T05:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T07:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T08:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T09:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT4H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T15:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T19:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-17T23:00:00+00:00/PT8H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-18T07:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-18T08:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT2H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T11:00:00+00:00/PT7H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT3H",
+          "value": 44.448
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT3H",
+          "value": 46.3
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 40.744
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 38.892
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 46.3
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT9H",
+          "value": 40.744
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT6H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 42.596
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 46.3
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 42.596
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 44.448
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 40.744
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT1H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-24T04:00:00+00:00/PT1H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-24T05:00:00+00:00/PT1H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT6H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-24T15:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T16:00:00+00:00/PT2H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T22:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-24T23:00:00+00:00/PT1H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 35.188
+        }
+      ],
+      "wave_height": [
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/PT10H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/P1DT6H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/P1DT6H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT12H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT12H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT6H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/P1DT12H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/P1DT12H",
+          "value": 1.524
+        }
+      ],
+      "wave_period": [
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/PT4H",
+          "value": 9
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/P1DT18H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT6H",
+          "value": 6
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT6H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/P1DT12H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT6H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT18H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/P1D",
+          "value": 9
+        }
+      ],
+      "wave_direction": [],
+      "weather": [
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/P7DT23H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        }
+      ],
+      "hazards": [
+        {
+          "validTime": "2026-09-18T22:00:00+00:00/PT12H",
+          "value": [
+            {
+              "phenomenon": "SC",
+              "significance": "Y",
+              "event_number": 7
+            }
+          ]
+        }
+      ],
+      "source_url": "https://api.weather.gov/gridpoints/MTR/88,55"
+    },
+    "northern_california": {
+      "updated": "2026-09-17T17:05:47+00:00",
+      "valid_times": "2026-09-17T11:00:00+00:00/P8DT6H",
+      "wind_speed": [
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT7H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT3H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT3H",
+          "value": 1.852
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/PT3H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT6H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT6H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-20T15:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT6H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT9H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT6H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT6H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT6H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT12H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT6H",
+          "value": 14.816
+        }
+      ],
+      "wind_gust": [
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT7H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT3H",
+          "value": 1.852
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT6H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT6H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-20T15:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT6H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT6H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT9H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT6H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT6H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT6H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT6H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT6H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT9H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT6H",
+          "value": 18.52
+        }
+      ],
+      "wave_height": [
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT7H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT12H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT6H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/PT6H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT6H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT6H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT6H",
+          "value": 0.6096
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT12H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT6H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT6H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-20T12:00:00+00:00/PT6H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT6H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT12H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT6H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT12H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/PT12H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT6H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT12H",
+          "value": 2.4384
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT6H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT6H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT18H",
+          "value": 1.524
+        }
+      ],
+      "wave_period": [],
+      "wave_direction": [],
+      "weather": [
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT22H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT3H",
+          "value": [
+            {
+              "coverage": "patchy",
+              "weather": "fog",
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-18T12:00:00+00:00/P6DT15H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        }
+      ],
+      "hazards": [],
+      "source_url": "https://api.weather.gov/gridpoints/EKA/53,110"
+    },
+    "oregon": {
+      "updated": "2026-09-17T16:41:05+00:00",
+      "valid_times": "2026-09-17T10:00:00+00:00/P7DT15H",
+      "wind_speed": [
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT4H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T01:00:00+00:00/PT2H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT12H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT6H",
+          "value": 5.556
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT6H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT6H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T09:00:00+00:00/PT9H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT6H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT9H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT9H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 14.816
+        }
+      ],
+      "wind_gust": [
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T14:00:00+00:00/PT2H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T17:00:00+00:00/PT2H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T19:00:00+00:00/PT5H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T00:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T01:00:00+00:00/PT1H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT9H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-18T11:00:00+00:00/PT4H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT6H",
+          "value": 7.408
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-19T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-20T09:00:00+00:00/PT12H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 40.744
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT6H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT9H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 16.668
+        }
+      ],
+      "wave_height": [
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/P1DT14H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/P1DT3H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/P1DT21H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT6H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/PT12H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT12H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/PT12H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT18H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT12H",
+          "value": 1.524
+        }
+      ],
+      "wave_period": [
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT2H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT9H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT12H",
+          "value": 9
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/P1DT15H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT6H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-20T06:00:00+00:00/P1DT12H",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-21T18:00:00+00:00/PT12H",
+          "value": 7
+        },
+        {
+          "validTime": "2026-09-22T06:00:00+00:00/P1D",
+          "value": 8
+        },
+        {
+          "validTime": "2026-09-23T06:00:00+00:00/P1DT18H",
+          "value": 12
+        }
+      ],
+      "wave_direction": [],
+      "weather": [
+        {
+          "validTime": "2026-09-17T10:00:00+00:00/PT1H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT3H",
+          "value": [
+            {
+              "coverage": "patchy",
+              "weather": "fog",
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-17T14:00:00+00:00/PT2H",
+          "value": [
+            {
+              "coverage": "areas",
+              "weather": "fog",
+              "intensity": "heavy",
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": [
+            {
+              "coverage": "patchy",
+              "weather": "fog",
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT8H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT4H",
+          "value": [
+            {
+              "coverage": "patchy",
+              "weather": "fog",
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/P6DT18H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT1H",
+          "value": [
+            {
+              "coverage": "slight_chance",
+              "weather": "rain",
+              "intensity": "light",
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-25T01:00:00+00:00/PT3H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        }
+      ],
+      "hazards": [],
+      "source_url": "https://api.weather.gov/gridpoints/PQR/53,72"
+    },
+    "washington": {
+      "updated": "2026-09-17T06:26:30+00:00",
+      "valid_times": "2026-09-17T00:00:00+00:00/P8DT1H",
+      "wind_speed": [
+        {
+          "validTime": "2026-09-17T00:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-17T01:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-17T05:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T07:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T08:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T09:00:00+00:00/PT2H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT2H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T19:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT4H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T04:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T05:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T07:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-18T09:00:00+00:00/PT2H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T11:00:00+00:00/PT4H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T21:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT6H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT9H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT6H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T09:00:00+00:00/PT9H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-20T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT6H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT6H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT6H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT9H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 20.372
+        }
+      ],
+      "wind_gust": [
+        {
+          "validTime": "2026-09-17T00:00:00+00:00/PT1H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-17T01:00:00+00:00/PT2H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-17T03:00:00+00:00/PT1H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-17T04:00:00+00:00/PT1H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-17T05:00:00+00:00/PT1H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-17T06:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-17T07:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T08:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T09:00:00+00:00/PT2H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T11:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-17T12:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T13:00:00+00:00/PT3H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T16:00:00+00:00/PT2H",
+          "value": 9.26
+        },
+        {
+          "validTime": "2026-09-17T18:00:00+00:00/PT1H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-17T19:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-17T20:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-17T21:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-17T22:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-18T01:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T02:00:00+00:00/PT1H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-18T03:00:00+00:00/PT1H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T04:00:00+00:00/PT1H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-18T05:00:00+00:00/PT1H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T06:00:00+00:00/PT1H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-18T07:00:00+00:00/PT4H",
+          "value": 11.112
+        },
+        {
+          "validTime": "2026-09-18T11:00:00+00:00/PT4H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-18T15:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-18T18:00:00+00:00/PT6H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T03:00:00+00:00/PT3H",
+          "value": 12.964
+        },
+        {
+          "validTime": "2026-09-19T06:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-19T09:00:00+00:00/PT6H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-19T15:00:00+00:00/PT6H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT9H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-20T09:00:00+00:00/PT12H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-20T21:00:00+00:00/PT3H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT3H",
+          "value": 37.04
+        },
+        {
+          "validTime": "2026-09-21T03:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-21T06:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-21T09:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-21T12:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-21T15:00:00+00:00/PT6H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT3H",
+          "value": 35.188
+        },
+        {
+          "validTime": "2026-09-22T03:00:00+00:00/PT6H",
+          "value": 33.336
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT3H",
+          "value": 31.484
+        },
+        {
+          "validTime": "2026-09-22T12:00:00+00:00/PT3H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-22T15:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-22T21:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT3H",
+          "value": 29.632
+        },
+        {
+          "validTime": "2026-09-23T03:00:00+00:00/PT6H",
+          "value": 25.928
+        },
+        {
+          "validTime": "2026-09-23T09:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-23T15:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-23T18:00:00+00:00/PT3H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-23T21:00:00+00:00/PT3H",
+          "value": 22.224
+        },
+        {
+          "validTime": "2026-09-24T00:00:00+00:00/PT3H",
+          "value": 27.78
+        },
+        {
+          "validTime": "2026-09-24T03:00:00+00:00/PT3H",
+          "value": 24.076
+        },
+        {
+          "validTime": "2026-09-24T06:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-24T09:00:00+00:00/PT3H",
+          "value": 18.52
+        },
+        {
+          "validTime": "2026-09-24T12:00:00+00:00/PT6H",
+          "value": 14.816
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT3H",
+          "value": 16.668
+        },
+        {
+          "validTime": "2026-09-24T21:00:00+00:00/PT3H",
+          "value": 20.372
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT3H",
+          "value": 24.076
+        }
+      ],
+      "wave_height": [
+        {
+          "validTime": "2026-09-17T00:00:00+00:00/PT2H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-17T02:00:00+00:00/P1DT22H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-19T00:00:00+00:00/PT21H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-19T21:00:00+00:00/PT3H",
+          "value": 0.9144
+        },
+        {
+          "validTime": "2026-09-20T00:00:00+00:00/PT3H",
+          "value": 1.2192
+        },
+        {
+          "validTime": "2026-09-20T03:00:00+00:00/PT21H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-21T00:00:00+00:00/PT21H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-21T21:00:00+00:00/PT3H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-22T00:00:00+00:00/PT9H",
+          "value": 2.1336
+        },
+        {
+          "validTime": "2026-09-22T09:00:00+00:00/PT9H",
+          "value": 1.8288
+        },
+        {
+          "validTime": "2026-09-22T18:00:00+00:00/PT18H",
+          "value": 1.524
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/PT12H",
+          "value": 1.2192
+        }
+      ],
+      "wave_period": [],
+      "wave_direction": [],
+      "weather": [
+        {
+          "validTime": "2026-09-17T00:00:00+00:00/P6D",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-23T00:00:00+00:00/PT12H",
+          "value": [
+            {
+              "coverage": "slight_chance",
+              "weather": "rain",
+              "intensity": "light",
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-23T12:00:00+00:00/P1DT6H",
+          "value": [
+            {
+              "coverage": null,
+              "weather": null,
+              "intensity": null,
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-24T18:00:00+00:00/PT6H",
+          "value": [
+            {
+              "coverage": "slight_chance",
+              "weather": "rain",
+              "intensity": "light",
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        },
+        {
+          "validTime": "2026-09-25T00:00:00+00:00/PT1H",
+          "value": [
+            {
+              "coverage": "chance",
+              "weather": "rain",
+              "intensity": "light",
+              "visibility": {
+                "unitCode": "wmoUnit:km",
+                "value": null
+              },
+              "attributes": []
+            }
+          ]
+        }
+      ],
+      "hazards": [],
+      "source_url": "https://api.weather.gov/gridpoints/SEW/54,49"
+    }
+  },
+  "daily_weather": {
+    "southern_california": [
+      {
+        "date": "2026-09-17",
+        "wind_am_kt": 5,
+        "gust_am_kt": 6,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 13,
+        "wave_ft": 2.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-18",
+        "wind_am_kt": 6,
+        "gust_am_kt": 7,
+        "wind_pm_kt": 12,
+        "gust_pm_kt": 14,
+        "wave_ft": 3.0,
+        "period_s": 5,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-19",
+        "wind_am_kt": 3,
+        "gust_am_kt": 3,
+        "wind_pm_kt": 8,
+        "gust_pm_kt": 10,
+        "wave_ft": 3.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-20",
+        "wind_am_kt": 4,
+        "gust_am_kt": 4,
+        "wind_pm_kt": 8,
+        "gust_pm_kt": 9,
+        "wave_ft": 2.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-21",
+        "wind_am_kt": 5,
+        "gust_am_kt": 7,
+        "wind_pm_kt": 10,
+        "gust_pm_kt": 12,
+        "wave_ft": 3.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-22",
+        "wind_am_kt": 5,
+        "gust_am_kt": 7,
+        "wind_pm_kt": 10,
+        "gust_pm_kt": 13,
+        "wave_ft": 3.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      },
+      {
+        "date": "2026-09-23",
+        "wind_am_kt": 5,
+        "gust_am_kt": 7,
+        "wind_pm_kt": 9,
+        "gust_pm_kt": 12,
+        "wave_ft": 3.0,
+        "period_s": 6,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      }
+    ],
+    "central_california": [
+      {
+        "date": "2026-09-17",
+        "wind_am_kt": 4,
+        "gust_am_kt": 6,
+        "wind_pm_kt": 7,
+        "gust_pm_kt": 11,
+        "wave_ft": 3.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-18",
+        "wind_am_kt": 6,
+        "gust_am_kt": 9,
+        "wind_pm_kt": 16,
+        "gust_pm_kt": 24,
+        "wave_ft": 3.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-19",
+        "wind_am_kt": 9,
+        "gust_am_kt": 12,
+        "wind_pm_kt": 14,
+        "gust_pm_kt": 20,
+        "wave_ft": 4.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-20",
+        "wind_am_kt": 16,
+        "gust_am_kt": 20,
+        "wind_pm_kt": 16,
+        "gust_pm_kt": 23,
+        "wave_ft": 4.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-21",
+        "wind_am_kt": 9,
+        "gust_am_kt": 13,
+        "wind_pm_kt": 8,
+        "gust_pm_kt": 14,
+        "wave_ft": 4.0,
+        "period_s": 8,
+        "best_window": "PM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-22",
+        "wind_am_kt": 3,
+        "gust_am_kt": 5,
+        "wind_pm_kt": 7,
+        "gust_pm_kt": 13,
+        "wave_ft": 4.0,
+        "period_s": 9,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      },
+      {
+        "date": "2026-09-23",
+        "wind_am_kt": 5,
+        "gust_am_kt": 8,
+        "wind_pm_kt": 8,
+        "gust_pm_kt": 15,
+        "wave_ft": 5.0,
+        "period_s": 9,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      }
+    ],
+    "northern_california": [
+      {
+        "date": "2026-09-17",
+        "wind_am_kt": 10,
+        "gust_am_kt": 13,
+        "wind_pm_kt": 10,
+        "gust_pm_kt": 13,
+        "wave_ft": 6.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-18",
+        "wind_am_kt": 6,
+        "gust_am_kt": 8,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 14,
+        "wave_ft": 4.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-19",
+        "wind_am_kt": 9,
+        "gust_am_kt": 12,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 14,
+        "wave_ft": 3.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-20",
+        "wind_am_kt": 10,
+        "gust_am_kt": 13,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 14,
+        "wave_ft": 6.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-21",
+        "wind_am_kt": 13,
+        "gust_am_kt": 17,
+        "wind_pm_kt": 13,
+        "gust_pm_kt": 17,
+        "wave_ft": 7.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-22",
+        "wind_am_kt": 14,
+        "gust_am_kt": 18,
+        "wind_pm_kt": 15,
+        "gust_pm_kt": 19,
+        "wave_ft": 6.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      },
+      {
+        "date": "2026-09-23",
+        "wind_am_kt": 12,
+        "gust_am_kt": 15,
+        "wind_pm_kt": 12,
+        "gust_pm_kt": 15,
+        "wave_ft": 7.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      }
+    ],
+    "oregon": [
+      {
+        "date": "2026-09-17",
+        "wind_am_kt": 6,
+        "gust_am_kt": 8,
+        "wind_pm_kt": 6,
+        "gust_pm_kt": 7,
+        "wave_ft": 5.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-18",
+        "wind_am_kt": 4,
+        "gust_am_kt": 6,
+        "wind_pm_kt": 3,
+        "gust_pm_kt": 4,
+        "wave_ft": 5.0,
+        "period_s": 8,
+        "best_window": "PM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-19",
+        "wind_am_kt": 8,
+        "gust_am_kt": 11,
+        "wind_pm_kt": 14,
+        "gust_pm_kt": 17,
+        "wave_ft": 4.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-20",
+        "wind_am_kt": 13,
+        "gust_am_kt": 17,
+        "wind_pm_kt": 17,
+        "gust_pm_kt": 20,
+        "wave_ft": 5.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-21",
+        "wind_am_kt": 11,
+        "gust_am_kt": 15,
+        "wind_pm_kt": 14,
+        "gust_pm_kt": 18,
+        "wave_ft": 5.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-22",
+        "wind_am_kt": 10,
+        "gust_am_kt": 13,
+        "wind_pm_kt": 13,
+        "gust_pm_kt": 16,
+        "wave_ft": 7.0,
+        "period_s": 8,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      },
+      {
+        "date": "2026-09-23",
+        "wind_am_kt": 7,
+        "gust_am_kt": 10,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 13,
+        "wave_ft": 7.0,
+        "period_s": 12,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      }
+    ],
+    "washington": [
+      {
+        "date": "2026-09-17",
+        "wind_am_kt": 6,
+        "gust_am_kt": 6,
+        "wind_pm_kt": 11,
+        "gust_pm_kt": 12,
+        "wave_ft": 5.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-18",
+        "wind_am_kt": 8,
+        "gust_am_kt": 9,
+        "wind_pm_kt": 9,
+        "gust_pm_kt": 10,
+        "wave_ft": 5.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-19",
+        "wind_am_kt": 9,
+        "gust_am_kt": 9,
+        "wind_pm_kt": 9,
+        "gust_pm_kt": 11,
+        "wave_ft": 4.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "high"
+      },
+      {
+        "date": "2026-09-20",
+        "wind_am_kt": 13,
+        "gust_am_kt": 14,
+        "wind_pm_kt": 16,
+        "gust_pm_kt": 18,
+        "wave_ft": 5.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-21",
+        "wind_am_kt": 9,
+        "gust_am_kt": 11,
+        "wind_pm_kt": 13,
+        "gust_pm_kt": 16,
+        "wave_ft": 6.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "medium"
+      },
+      {
+        "date": "2026-09-22",
+        "wind_am_kt": 11,
+        "gust_am_kt": 13,
+        "wind_pm_kt": 13,
+        "gust_pm_kt": 15,
+        "wave_ft": 6.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      },
+      {
+        "date": "2026-09-23",
+        "wind_am_kt": 8,
+        "gust_am_kt": 9,
+        "wind_pm_kt": 10,
+        "gust_pm_kt": 12,
+        "wave_ft": 4.0,
+        "period_s": null,
+        "best_window": "AM",
+        "wave_direction_deg": null,
+        "safety_block": false,
+        "confidence": "low"
+      }
+    ]
+  },
+  "ocean_color": {
+    "southern_california": {
+      "checked_at": "2026-09-17T17:35:59.795329+00:00",
+      "sst": {
+        "value": 73.49719999999999,
+        "observed_at": "2026-09-16T09:00:00Z",
+        "product": "NASA/NOAA MUR daily 1-km SST",
+        "dataset": "jplMURSST41",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(32.449999999999996)][(-117.7)]",
+        "minimum": 73.4882,
+        "maximum": 73.8446,
+        "spread": 0.3563999999999936,
+        "sample_count": 3,
+        "quality": "multi-point regional sample"
+      },
+      "chlorophyll": {
+        "value": 0.16835769,
+        "observed_at": "2026-07-31T19:00:00Z",
+        "product": "NOAA CoastWatch VIIRS chlorophyll",
+        "dataset": "productivity_viirs_snpp_daily",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(32.65)][(-117.45)]",
+        "minimum": 0.15146852,
+        "maximum": 0.17452176,
+        "spread": 0.023053240000000003,
+        "sample_count": 3,
+        "quality": "multi-point regional sample"
+      },
+      "errors": [
+        "jplMURSST41: missing/cloud-obscured value from jplMURSST41",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(32.65)][(-117.45)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(32.85)][(-117.2)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(32.9)][(-117.45)]",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(32.85)][(-117.2)]",
+        "productivity_viirs_snpp_daily: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(32.65)][(-117.8)]"
+      ],
+      "front_detected": false,
+      "front_basis": "no strong regional contrast sampled"
+    },
+    "central_california": {
+      "checked_at": "2026-09-17T17:35:59.939709+00:00",
+      "sst": null,
+      "chlorophyll": {
+        "value": 1.1560748,
+        "observed_at": "2026-07-31T19:00:00Z",
+        "product": "NOAA CoastWatch VIIRS chlorophyll",
+        "dataset": "productivity_viirs_snpp_daily",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(36.95)][(-122.05)]",
+        "minimum": 0.4739554,
+        "maximum": 3.181449,
+        "spread": 2.7074936000000003,
+        "sample_count": 6,
+        "quality": "multi-point regional sample"
+      },
+      "errors": [
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.45)][(-122.05)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.7)][(-122.39999999999999)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.5)][(-122.3)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.7)][(-121.7)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.7)][(-122.05)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.900000000000006)][(-121.8)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(36.95)][(-122.05)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.45)][(-122.05)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.900000000000006)][(-121.8)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.5)][(-122.3)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.95)][(-122.05)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.05)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-121.7)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(36.7)][(-122.39999999999999)]",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily"
+      ],
+      "front_detected": true,
+      "front_basis": "regional SST/color contrast"
+    },
+    "northern_california": {
+      "checked_at": "2026-09-17T17:35:59.954670+00:00",
+      "sst": null,
+      "chlorophyll": {
+        "value": 1.7120626,
+        "observed_at": "2026-07-31T19:00:00Z",
+        "product": "NOAA CoastWatch VIIRS chlorophyll",
+        "dataset": "productivity_viirs_snpp_daily",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(40.8)][(-124.10000000000001)]",
+        "minimum": 0.23827738,
+        "maximum": 7.404228,
+        "spread": 7.165950619999999,
+        "sample_count": 3,
+        "quality": "multi-point regional sample"
+      },
+      "errors": [
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(40.8)][(-124.10000000000001)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(41.0)][(-124.2)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(41.05)][(-124.45)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(40.55)][(-124.45)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(40.599999999999994)][(-124.7)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(40.8)][(-124.8)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(40.8)][(-124.45)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.45)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.55)][(-124.45)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(41.05)][(-124.45)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(41.0)][(-124.2)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.8)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.599999999999994)][(-124.7)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(40.8)][(-124.10000000000001)]",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily"
+      ],
+      "front_detected": true,
+      "front_basis": "regional SST/color contrast"
+    },
+    "oregon": {
+      "checked_at": "2026-09-17T17:35:59.967293+00:00",
+      "sst": null,
+      "chlorophyll": {
+        "value": 1.2006409,
+        "observed_at": "2026-07-31T19:00:00Z",
+        "product": "NOAA CoastWatch VIIRS chlorophyll",
+        "dataset": "productivity_viirs_snpp_daily",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(44.85)][(-124.25)]",
+        "minimum": 0.80531603,
+        "maximum": 1.3630679,
+        "spread": 0.5577518700000001,
+        "sample_count": 5,
+        "quality": "multi-point regional sample"
+      },
+      "errors": [
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.6)][(-124.6)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.6)][(-124.25)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.35)][(-124.25)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.85)][(-124.25)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.800000000000004)][(-124.0)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.6)][(-123.9)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(44.4)][(-124.5)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-123.9)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.35)][(-124.25)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.4)][(-124.5)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.800000000000004)][(-124.0)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.6)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.6)][(-124.25)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(44.85)][(-124.25)]",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily"
+      ],
+      "front_detected": false,
+      "front_basis": "no strong regional contrast sampled"
+    },
+    "washington": {
+      "checked_at": "2026-09-17T17:36:00.071948+00:00",
+      "sst": null,
+      "chlorophyll": {
+        "value": 1.6456895,
+        "observed_at": "2026-07-31T19:00:00Z",
+        "product": "NOAA CoastWatch VIIRS chlorophyll",
+        "dataset": "productivity_viirs_snpp_daily",
+        "source_url": "https://coastwatch.pfeg.noaa.gov/erddap/griddap/productivity_viirs_snpp_daily.csvp?chlor_a[(last)][(47.15)][(-124.35)]",
+        "minimum": 1.0603212,
+        "maximum": 2.2063003,
+        "spread": 1.1459791000000001,
+        "sample_count": 5,
+        "quality": "multi-point regional sample"
+      },
+      "errors": [
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(46.9)][(-124.35)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(47.15)][(-124.35)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(46.9)][(-124.69999999999999)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(46.9)][(-124.0)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(47.1)][(-124.1)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(46.699999999999996)][(-124.6)]",
+        "jplMURSST41: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41.csvp?analysed_sst[(last)][(46.65)][(-124.35)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.35)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(47.1)][(-124.1)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.69999999999999)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.65)][(-124.35)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.699999999999996)][(-124.6)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(47.15)][(-124.35)]",
+        "erdATastdhday: request failed after 2 attempts: https://coastwatch.pfeg.noaa.gov/erddap/griddap/erdATastdhday.csvp?sst[(last)][(46.9)][(-124.0)]",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily",
+        "productivity_viirs_snpp_daily: missing/cloud-obscured value from productivity_viirs_snpp_daily"
+      ],
+      "front_detected": true,
+      "front_basis": "regional SST/color contrast"
+    }
+  },
+  "weekly_weather": {
+    "southern_california": {
+      "text": "The marine pattern is fairly steady through the seven-day period. Typical sustained wind runs 3-12 kt; morning is favored on 7 of 7 days. Combined seas range 2.0-3.0 ft with 5-6 sec periods. Best current windows: 09-20 AM, 09-19 AM, 09-17 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-20 AM",
+        "09-19 AM",
+        "09-17 AM"
+      ],
+      "blocked_dates": []
+    },
+    "central_california": {
+      "text": "The marine pattern is deteriorating through the seven-day period. Typical sustained wind runs 3-16 kt; morning is favored on 6 of 7 days. Combined seas range 3.0-5.0 ft with 8-9 sec periods. Best current windows: 09-17 AM, 09-22 AM, 09-21 PM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-17 AM",
+        "09-22 AM",
+        "09-21 PM"
+      ],
+      "blocked_dates": []
+    },
+    "northern_california": {
+      "text": "The marine pattern is deteriorating through the seven-day period. Typical sustained wind runs 6-15 kt; morning is favored on 7 of 7 days. Combined seas range 3.0-7.0 ft; forecast periods are incomplete. Best current windows: 09-19 AM, 09-18 AM, 09-17 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-19 AM",
+        "09-18 AM",
+        "09-17 AM"
+      ],
+      "blocked_dates": []
+    },
+    "oregon": {
+      "text": "The marine pattern is deteriorating through the seven-day period. Typical sustained wind runs 3-17 kt; morning is favored on 6 of 7 days. Combined seas range 4.0-7.0 ft with 8-12 sec periods. Best current windows: 09-18 PM, 09-17 AM, 09-19 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-18 PM",
+        "09-17 AM",
+        "09-19 AM"
+      ],
+      "blocked_dates": []
+    },
+    "washington": {
+      "text": "The marine pattern is fairly steady through the seven-day period. Typical sustained wind runs 6-16 kt; morning is favored on 7 of 7 days. Combined seas range 4.0-6.0 ft; forecast periods are incomplete. Best current windows: 09-19 AM, 09-18 AM, 09-23 AM. Confidence decreases after day five; recheck the latest marine forecast before departure.",
+      "best_windows": [
+        "09-19 AM",
+        "09-18 AM",
+        "09-23 AM"
+      ],
+      "blocked_dates": []
+    }
+  },
+  "field_reports": [
+    {
+      "name": "Bayside Marine Monterey Bay Report",
+      "city": "Santa Cruz",
+      "state": "CA",
+      "region": "central_california",
+      "url": "https://www.baysidemarinesc.com/",
+      "mode": "local/private-boat intelligence",
+      "published_date": "2026-09-16",
+      "age_days": 1,
+      "species": [
+        "rockfish",
+        "halibut"
+      ],
+      "species_status": {
+        "bonito": "mentioned; catch not confirmed",
+        "rockfish": "catch/activity reported",
+        "halibut": "catch/activity reported",
+        "white seabass": "mentioned; catch not confirmed",
+        "tuna (unspecified)": "mentioned; catch not confirmed"
+      },
+      "places": [
+        "Davenport",
+        "Capitola"
+      ],
+      "conditions": [],
+      "methods": [],
+      "boats": [],
+      "summary": "The water conditions turned out to be nice today all morning. There was a wide open bite for bonito near Davenport in the deep water. The anglers who fished rock fish caught limits up the coast. There were some solid score of halibut caught up the coast. The Capitola area in producing rock fish, barracuda, halibut and a few sea bass. I did not get any tuna reports today but some people are talking about going tomorrow.",
+      "retrieved_at": "2026-09-17T17:36:00.905851+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "Fishing the North Coast",
+      "city": "Eureka",
+      "state": "CA",
+      "region": "northern_california",
+      "url": "https://fishingthenorthcoast.com/2026/09/10/dime-bright-kings-pour-into-the-klamath/",
+      "mode": "multi-port local/private-boat intelligence",
+      "published_date": "2026-09-10",
+      "age_days": 7,
+      "species": [
+        "salmon (unspecified)",
+        "chinook salmon",
+        "tuna (unspecified)"
+      ],
+      "species_status": {
+        "salmon (unspecified)": "catch/activity reported",
+        "chinook salmon": "catch/activity reported",
+        "halibut": "mentioned; catch not confirmed",
+        "tuna (unspecified)": "catch/activity reported",
+        "rockfish": "mentioned; catch not confirmed",
+        "albacore tuna": "mentioned; catch not confirmed",
+        "lingcod": "mentioned; catch not confirmed",
+        "coho salmon": "regulation/target mention"
+      },
+      "places": [
+        "Trinidad",
+        "Shelter Cove",
+        "Crescent City",
+        "Brookings"
+      ],
+      "conditions": [
+        "wind",
+        "swell",
+        "warm water"
+      ],
+      "methods": [
+        "trolling",
+        "anchovies"
+      ],
+      "boats": [],
+      "summary": "fishingthenorthcoast September 10, 2026 Dime-Bright Kings Pour Into the Klamath Anglers Craig Vallely, left, and Steve Cowles with a nice Chinook salmon caught on the Lower Klamath river last Friday. Photo courtesy of Fishing the North Coast Guide Service Over the Labor Day holiday weekend, we were patiently waiting for the fall run of king salmon to begin their migration upriver. Well, the wait is over. Water temperatures cooled significantly thanks to dam releases and rain, and schools of ocean-fresh kings finally made their way into the lower river in big numbers beginning with Monday\u2019s outgoing tide. This week, the fishing has been nothing short of spectacular from the Glen to well above Blue Creek. There are plenty of jacks to be had, and some really nice adults have shown up as well. The fish are dime-bright, with plenty still sporting seal lice, and they\u2019re spread throughout the river. Most anglers have been able to quickly catch their limits and get off the water before the afternoon temperatures soar. As of last Thursday, 665 adults remained to be harvested from the 1,624-fish quota. With this week\u2019s catch rate, the quota could be met after this weekend. Reminder: The spit",
+      "retrieved_at": "2026-09-17T17:36:01.151589+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "Dockside Depoe Bay Daily Report",
+      "city": "Depoe Bay",
+      "state": "OR",
+      "region": "oregon",
+      "url": "https://www.docksidedepoebay.com/fishing-report.php",
+      "mode": "daily fleet and local conditions",
+      "known_boats": [
+        "Surfrider"
+      ],
+      "published_date": "2026-09-15",
+      "age_days": 2,
+      "species": [],
+      "species_status": {
+        "lingcod": "mentioned; catch not confirmed",
+        "rockfish": "mentioned; catch not confirmed"
+      },
+      "places": [],
+      "conditions": [
+        "bait"
+      ],
+      "methods": [],
+      "boats": [
+        "Surfrider"
+      ],
+      "summary": "The bottom fishing this morning was really good with lots of rockfish limits on the boats out this morning and there was a really nice number of Cabezon with also some nice Lingcod in the mix. Crabbing was up and down this morning depending on the boat. The Surfrider was out on a live bait and deep water Lingcod trip. Will repot on the results as soon as we get them.",
+      "retrieved_at": "2026-09-17T17:36:01.684767+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "Shake N' Bake Ilwaco Report",
+      "city": "Ilwaco",
+      "state": "WA",
+      "region": "washington",
+      "url": "https://www.shakenbakesportfishing.com/fishing-reports",
+      "mode": "fleet/private/commercial tuna intelligence",
+      "known_boats": [
+        "Shake N' Bake",
+        "SNB",
+        "Legendz",
+        "Salty Dog",
+        "Gold Rush",
+        "Hot Pursuit",
+        "Fury"
+      ],
+      "published_date": "2026-09-15",
+      "age_days": 2,
+      "species": [],
+      "species_status": {},
+      "places": [],
+      "conditions": [
+        "bait"
+      ],
+      "methods": [],
+      "boats": [],
+      "summary": "Darrel and Craig headed back to the honey hole and it started out a little slow but came on strong (bite has been late virtually every day this year). They plugged the boat with monsters. Pretty much everything right now is on bait, chasing birds and jumpers. This season was brutal but is a ton of fun right now. Better late than never. Mike C Great fishing. Plugged with pigs.",
+      "retrieved_at": "2026-09-17T17:36:01.895956+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    },
+    {
+      "name": "ODFW Ocean Salmon Updates",
+      "city": "Oregon Coast",
+      "state": "OR",
+      "region": "oregon",
+      "url": "https://www.dfw.state.or.us/mrp/salmon/updatesnew.asp",
+      "mode": "official commercial troll catch and management updates",
+      "published_date": "2026-09-10",
+      "age_days": 7,
+      "species": [],
+      "species_status": {
+        "salmon (unspecified)": "mentioned; catch not confirmed",
+        "coho salmon": "mentioned; catch not confirmed",
+        "chinook salmon": "mentioned; catch not confirmed"
+      },
+      "places": [],
+      "conditions": [],
+      "methods": [],
+      "boats": [],
+      "summary": "The National Marine Fisheries Service (NMFS) in consultation with the State of Oregon, the Pacific Fishery Management Council, and fishery representatives met today via conference call and have taken the following in-season management action related to the ocean recreational non-mark-selective coho salmon season from Cape Falcon to Humbug Mountain: ACTION TAKEN: \u2022 Effective Saturday, September 12, 2026, at 11:59PM, the recreational fishery from Cape Falcon to Humbug Mountain is closed to the retention of coho salmon. The season remains open for all salmon except coho (Chinook salmon, 24\u201d minimum length) with a daily bag limit of two salmon. RATIONALE: The Cape Falcon to Humbug Mountain non-mark-selective (no fin-clip required) coho fishery opened on Tuesday September 1, 2026, with a quota of 25,700 coho salmon. As of Wednesday September 9, the coho salmon catch was estimated at 17,705 or approximately 69% of the total quota. Forecasting the coho harvest for the remainder of the season indicates that the quota will be exceeded by the scheduled end date of September 30. Fishery managers predict the fishery will reach 98% quota attainment at the end of the day on Saturday September 12",
+      "retrieved_at": "2026-09-17T17:36:03.684924+00:00",
+      "evidence": "local reported observation",
+      "quantitative": false
+    }
+  ],
+  "tides": {
+    "San Diego": [
+      {
+        "t": "2026-09-17 02:51",
+        "v": "3.114",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 05:18",
+        "v": "3.001",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 13:08",
+        "v": "4.932",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 21:55",
+        "v": "1.48",
+        "type": "L"
+      }
+    ],
+    "Los Angeles/Long Beach": [
+      {
+        "t": "2026-09-17 13:13",
+        "v": "4.756",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 22:09",
+        "v": "1.265",
+        "type": "L"
+      }
+    ],
+    "Santa Barbara": [
+      {
+        "t": "2026-09-17 13:50",
+        "v": "4.777",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 22:38",
+        "v": "1.169",
+        "type": "L"
+      }
+    ],
+    "Monterey": [
+      {
+        "t": "2026-09-17 05:16",
+        "v": "3.422",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 08:15",
+        "v": "3.236",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 14:59",
+        "v": "4.876",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:07",
+        "v": "0.89",
+        "type": "L"
+      }
+    ],
+    "San Francisco": [
+      {
+        "t": "2026-09-17 05:52",
+        "v": "4.072",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 09:55",
+        "v": "3.435",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 16:02",
+        "v": "5.381",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:26",
+        "v": "0.86",
+        "type": "L"
+      }
+    ],
+    "Fort Bragg": [
+      {
+        "t": "2026-09-17 04:56",
+        "v": "4.008",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 09:11",
+        "v": "3.202",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 15:28",
+        "v": "5.49",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:13",
+        "v": "0.846",
+        "type": "L"
+      }
+    ],
+    "Eureka": [
+      {
+        "t": "2026-09-17 05:48",
+        "v": "4.965",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 10:09",
+        "v": "3.655",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 16:36",
+        "v": "6.644",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:49",
+        "v": "0.952",
+        "type": "L"
+      }
+    ],
+    "Brookings": [
+      {
+        "t": "2026-09-17 05:14",
+        "v": "4.769",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 09:54",
+        "v": "3.528",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 15:57",
+        "v": "6.187",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:33",
+        "v": "0.967",
+        "type": "L"
+      }
+    ],
+    "Newport": [
+      {
+        "t": "2026-09-17 05:36",
+        "v": "5.738",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 10:31",
+        "v": "3.732",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 16:43",
+        "v": "7.331",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 23:54",
+        "v": "1.028",
+        "type": "L"
+      }
+    ],
+    "Astoria/Columbia River": [
+      {
+        "t": "2026-09-17 00:06",
+        "v": "0.39",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 06:44",
+        "v": "5.883",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 11:42",
+        "v": "3.049",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 17:35",
+        "v": "7.589",
+        "type": "H"
+      }
+    ],
+    "Westport": [
+      {
+        "t": "2026-09-17 05:55",
+        "v": "6.46",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 10:58",
+        "v": "3.936",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 17:10",
+        "v": "8.118",
+        "type": "H"
+      }
+    ],
+    "Neah Bay": [
+      {
+        "t": "2026-09-17 06:18",
+        "v": "4.832",
+        "type": "H"
+      },
+      {
+        "t": "2026-09-17 10:23",
+        "v": "3.71",
+        "type": "L"
+      },
+      {
+        "t": "2026-09-17 16:49",
+        "v": "6.745",
+        "type": "H"
+      }
+    ]
+  },
+  "lunar": {
+    "Eureka": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:05:39.462879+00:00",
+      "moonset_utc": "2026-09-18T05:47:43.608043+00:00",
+      "overhead_utc": "2026-09-18T01:27:33.324607+00:00",
+      "underfoot_utc": "2026-09-17T13:01:58.423988+00:00"
+    },
+    "Newport": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:22:47.449537+00:00",
+      "moonset_utc": "2026-09-18T05:29:02.419070+00:00",
+      "overhead_utc": "2026-09-18T01:26:52.685347+00:00",
+      "underfoot_utc": "2026-09-17T13:01:17.795890+00:00"
+    },
+    "San Francisco": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.6,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:46:30.402899+00:00",
+      "moonset_utc": "2026-09-18T05:52:30.145298+00:00",
+      "overhead_utc": "2026-09-18T01:20:18.074791+00:00",
+      "underfoot_utc": "2026-09-17T12:54:43.293998+00:00"
+    },
+    "Los Angeles/Long Beach": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.5,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:14:25.672197+00:00",
+      "moonset_utc": "2026-09-18T05:49:32.372334+00:00",
+      "overhead_utc": "2026-09-18T01:02:41.856161+00:00",
+      "underfoot_utc": "2026-09-17T12:37:07.368833+00:00"
+    },
+    "Brookings": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:11:31.823032+00:00",
+      "moonset_utc": "2026-09-18T05:42:20.654574+00:00",
+      "overhead_utc": "2026-09-18T01:27:49.953150+00:00",
+      "underfoot_utc": "2026-09-17T13:02:15.047966+00:00"
+    },
+    "Monterey": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.6,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:39:38.585855+00:00",
+      "moonset_utc": "2026-09-18T05:54:41.237509+00:00",
+      "overhead_utc": "2026-09-18T01:17:56.098677+00:00",
+      "underfoot_utc": "2026-09-17T12:52:21.357109+00:00"
+    },
+    "Santa Barbara": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.6,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:22:50.027042+00:00",
+      "moonset_utc": "2026-09-18T05:53:23.230433+00:00",
+      "overhead_utc": "2026-09-18T01:08:50.142682+00:00",
+      "underfoot_utc": "2026-09-17T12:43:15.552597+00:00"
+    },
+    "Fort Bragg": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:58:29.297035+00:00",
+      "moonset_utc": "2026-09-18T05:51:32.848492+00:00",
+      "overhead_utc": "2026-09-18T01:25:50.993228+00:00",
+      "underfoot_utc": "2026-09-17T13:00:16.120720+00:00"
+    },
+    "Astoria/Columbia River": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:29:47.088925+00:00",
+      "moonset_utc": "2026-09-18T05:19:35.758845+00:00",
+      "overhead_utc": "2026-09-18T01:25:41.796579+00:00",
+      "underfoot_utc": "2026-09-17T13:00:06.926601+00:00"
+    },
+    "San Diego": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.5,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T20:06:37.481371+00:00",
+      "moonset_utc": "2026-09-18T05:48:38.438206+00:00",
+      "overhead_utc": "2026-09-18T00:58:19.529750+00:00",
+      "underfoot_utc": "2026-09-17T12:32:45.115895+00:00"
+    },
+    "Westport": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:35:02.010009+00:00",
+      "moonset_utc": "2026-09-18T05:17:06.104233+00:00",
+      "overhead_utc": "2026-09-18T01:27:05.510947+00:00",
+      "underfoot_utc": "2026-09-17T13:01:30.617967+00:00"
+    },
+    "Neah Bay": {
+      "phase": "waxing crescent",
+      "illumination_percent": 37.7,
+      "age_days": 6.4,
+      "moonrise_utc": "2026-09-17T21:45:46.144548+00:00",
+      "moonset_utc": "2026-09-18T05:10:35.637417+00:00",
+      "overhead_utc": "2026-09-18T01:29:14.711512+00:00",
+      "underfoot_utc": "2026-09-17T13:03:39.783074+00:00"
+    }
+  },
+  "buoys": {
+    "southern_california": [
+      {
+        "station": "46086",
+        "timestamp_utc": "2026-09-17-17-00",
+        "wind_direction_deg": 280.0,
+        "wind_speed_m_s": 3.0,
+        "gust_m_s": 4.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 23.2
+      },
+      {
+        "station": "46225",
+        "timestamp_utc": "2026-09-17-16-56",
+        "wind_direction_deg": null,
+        "wind_speed_m_s": null,
+        "gust_m_s": null,
+        "wave_height_m": 1.0,
+        "dominant_period_s": 15.0,
+        "mean_wave_direction_deg": 192.0,
+        "water_temp_c": 22.7
+      },
+      {
+        "station": "46232",
+        "timestamp_utc": "2026-09-01-13-26",
+        "wind_direction_deg": null,
+        "wind_speed_m_s": null,
+        "gust_m_s": null,
+        "wave_height_m": 1.4,
+        "dominant_period_s": 13.0,
+        "mean_wave_direction_deg": 187.0,
+        "water_temp_c": 22.1
+      }
+    ],
+    "central_california": [
+      {
+        "station": "46042",
+        "timestamp_utc": "2026-09-17-17-00",
+        "wind_direction_deg": 170.0,
+        "wind_speed_m_s": 2.0,
+        "gust_m_s": 3.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 15.6
+      }
+    ],
+    "northern_california": [
+      {
+        "station": "46014",
+        "timestamp_utc": "2026-09-17-17-10",
+        "wind_direction_deg": 110.0,
+        "wind_speed_m_s": 3.0,
+        "gust_m_s": 5.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 14.2
+      },
+      {
+        "station": "46022",
+        "timestamp_utc": "2026-09-17-17-10",
+        "wind_direction_deg": 180.0,
+        "wind_speed_m_s": 6.0,
+        "gust_m_s": 8.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 14.2
+      }
+    ],
+    "oregon": [
+      {
+        "station": "46015",
+        "timestamp_utc": "2026-09-17-17-10",
+        "wind_direction_deg": 180.0,
+        "wind_speed_m_s": 5.0,
+        "gust_m_s": 7.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 13.9
+      },
+      {
+        "station": "46050",
+        "timestamp_utc": "2026-09-17-17-10",
+        "wind_direction_deg": 360.0,
+        "wind_speed_m_s": 2.0,
+        "gust_m_s": 3.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": null
+      }
+    ],
+    "washington": [
+      {
+        "station": "46029",
+        "timestamp_utc": "2026-09-17-17-00",
+        "wind_direction_deg": 350.0,
+        "wind_speed_m_s": 5.0,
+        "gust_m_s": 6.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 15.7
+      },
+      {
+        "station": "46041",
+        "timestamp_utc": "2026-09-17-17-00",
+        "wind_direction_deg": 330.0,
+        "wind_speed_m_s": 1.0,
+        "gust_m_s": 2.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 16.5
+      },
+      {
+        "station": "46087",
+        "timestamp_utc": "2026-09-17-17-10",
+        "wind_direction_deg": 80.0,
+        "wind_speed_m_s": 4.0,
+        "gust_m_s": 5.0,
+        "wave_height_m": null,
+        "dominant_period_s": null,
+        "mean_wave_direction_deg": null,
+        "water_temp_c": 12.3
+      }
+    ]
+  },
+  "source_health": [
+    {
+      "source": "Bayside Marine Monterey Bay Report",
+      "ok": true,
+      "detail": "latest local report 2026-09-16 (1 days old)"
+    },
+    {
+      "source": "CDFW Ocean Salmon Tracker",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
+    },
+    {
+      "source": "Dockside Depoe Bay Daily Report",
+      "ok": true,
+      "detail": "latest local report 2026-09-15 (2 days old)"
+    },
+    {
+      "source": "Fisherman's Landing",
+      "ok": true,
+      "detail": "25 catch facts"
+    },
+    {
+      "source": "Fishing the North Coast",
+      "ok": true,
+      "detail": "latest multi-port report 2026-09-10 (7 days old)"
+    },
+    {
+      "source": "Local/private reports",
+      "ok": true,
+      "detail": "5 narrative reports"
+    },
+    {
+      "source": "NDBC 46014",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46015",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46022",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46029",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46041",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46042",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46050",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46086",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46087",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46225",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46232",
+      "ok": true,
+      "detail": "latest observation retrieved"
+    },
+    {
+      "source": "NDBC 46240",
+      "ok": false,
+      "detail": "request failed after 3 attempts: https://www.ndbc.noaa.gov/data/realtime2/46240.txt"
+    },
+    {
+      "source": "NOAA CO-OPS Astoria/Columbia River",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Brookings",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Eureka",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Fort Bragg",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Los Angeles/Long Beach",
+      "ok": true,
+      "detail": "2 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Monterey",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Neah Bay",
+      "ok": true,
+      "detail": "3 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Newport",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS San Diego",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS San Francisco",
+      "ok": true,
+      "detail": "4 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Santa Barbara",
+      "ok": true,
+      "detail": "2 predictions"
+    },
+    {
+      "source": "NOAA CO-OPS Westport",
+      "ok": true,
+      "detail": "3 predictions"
+    },
+    {
+      "source": "NOAA CoastWatch central_california",
+      "ok": true,
+      "detail": "SST/chlorophyll retrieved"
+    },
+    {
+      "source": "NOAA CoastWatch northern_california",
+      "ok": true,
+      "detail": "SST/chlorophyll retrieved"
+    },
+    {
+      "source": "NOAA CoastWatch oregon",
+      "ok": true,
+      "detail": "SST/chlorophyll retrieved"
+    },
+    {
+      "source": "NOAA CoastWatch southern_california",
+      "ok": true,
+      "detail": "SST/chlorophyll retrieved"
+    },
+    {
+      "source": "NOAA CoastWatch washington",
+      "ok": true,
+      "detail": "SST/chlorophyll retrieved"
+    },
+    {
+      "source": "NWS grid central_california",
+      "ok": true,
+      "detail": "marine grid retrieved"
+    },
+    {
+      "source": "NWS grid northern_california",
+      "ok": true,
+      "detail": "marine grid retrieved"
+    },
+    {
+      "source": "NWS grid oregon",
+      "ok": true,
+      "detail": "marine grid retrieved"
+    },
+    {
+      "source": "NWS grid southern_california",
+      "ok": true,
+      "detail": "marine grid retrieved"
+    },
+    {
+      "source": "NWS grid washington",
+      "ok": true,
+      "detail": "marine grid retrieved"
+    },
+    {
+      "source": "ODFW Marine Report",
+      "ok": true,
+      "detail": "7 structured catch rates"
+    },
+    {
+      "source": "ODFW Ocean Salmon Updates",
+      "ok": true,
+      "detail": "latest local report 2026-09-10 (7 days old)"
+    },
+    {
+      "source": "Official landing pages",
+      "ok": true,
+      "detail": "32 catch facts"
+    },
+    {
+      "source": "Oregon Albacore Dock Network",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
+    },
+    {
+      "source": "PyEphem Astoria/Columbia River",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Brookings",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Eureka",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Fort Bragg",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Los Angeles/Long Beach",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Monterey",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Neah Bay",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Newport",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem San Diego",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem San Francisco",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Santa Barbara",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "PyEphem Westport",
+      "ok": true,
+      "detail": "lunar events calculated"
+    },
+    {
+      "source": "Redondo Beach Sportfishing",
+      "ok": true,
+      "detail": "6 catch facts"
+    },
+    {
+      "source": "Seaforth Landing",
+      "ok": true,
+      "detail": "1 catch facts"
+    },
+    {
+      "source": "Shake N' Bake Ilwaco Report",
+      "ok": true,
+      "detail": "latest local report 2026-09-15 (2 days old)"
+    },
+    {
+      "source": "Virg's Landing",
+      "ok": true,
+      "detail": "0 catch facts"
+    },
+    {
+      "source": "WDFW Marine Creel Reports",
+      "ok": true,
+      "detail": "reference/management source reachable; no same-day catch claim extracted"
+    },
+    {
+      "source": "WDFW Ocean Salmon Quota Report",
+      "ok": false,
+      "detail": "WDFW current area summaries not found"
+    }
+  ]
+}
